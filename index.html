@@ -31,7 +31,10 @@
           <p class="topbar-sub">Tus cursos, capa por capa</p>
         </div>
       </div>
-      <button id="btn-import" class="btn btn-accent" type="button">Importar curso</button>
+      <div class="topbar-actions">
+        <button id="btn-search-open" class="btn-icon" type="button" aria-label="Buscar en todos los cursos">⌕</button>
+        <button id="btn-import" class="btn btn-accent" type="button">Importar curso</button>
+      </div>
     </header>
 
     <div id="library-empty" class="empty-state hidden">
@@ -62,6 +65,7 @@
         <h1 id="course-title"></h1>
         <p id="course-subtitle"></p>
       </div>
+      <button id="btn-course-search-open" class="btn-icon" type="button" aria-label="Buscar en todos los cursos">⌕</button>
       <button id="btn-course-menu" class="btn-icon" type="button" aria-label="Opciones del curso">⋮</button>
     </header>
 
@@ -100,6 +104,15 @@
 
 <input type="file" id="file-input-course" accept="application/json,.json" class="hidden-input">
 <input type="file" id="file-input-restore" accept="application/json,.json" class="hidden-input">
+
+<div id="search-overlay" class="search-overlay hidden">
+  <div class="search-bar">
+    <span class="search-bar-icon" aria-hidden="true">⌕</span>
+    <input type="text" id="search-input" placeholder="Buscar en todos los cursos…" autocomplete="off">
+    <button id="btn-search-close" class="btn-icon" type="button" aria-label="Cerrar búsqueda">✕</button>
+  </div>
+  <div id="search-results" class="search-results"></div>
+</div>
 
 <div id="toast" class="toast hidden" role="status" aria-live="polite"></div>
 
