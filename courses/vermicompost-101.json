@@ -1,0 +1,377 @@
+{
+  "schemaVersion": 1,
+  "id": "vermicompost-101",
+  "title": "Vermicomposting 101",
+  "subtitle": "From worm bin to garden gold — a 20-hour self-paced course",
+  "description": "A hands-on course in raising composting worms and turning kitchen scraps into some of the richest fertilizer you can make at home. Ten blocks take you from worm biology to a working, harvestable bin — including a full block on keeping worms alive through Chaco-level heat.",
+  "totalHours": 20,
+  "resources": {
+    "books": [
+      { "title": "Worms Eat My Garbage", "author": "Mary Appelhof", "note": "The classic beginner-to-intermediate guide; still the best single reference for home-scale bins." },
+      { "title": "Teaming with Microbes", "author": "Jeff Lowenfels & Wayne Lewis", "note": "Not worm-specific, but essential for understanding the soil food web that castings feed into." }
+    ],
+    "channels": [
+      { "name": "Red Worm Composting (Bentley Christie)", "url": "https://www.youtube.com/@redwormcomposting" },
+      { "name": "Edible Acres", "url": "https://www.youtube.com/@edibleacres" },
+      { "name": "Garden Fundamentals", "url": "https://www.youtube.com/c/Gardenfundamentals1" }
+    ]
+  },
+  "finalChallenge": [
+    "Keep a healthy worm colony alive for at least three months.",
+    "Harvest your first batch of worm castings.",
+    "Produce enough castings to fertilize your vegetable garden.",
+    "Build a system that processes nearly all of your household's vegetable scraps.",
+    "Integrate the worms with your chickens and compost pile to create a nearly closed-loop nutrient cycle."
+  ],
+  "blocks": [
+    {
+      "id": "b1",
+      "number": 1,
+      "title": "How worms actually work",
+      "hours": 2,
+      "goal": "Understand why vermicomposting works.",
+      "visual": "wormAnatomy",
+      "learn": [
+        {
+          "term": "Composting worms vs. earthworms",
+          "body": "Not every worm belongs in a bin. **Epigeic** worms live in surface litter — leaf mold, manure piles, compost heaps — and never burrow. They tolerate crowding, reproduce quickly, and thrive on decomposing organic matter, which is exactly what a worm bin is. **Anecic** worms like the common nightcrawler (*Lumbricus terrestris*) do the opposite: they dig **permanent vertical burrows up to several meters deep**, come to the surface only to forage, live largely solitary lives, and reproduce far more slowly. Put a nightcrawler in a shallow plastic bin with no soil to burrow into, and it has nowhere to go — it will try to escape and usually dies within weeks. A third group, **endogeic** worms, burrow horizontally through the topsoil itself and rarely surface at all; they're useful for garden aeration but equally unsuited to a bin."
+        },
+        {
+          "term": "Best species: Eisenia fetida and Eisenia andrei",
+          "body": "The two species almost everyone means by \"red wiggler\" are **Eisenia fetida** (tiger worm, brandling worm, banded appearance) and **Eisenia andrei** (uniform reddish-purple, no banding). They are close enough that they can occasionally produce hybrid offspring — something considered essentially impossible between most other worm species — and in practice most commercial \"red wiggler\" stock is one, the other, or a mix of both. Both are epigeic, both tolerate a **wide temperature range (roughly 12–25 °C ideal, surviving down toward freezing and up to about 32 °C for short periods)**, both reproduce quickly, and both handle the disturbance of regular bin maintenance well. This versatility is exactly why they're the default choice worldwide, including in warm climates like the Chaco — covered in depth in Block 9."
+        },
+        {
+          "term": "Worm anatomy",
+          "body": "A red wiggler's body is built entirely around its lifestyle. It has **no lungs — it breathes through its moist skin**, which is why a bin (and the worm's environment generally) must stay damp; a worm that dries out suffocates. It has **no eyes, but its skin contains photoreceptor cells that make it strongly photophobic** — sudden light triggers an immediate dive downward, which is exactly what the harvesting method in Block 5 exploits. Along its body run tiny bristle-like **setae**, used to grip bedding and resist being pulled out of it. A thickened, paler band called the **clitellum** appears on mature worms — this is the reproductive organ that produces the protective cocoon during mating. Internally, five pairs of aortic arches function like simple hearts, and a straight digestive tract runs the length of the body, processing bedding and food into castings."
+        },
+        {
+          "term": "Life cycle and reproduction",
+          "body": "Red wigglers are **hermaphrodites but cannot self-fertilize** — two worms must mate, aligning their clitella to exchange sperm. Each worm then produces a small, lemon-shaped **cocoon**, roughly the size of a pinhead, which is deposited in the bedding. Under good conditions a cocoon hatches in about **2–3 weeks**, releasing an average of **3–4 baby worms** (the range reported is 2–20). Hatchlings reach sexual maturity in roughly **2–3 months**, and a healthy, well-fed colony with room to grow can **double in population every 2–3 months**. In captivity, individual worms commonly live 1–2 years, sometimes longer."
+        },
+        {
+          "term": "Ideal temperature, moisture, oxygen, and pH",
+          "body": "**Temperature**: 12–25 °C (55–77 °F) is the sweet spot for feeding and reproduction; worms tolerate down to near freezing (slowing to near-dormancy) and up to about 32 °C for brief periods, but sustained heat above that becomes dangerous — the exact thresholds and what to do about them are the whole subject of Block 9. **Moisture**: bedding should feel like a **well-wrung-out sponge** — damp enough to clump, never dripping. Roughly 70–80% water content is typical of a healthy bin. **Oxygen**: worms need aerobic conditions; compacted, waterlogged bedding starves the colony of oxygen, invites anaerobic bacteria, and is the single most common cause of a smelly bin. **pH**: worms tolerate a fairly broad range but do best close to neutral, roughly 6.5–7.5; very acidic conditions (often from too much fruit or an overloaded, souring bin) are a common trigger for worms trying to escape."
+        }
+      ],
+      "resourceNote": "Bentley Christie's Red Worm Composting channel is the single best long-running video resource for everything in this block — species identification, anatomy, and behavior.",
+      "videos": [
+        { "title": "Comparison of 4 Composting Worms", "youtubeId": "joL5wQzsi3o" },
+        { "title": "European Nightcrawlers vs. Red Wigglers Breakdown", "youtubeId": "mkQMOJC7ZV0" }
+      ],
+      "project": null,
+      "check": "Explain why a nightcrawler isn't suitable for a worm bin."
+    },
+    {
+      "id": "b2",
+      "number": 2,
+      "title": "Building the perfect worm bin",
+      "hours": 2,
+      "goal": "Design and assemble a bin that keeps worms alive and comfortable.",
+      "visual": "binLayers",
+      "learn": [
+        {
+          "term": "Bin designs",
+          "body": "The three common approaches are: a **single plastic tote or Rubbermaid bin** with ventilation holes (cheapest, most common beginner build); a **stacking flow-through system** of trays, where worms migrate upward through mesh floors chasing fresh food, leaving finished castings behind in lower trays; and a **continuous-flow bin**, a taller single chamber harvested from the bottom via a grate or bars, so mature castings are removed while fresh material stays on top. In-ground trenches and wooden bins are also viable, especially outdoors."
+        },
+        {
+          "term": "Drainage (or why it's often unnecessary)",
+          "body": "If bedding moisture is managed correctly — damp, never soggy — a bin rarely produces enough excess liquid to need active drainage. **Drainage holes and spigots mainly matter as insurance against overwatering or overfeeding with wet foods**, not as a required design feature. Many long-running single-tote bins operate for years with no drainage at all, simply by keeping moisture in check at the source rather than draining it after the fact."
+        },
+        {
+          "term": "Bedding materials",
+          "body": "Good bedding is carbon-rich, holds moisture without compacting, and allows airflow: **shredded cardboard, shredded newspaper (avoid glossy or heavily inked paper), aged dried leaves, coconut coir, and aged straw** are all excellent. Bedding should be moistened before use — dry material added straight into a bin does the colony no good."
+        },
+        {
+          "term": "Carbon vs. nitrogen",
+          "body": "Bedding is the **carbon (\"brown\")** component; food scraps are the **nitrogen (\"green\")** component. A bin dominated by browns with modest, well-buried greens stays fluffy, odor-free, and well-oxygenated. Tip the balance too far toward nitrogen — too much food relative to bedding — and the bin sours: it overheats locally, goes anaerobic, and starts to smell. This is the single most common beginner mistake, and it's why Block 2's check question exists."
+        },
+        {
+          "term": "Initial setup",
+          "body": "Fill the bin about three-quarters full with pre-moistened bedding, fluffed loosely (not packed). Add a handful of garden soil or fine grit — worms use it in their gizzard to help grind food. Add the worms and let them settle in for a few days on minimal feeding before ramping up. Keep the bin in a shaded, temperature-stable spot; a lid (solid or breathable, depending on climate — see Block 9) keeps light out and moisture in."
+        }
+      ],
+      "videos": [
+        { "title": "3-Chamber Carbon-Only Worm Bin — 100-Day Time-Lapse (Edible Acres)", "youtubeId": "McQYDcqc0Nk" },
+        { "title": "Vermicompost 101: How to Start a Worm Farm", "youtubeId": "SQ9xBVXiTl0" }
+      ],
+      "project": "Build your first worm bin.",
+      "check": "Can you explain why bedding is more important than food on day one?"
+    },
+    {
+      "id": "b3",
+      "number": 3,
+      "title": "Feeding worms",
+      "hours": 2,
+      "goal": "Feed the colony well without overwhelming it.",
+      "visual": "cnRatio",
+      "learn": [
+        {
+          "term": "What worms love",
+          "body": "Fruit and vegetable scraps, **coffee grounds and paper filters**, tea bags (remove staples or plastic tags), crushed eggshells (grit for the gizzard plus a mild calcium/pH buffer), and small amounts of cooked, plain grains."
+        },
+        {
+          "term": "Foods to avoid",
+          "body": "**Meat, dairy, and oily or fatty foods** (they rot slowly, smell, and attract pests). Large quantities of citrus and onion or garlic (acidic, and can irritate worms in bulk — small amounts are usually tolerated). Salty or heavily spiced leftovers, pet waste, and glossy or plastic-coated paper."
+        },
+        {
+          "term": "Feeding frequency",
+          "body": "A brand-new bin should be fed **sparingly, two or three small feedings a week**, while the colony settles in. An established, healthy colony can generally be fed every few days — but the real rule is simpler: **check before you add more.** If the last feeding is still largely untouched, hold off."
+        },
+        {
+          "term": "Portion sizes",
+          "body": "A commonly cited rule of thumb is that a healthy colony can process **up to about half its body weight in food per day** under ideal conditions. In practice this is a ceiling, not a target — new or stressed colonies process far less, and it's always safer to underfeed slightly and watch than to overfeed and have to fix a soured bin."
+        },
+        {
+          "term": "Signs of overfeeding",
+          "body": "A rotten smell, visible mold blooms on food, a fruit fly population explosion, food sitting soggy and untouched, and a bin that feels warmer and wetter than it should — all point to more food going in than the colony (and the aerobic bacteria helping it) can keep up with."
+        }
+      ],
+      "videos": [],
+      "project": "Start a feeding schedule.",
+      "check": "Estimate how much food 500 g of worms can eat."
+    },
+    {
+      "id": "b4",
+      "number": 4,
+      "title": "Troubleshooting",
+      "hours": 2,
+      "goal": "Recognize and fix the most common bin problems before they become serious.",
+      "visual": "tempGauge",
+      "learn": [
+        {
+          "term": "Bad smells",
+          "body": "Almost always a sign of **anaerobic conditions** caused by overfeeding, excess moisture, or compacted bedding starving the bin of oxygen. Fix: stop feeding for a few days, mix in dry bedding to absorb moisture and reintroduce air pockets, and fluff the bin gently."
+        },
+        {
+          "term": "Fruit flies",
+          "body": "Drawn to exposed, decomposing fruit. Prevent by always **burying food scraps under a layer of bedding**, using a snug or breathable lid, and — for fruit-heavy scraps — freezing them before adding, which also speeds their breakdown."
+        },
+        {
+          "term": "Mites",
+          "body": "A small, steady mite population is normal and mostly harmless — they're decomposers, same as the worms. A sudden **mite bloom** (visible clusters, often reddish-brown) usually signals a bin that's gone too wet or too acidic; dry it out and ease off high-moisture feedings like melon."
+        },
+        {
+          "term": "Springtails",
+          "body": "Tiny, pale, jumping hexapods that feed on fungus and decaying matter. Their presence is a **good sign** — it usually means a healthy, appropriately humid ecosystem, not a problem to solve."
+        },
+        {
+          "term": "Mold",
+          "body": "White or fuzzy mold on high-carbon material (cardboard, bread, grains) is typically normal fungal decomposition, not a threat to the worms. If it's excessive, it usually means airflow is poor or moisture is high — the fix is the same as for smells: more dry bedding, more air."
+        },
+        {
+          "term": "Escaping worms",
+          "body": "Worms leaving the bin almost always trace back to one of: **conditions too wet or too acidic, temperature too hot or too cold, fresh bedding that hasn't cured yet (still releasing ammonia or heat), bright light reaching the bin, or a lack of oxygen.** Newly purchased worms sometimes also make an exploratory run in their first nights in unfamiliar bedding before settling down."
+        }
+      ],
+      "videos": [],
+      "project": "Practice diagnosing photos of problem bins.",
+      "check": "Explain three reasons worms climb the walls."
+    },
+    {
+      "id": "b5",
+      "number": 5,
+      "title": "Harvesting castings",
+      "hours": 2,
+      "goal": "Turn a mature bin into usable, worm-free castings.",
+      "visual": "harvestMethods",
+      "learn": [
+        {
+          "term": "When castings are ready",
+          "body": "Finished castings look **dark, uniform, and crumbly**, with an earthy smell and no trace of the original bedding material. This typically takes **3–6 months** depending on temperature, feeding rate, and bin size."
+        },
+        {
+          "term": "Light separation",
+          "body": "Because worms are strongly photophobic, dumping the bin's contents into a cone-shaped pile under bright light causes worms to **burrow straight down and away from the light**. Scrape off the top layer of castings repeatedly, waiting between scrapes for worms to retreat further down, until only a small worm-dense core remains to go back into fresh bedding."
+        },
+        {
+          "term": "Migration methods",
+          "body": "Add fresh, moist bedding and food to one side of the bin (or a new tray on top, in a stacking system) while leaving the old side untouched. Over days to weeks, worms **migrate toward the fresh material**, leaving the old side's castings largely worm-free and ready to harvest."
+        },
+        {
+          "term": "Screening",
+          "body": "Passing finished material through a **1/4–1/2 inch mesh screen** separates fine castings from cocoons, stray worms, and undigested bedding chunks, which can be returned to the bin."
+        },
+        {
+          "term": "Storage",
+          "body": "Keep harvested castings **slightly moist, never bone-dry**, in a breathable container, in a cool and shaded spot. This preserves the living microbial community that gives castings much of their value — a fully dried-out batch loses biological activity, even though its basic nutrient content remains."
+        }
+      ],
+      "videos": [],
+      "project": "Design a harvesting workflow.",
+      "check": "Why shouldn't castings dry out completely?"
+    },
+    {
+      "id": "b6",
+      "number": 6,
+      "title": "Using worm castings",
+      "hours": 2,
+      "goal": "Apply castings effectively across different parts of the garden.",
+      "learn": [
+        {
+          "term": "Seed starting",
+          "body": "Blend castings at roughly **10–20% of a seed-starting mix** by volume. Their gentle nutrient release and disease-suppressing microbes support young seedlings without the burn risk of stronger fertilizers."
+        },
+        {
+          "term": "Potting mixes",
+          "body": "A similar ratio, roughly **10–25% castings by volume**, works well mixed into potting soil for containers, improving both nutrition and water retention."
+        },
+        {
+          "term": "Garden beds",
+          "body": "Top-dress with a **thin layer (roughly 0.5–2.5 cm)** worked into the top few centimeters of soil, or side-dress around established plants."
+        },
+        {
+          "term": "Fruit trees",
+          "body": "Apply around the drip line rather than against the trunk — anywhere from a few cups to a shovel-full per tree, timed with the growing season."
+        },
+        {
+          "term": "Compost tea vs. leachate",
+          "body": "These are **not the same thing**, and mixing them up is one of the most common myths in vermicomposting (Block 10 revisits this). **Compost tea** is deliberately brewed: castings steeped in water, usually aerated and sometimes fed with molasses, specifically to multiply beneficial microbes before use. **Leachate** is simply the liquid that drains out the bottom of a bin that's gotten too wet — it can carry anaerobic organisms and phytotoxic compounds, and should be used cautiously if at all (diluted, applied to soil, never to leaves), not treated as a bottled version of compost tea."
+        },
+        {
+          "term": "Application rates",
+          "body": "Castings are concentrated and biologically active — a **thin layer or modest mix-in ratio is enough**. Piling on far more than these ranges doesn't scale the benefit proportionally and wastes a resource that took months to produce."
+        }
+      ],
+      "videos": [],
+      "project": "Apply castings to different plants.",
+      "check": "Why is more castings not always better?"
+    },
+    {
+      "id": "b7",
+      "number": 7,
+      "title": "Worm biology in depth",
+      "hours": 2,
+      "goal": "Understand the population dynamics that govern a bin over time.",
+      "visual": "lifecycle",
+      "learn": [
+        {
+          "term": "Cocoons",
+          "body": "A mature worm can produce a cocoon roughly **every few days** under good conditions. Incubation time is temperature-dependent — warmer bins hatch cocoons faster, up to a point, while cool bins slow hatching dramatically."
+        },
+        {
+          "term": "Population growth",
+          "body": "Growth is **density-dependent**: a young colony with plenty of space and food grows quickly, but as it approaches the bin's carrying capacity, reproduction slows sharply through a mix of chemical signaling, competition for food, and crowding stress. This self-limiting behavior is a built-in safety valve — bins rarely \"overpopulate\" to the point of collapse on their own."
+        },
+        {
+          "term": "Density",
+          "body": "A widely used rule of thumb is roughly **0.5 kg of worms per square foot (about 0.09 m²) of bin surface area**. Beyond that density, growth plateaus unless surface area or feeding capacity increases."
+        },
+        {
+          "term": "Seasonal changes",
+          "body": "In temperate climates, worms slow down in cold weather and become most active in mild, warm conditions. In the **Chaco, cold is rarely the limiting factor — heat is**, which is why Block 9 exists as a dedicated block rather than a footnote."
+        },
+        {
+          "term": "Heat stress",
+          "body": "Even below lethal temperatures, sustained heat reduces cocoon viability and slows growth well before conditions become dangerous. The specific thresholds — 30 °C, 35 °C, and what to do at each — are covered in full in Block 9."
+        }
+      ],
+      "videos": [],
+      "project": "Estimate how your worm population could grow over a year.",
+      "check": "What slows reproduction the most?"
+    },
+    {
+      "id": "b8",
+      "number": 8,
+      "title": "Scaling up",
+      "hours": 2,
+      "goal": "Move from a single hobby bin to a system sized for your household.",
+      "learn": [
+        {
+          "term": "Continuous-flow systems",
+          "body": "A tall single chamber where fresh bedding and food are added at the top and **finished castings are harvested from the bottom** through a grate or bar system, letting worms migrate upward naturally over time without a full bin turnover."
+        },
+        {
+          "term": "Multi-bin systems",
+          "body": "Running **two or three totes in rotation** — feeding one heavily while another rests and finishes — spreads out harvesting work and gives you a buffer if one bin needs troubleshooting."
+        },
+        {
+          "term": "Windrows",
+          "body": "Outdoor, elongated piles used at larger scale, periodically turned or managed so worms migrate through fresh material added to one end while finished compost is removed from the other."
+        },
+        {
+          "term": "Automation",
+          "body": "At small-to-medium scale this can mean simple additions: a moisture-retaining cover, a shaded automatic mister on a timer, or a cheap temperature probe with an alert. Commercial operations go further, with mechanized harvesters and trommel screens."
+        },
+        {
+          "term": "Processing household waste efficiently",
+          "body": "Size your system to your **actual daily scrap volume**, not the other way around — a single small bin will bottleneck a household that generates more scraps than it can process. Add bins or surface area as volume grows, and route garden trimmings unsuitable for worms (woody material, diseased plants) to a separate hot compost pile instead."
+        }
+      ],
+      "videos": [ { "title": "DIY Worm Bin Tutorials: 3 Easy Builds", "youtubeId": "BvHcOC9G-iM" } ],
+      "project": "Design a system for your home.",
+      "check": "How many bins would your household need?"
+    },
+    {
+      "id": "b9",
+      "number": 9,
+      "title": "Vermicomposting in the Paraguayan Chaco",
+      "hours": 2,
+      "goal": "Keep a colony alive and productive through Chaco-level summer heat.",
+      "visual": "tempGauge",
+      "learn": [
+        {
+          "term": "Managing summer heat",
+          "body": "Chaco summers routinely push well past 38–40 °C, far above what a worm colony can tolerate for long. The research is specific about the danger zone: worms show **reduced feeding above about 25 °C**, actively **seek out cooler zones (sidewalls, the base, under the lid) around 30 °C**, and at **35 °C begin trying to escape the bin outright — a point at which worms can die within hours** if they can't find relief. Practical responses, roughly in order of effort: keep the bin in the **deepest, most consistent afternoon shade** you have (south side of a building or under dense tree cover, since the sun tracks north through the Chaco sky); **partially bury the bin or tote in the ground**, or set it in a shaded pit, so the surrounding earth buffers temperature swings the way root-cellars do; add a **thick cap of moist shredded bedding** on top to insulate; place **frozen water bottles into the bin** (not loose ice — that oversaturates bedding) during the worst afternoons; if the bin is in an enclosed space, run a **fan over a damp cloth draped across the top** as an evaporative cooler; and in the very worst weeks, **move the bin indoors** — a shaded utility room or under-house space — until the heat breaks."
+        },
+        {
+          "term": "Keeping moisture stable",
+          "body": "Chaco heat and wind pull moisture out of bedding far faster than in temperate climates. Check moisture **daily** during summer rather than weekly. Favor **watering little and often over one heavy soak**, which just drains through and dries out again quickly. A thick bedding cap slows evaporation, and materials that hold water well — **coconut coir and well-shredded cardboard** — outperform straw or dry grass, which dry out fast and offer less of a moisture buffer."
+        },
+        {
+          "term": "Protecting worms from ants",
+          "body": "Ants invade bins hunting for the very things a stressed bin has plenty of: dry patches and exposed food. Keeping bedding **consistently moist is the single best deterrent**, since ants strongly prefer dry nesting material. Standing bin legs in small water-filled containers creates an effective **ant moat**. A tight-fitting lid, avoiding sugary scraps left exposed, and a ring of diatomaceous earth around (never inside) the bin all add further protection."
+        },
+        {
+          "term": "Using locally available bedding",
+          "body": "You don't need imported materials. **Shredded cardboard** (widely available from any shop's discarded boxes), **dried fallen leaves** (algarrobo litter and similar leaf drop is plentiful in the Chaco), **shredded paper**, and **coconut fiber/coir** where purchasable, all work well. Dried, cured grass clippings are fine too — fresh green clippings are not, as they heat up and compact."
+        },
+        {
+          "term": "Integrating with your chickens and garden",
+          "body": "This is where a Chaco homestead setup pays off. **Aged chicken coop litter or manure** (never fresh — it's too high in ammonia and can burn or overheat a bin) makes a useful bedding supplement. Kitchen and garden scraps unsuitable for chickens (citrus, onion, anything moldy) can go to the worms instead. In the other direction, chickens are enthusiastic about scratching through **worm-rich material** — some vermicomposters deliberately harvest a small portion of the colony as a protein supplement for poultry. The result is close to a **closed loop**: garden and kitchen scraps feed the worms, worm castings feed the garden, chicken manure (aged) supplements worm bedding, and worms occasionally supplement chicken feed."
+        }
+      ],
+      "videos": [
+        { "title": "How to Cool Down a Worm Bin in Summer Heat", "youtubeId": "PHYQpEmKjnU" },
+        { "title": "6 Ways to Keep Your Worms Cool During Summer Heat", "youtubeId": "CtGlK8BvM9E" }
+      ],
+      "project": "Choose the best location on your property.",
+      "check": "What would you do if the bin reached 35 °C?"
+    },
+    {
+      "id": "b10",
+      "number": 10,
+      "title": "Becoming an expert",
+      "hours": 2,
+      "goal": "Deepen your understanding beyond the practical basics and plan for the long term.",
+      "learn": [
+        {
+          "term": "Reading scientific research",
+          "body": "Search terms like \"vermicomposting\", \"Eisenia fetida\", or \"vermicompost nutrient analysis\" on Google Scholar turn up a large body of work, much of it in journals like *Bioresource Technology* and *Waste Management*. Read the methods section critically — a lot of vermicomposting research is small-scale or lab-controlled, and results don't always transfer directly to a backyard bin in a hot climate."
+        },
+        {
+          "term": "Nutrient analysis",
+          "body": "Finished castings typically test out as a **gentle, balanced source of nitrogen, phosphorus, and potassium (often cited around 1–2% total nitrogen)**, plus a range of micronutrients. If you're optimizing for a large garden or considering selling castings, a local agricultural extension or university lab can run an actual nutrient test on your specific batch rather than relying on general figures."
+        },
+        {
+          "term": "Microbiology of castings",
+          "body": "Much of what makes castings valuable goes beyond their NPK numbers: a dense community of **beneficial bacteria and fungi**, enzymes, and humic acids that improve soil aggregate structure and can help suppress some plant diseases. This is part of why castings and synthetic fertilizers aren't interchangeable even at matched nutrient levels."
+        },
+        {
+          "term": "Common myths",
+          "body": "A few worth correcting explicitly: \"castings can't burn plants\" is mostly true because they release nutrients gently, but it's not a license to apply unlimited amounts. \"More castings is always better\" is false — see Block 6. \"Any worm works for composting\" is false — see Block 1. And \"worm tea and leachate are the same thing\" is false — see Block 6."
+        },
+        {
+          "term": "Commercial production",
+          "body": "Scaling to sell castings involves real logistics: drying and packaging methods that preserve versus kill off microbial activity, mostly local or regional markets, and seasonal demand tied to planting cycles."
+        },
+        {
+          "term": "Long-term management",
+          "body": "Healthy long-running systems tend to share a few habits: **splitting an overcrowded colony** into a second bin periodically rather than letting density stall growth, **replacing old, spent bedding blocks roughly yearly**, and keeping simple **records of feeding and harvest dates** to spot patterns — including, in the Chaco, exactly which weeks of summer need the most intervention."
+        }
+      ],
+      "videos": [],
+      "project": "Create a one-year plan for expanding your system.",
+      "check": "Teach vermicomposting to someone else in five minutes."
+    }
+  ]
+}
