@@ -1,0 +1,340 @@
+{
+  "schemaVersion": 1,
+  "id": "meliponicultura-101",
+  "title": "Meliponicultura 101",
+  "subtitle": "Cría de abejas nativas sin aguijón del Paraguay — 20 horas, del tronco silvestre a tu primera cosecha",
+  "description": "Un curso completo sobre las abejas nativas sin aguijón que ya viven silvestres en el Paraguay — yateí, mandurí, tapezuá y otras — y cómo criarlas en casa: biología, colmenas racionales, trasiego, multiplicación por división, cosecha de miel, y manejo de plagas.",
+  "totalHours": 20,
+  "resources": {
+    "books": [
+      { "title": "Guía ilustrada abejas nativas del Paraguay", "author": "Igor Fleischer", "note": "Referencia paraguaya de identificación de especies, escrita por uno de los meliponicultores pioneros del país." },
+      { "title": "Abejas sin aguijón: Los maravillosos tapezuá", "author": "Igor Fleischer", "note": "Manejo práctico centrado en el tapezuá (Scaptotrigona), con décadas de experiencia de campo en Paraguay." }
+    ],
+    "channels": [
+      { "name": "meliponiculturaparaguay.org", "url": "https://meliponiculturaparaguay.org/" }
+    ]
+  },
+  "finalChallenge": [
+    "Conseguí tu primera colonia de forma ética (rescate o compra a un meliponicultor, nunca cortando un árbol silvestre).",
+    "Hacé un trasiego exitoso de una colonia silvestre a una caja racional.",
+    "Mantené la colonia sana durante un ciclo completo, incluyendo el paso por el invierno.",
+    "Dividí tu primera colonia para formar una segunda.",
+    "Cosechá tu primera miel sin dañar los potes ni la cría.",
+    "Integrá tus colmenas con tu huerta y tu finca como polinizadoras."
+  ],
+  "blocks": [
+    {
+      "id": "b1",
+      "number": 1,
+      "title": "Conocé a las abejas sin aguijón",
+      "hours": 2,
+      "goal": "Entender qué son las meliponas, por qué no pican, y qué especies tenés cerca en Paraguay.",
+      "visual": "beeCompare",
+      "learn": [
+        {
+          "term": "Meliponini: abejas sin aguijón funcional",
+          "body": "Las abejas nativas sin aguijón pertenecen a la tribu **Meliponini**, distinta de la abeja europea (Apis mellifera, llamada popularmente \"kavá alemán\" en guaraní). Su aguijón está **atrofiado y no puede usarse para picar** — se defienden mordiendo con las mandíbulas o enredándose en el pelo, un comportamiento breve y sin consecuencias serias. Esto permite manejar las colmenas **sin traje, guantes, ni ahumador**, y por lo que cualquier persona, incluso niños, puede acercarse con tranquilidad."
+        },
+        {
+          "term": "Especies nativas del Paraguay",
+          "body": "En Paraguay se estima que existen entre 20 y 40 especies de meliponinos. En guaraní, el nombre genérico para todas las abejas nativas es **eíra**. Las más conocidas y manejadas incluyen: **yateí o jate'i** (*Tetragonisca angustula*, la especie recomendada para empezar), **mandurí** y **tapezuá** (*Scaptotrigona depilis*, apodada \"peluquerito\"), **eirusú** (*Cephalotrigona capitata*), **mondorí**, **moro moro o favosa** (especies de *Melipona*, entre ellas *Melipona quadrifasciata*), y **vora o jate'i guasu** (*Tetragona clavipes*). Cada una tiene su propio carácter, tamaño de colonia y manejo, pero los principios generales de este curso aplican a casi todas."
+        },
+        {
+          "term": "Por qué empezar con yateí",
+          "body": "El **yateí** (*Tetragonisca angustula*) es la especie más recomendada para un meliponicultor principiante: es dócil, de colonias de **2.000 a 5.000 abejas**, ampliamente distribuida por todo el país, y con un manejo bien documentado. Su miel, con mayor humedad y fermentación natural que la de Apis, tiene un sabor ácido característico muy valorado — de hecho fue incorporada al Código Alimentario Argentino en 2019 como producto apto para consumo humano."
+        },
+        {
+          "term": "Un recurso en riesgo",
+          "body": "La reducción del monte nativo en Paraguay viene acompañada de una caída paralela en las poblaciones de meliponinos silvestres. Algunas especies (como ciertas *Melipona*) ya se consideran en riesgo. La meliponicultura bien practicada —basada en rescates y divisiones, nunca en la tala de árboles vivos para \"sacar\" una colonia— es a la vez una actividad productiva y un aporte concreto a la conservación."
+        }
+      ],
+      "videos": [
+        { "title": "Qué es la meliponicultura (introducción)", "youtubeId": "T-EIbrABnzw" },
+        { "title": "Qué es la meliponicultura — TvAgro", "youtubeId": "Y4CN1YDS6Bw" }
+      ],
+      "project": null,
+      "check": "¿Por qué una yateí no representa ningún riesgo de picadura para un niño que se acerca a la colmena?"
+    },
+    {
+      "id": "b2",
+      "number": 2,
+      "title": "Anatomía, organización social y ciclo de vida",
+      "hours": 2,
+      "goal": "Entender cómo se organiza una colonia por dentro, para poder interpretarla al abrirla.",
+      "visual": "casteDiagram",
+      "learn": [
+        {
+          "term": "Las tres castas",
+          "body": "Como toda abeja social, una colonia de meliponas tiene **reina** (única hembra fértil, pone todos los huevos), **obreras** (hembras estériles que hacen todo el trabajo: forrajeo, construcción, cría, defensa) y **zánganos** (machos, cuya única función es aparearse con reinas vírgenes de otras colonias)."
+        },
+        {
+          "term": "La reina fisogástrica",
+          "body": "Una vez que la reina empieza a poner huevos de forma constante, su abdomen se distiende enormemente con los ovarios desarrollados — se la llama **reina fisogástrica**. En ese estado ya no puede volar y depende completamente de las obreras, que la alimentan y limpian. Es fácil de identificar al abrir una colmena por su tamaño, muy superior al de las obreras."
+        },
+        {
+          "term": "Reinas vírgenes: mucho más que una sola heredera",
+          "body": "A diferencia de Apis, una colonia de meliponas produce **reinas vírgenes de forma regular y en cantidad**, no solo en una emergencia. La mayoría son identificadas y **eliminadas por las obreras** poco después de nacer; solo una se conserva como reemplazo eventual de la reina actual, o para fundar una nueva colonia en una división (Bloque 7). Este excedente de reinas vírgenes es, en parte, lo que hace posible multiplicar colonias de forma controlada."
+        },
+        {
+          "term": "Aprovisionamiento en masa: un panal muy distinto al de Apis",
+          "body": "Las obreras construyen **una celda de cría a la vez**, la llenan completamente de alimento larval, la reina pone un huevo, y la celda se sella — todo en una sola secuencia, sin reutilizar la celda después. Esto se conoce como **aprovisionamiento y oviposición en masa**, y es fundamentalmente distinto al panal hexagonal reutilizable de Apis. El resultado son discos de cría horizontales o en espiral, según la especie, envueltos por capas protectoras de cerumen llamadas **involucro**."
+        },
+        {
+          "term": "Potes de miel y polen",
+          "body": "La miel y el polen se almacenan en **potes o ánforas** ovaladas hechas de **cerumen** (una mezcla de cera y resinas vegetales), separadas físicamente del área de cría. Esta separación es justamente lo que permite cosechar miel sin tocar la cría, si se hace con cuidado (Bloque 8)."
+        }
+      ],
+      "videos": [],
+      "project": "Dibujá un esquema de cómo te imaginás la estructura interna de una colmena, antes de abrir una real.",
+      "check": "¿Por qué encontrar varias reinas vírgenes en una colmena abierta no es un problema, sino algo esperable?"
+    },
+    {
+      "id": "b3",
+      "number": 3,
+      "title": "Elegir tu especie y conseguir tu primera colonia",
+      "hours": 2,
+      "goal": "Empezar con el pie derecho: especie correcta, fuente ética, y ubicación pensada de antemano.",
+      "visual": null,
+      "learn": [
+        {
+          "term": "Yateí como primera especie",
+          "body": "Para quien empieza, el yateí combina docilidad, tamaño de colonia manejable, y disponibilidad — es, con diferencia, la especie más recomendada como punto de partida antes de animarse con especies de manejo más exigente como las *Melipona*."
+        },
+        {
+          "term": "Cómo NO conseguir una colonia",
+          "body": "**Nunca cortes un árbol vivo** para \"sacar\" una colonia silvestre — destruís el árbol, generalmente matás gran parte de la colonia en el proceso, y contribuís a la pérdida de poblaciones silvestres que ya están en retroceso por la deforestación."
+        },
+        {
+          "term": "Cómo SÍ conseguir tu primera colonia",
+          "body": "Las dos vías éticas y recomendadas son: **comprarla a un meliponicultor establecido**, ya instalada en una caja racional, o **rescatar una colonia** que de todos modos va a ser destruida — por ejemplo, un nido encontrado en una pared, un tronco caído, o una construcción que se va a demoler. En estos casos el trasiego (Bloque 5) rescata a la colonia en vez de eliminarla."
+        },
+        {
+          "term": "Pensá la ubicación antes de que llegue la colonia",
+          "body": "Elegí un lugar con **media sombra** (sol suave de mañana, protegido del sol fuerte de la tarde — un tema que se retoma en el Bloque 6 con el calor del verano chaqueño), protegido de vientos fuertes y lluvia directa, cerca de vegetación florida diversa, y **lejos de zonas con mucha actividad de hormigas**. La colmena debe quedar elevada del suelo, sobre una base estable."
+        }
+      ],
+      "videos": [],
+      "project": "Elegí y preparé el lugar donde vas a instalar tu primera colmena, antes de conseguirla.",
+      "check": "¿Por qué cortar un árbol vivo para conseguir una colonia es contraproducente incluso para el propio meliponicultor?"
+    },
+    {
+      "id": "b4",
+      "number": 4,
+      "title": "Colmenas racionales: diseño y construcción",
+      "hours": 2,
+      "goal": "Entender qué hace que una caja sea apta para meliponas, y por qué el diseño importa tanto como con las cajas de Apis.",
+      "visual": "hiveBoxDesign",
+      "learn": [
+        {
+          "term": "Por qué una caja racional y no un tronco",
+          "body": "Un tronco hueco tradicional mantiene bien la temperatura pero es **imposible de inspeccionar por dentro, dificulta el control de plagas, y hace la cosecha más riesgosa** para el panal. Una caja racional (de madera, con divisiones o alzas) resuelve esto sin perder lo esencial que necesita la colonia: buena termorregulación y protección contra plagas."
+        },
+        {
+          "term": "El modelo vertical (tipo INPA)",
+          "body": "El modelo de caja racional vertical, desarrollado en Brasil a mediados del siglo XX, es el más usado para especies como el yateí porque **sigue el patrón natural** en el que estas abejas organizan la cría dentro de un tronco: los discos de cría se apilan verticalmente, con las alzas de miel y polen por encima o alrededor, replicando la disposición que la colonia ya construiría sola."
+        },
+        {
+          "term": "Modelos horizontales",
+          "body": "Existen también diseños horizontales con **cámara de cría y cámara de miel/polen separadas en el mismo plano**, pensados para simplificar aún más la cosecha sin tocar la cría — a cambio, algunas especies tardan más en establecer sus potes de miel en este layout, porque no es el que construirían naturalmente."
+        },
+        {
+          "term": "Materiales y detalles que importan",
+          "body": "Madera bien seca, de **unos 2 cm de espesor**, bien ensamblada sin filtraciones de luz o agua. La entrada debe ser **angosta**, imitando el tubo de cerumen que las abejas construyen naturalmente en la entrada de un tronco — esto facilita la defensa contra plagas (Bloque 9) y reduce las pérdidas de calor. Toda la caja debe permitir abrirse por partes (alzas) sin exponer toda la colonia de una sola vez durante una revisión."
+        }
+      ],
+      "videos": [],
+      "project": "Construí o conseguí tu primera caja racional, modelo vertical, para tu especie elegida.",
+      "check": "¿Por qué el modelo vertical imita mejor el comportamiento natural del yateí que uno horizontal?"
+    },
+    {
+      "id": "b5",
+      "number": 5,
+      "title": "Trasiego: pasar una colonia silvestre a la caja racional",
+      "hours": 2,
+      "goal": "Trasladar una colonia de un tronco o cavidad silvestre a una caja racional sin perderla en el proceso.",
+      "visual": "lifecycleMelipona",
+      "learn": [
+        {
+          "term": "Cuándo hacer el trasiego",
+          "body": "El momento ideal es a comienzos de la primavera, cuando empieza la floración y las temperaturas ya son moderadas — ni el frío del invierno ni el calor extremo del verano chaqueño ayudan a que una colonia recién movida se recupere del estrés del traslado. Una colonia recién trasegada necesita tiempo y buen flujo de néctar disponible para reconstruir y reorientarse."
+        },
+        {
+          "term": "Herramientas necesarias",
+          "body": "Sierra o machete (para abrir el tronco con cuidado), espátula, recipientes plásticos limpios, hilo o bandas elásticas para sujetar fragmentos de panal, y la caja racional lista para recibir la colonia. A diferencia de la apicultura con Apis, **no hace falta ahumador ni ropa de protección** — aunque un poco de humo suave a veces ayuda a calmar a la colonia durante el proceso."
+        },
+        {
+          "term": "El proceso paso a paso",
+          "body": "Abrir la cavidad original con mucho cuidado para no aplastar el panal. **Ubicar a la reina primero** y protegerla — es la pieza más crítica de todo el traslado. Trasladar los discos de cría y el involucro que los envuelve a la caja racional, manteniendo su orientación original en la medida de lo posible, sujetando los fragmentos con hilo si hace falta. Trasladar también los potes de miel y polen que se puedan rescatar intactos. Cerrar la caja y dejarla en el mismo lugar original durante los primeros días, para que las forrajeadoras que ya conocían esa ubicación puedan reencontrar la entrada."
+        },
+        {
+          "term": "Después del trasiego",
+          "body": "Es normal que una colonia recién trasegada esté más débil por un tiempo. Si las reservas de alimento quedaron reducidas durante el traslado, un alimentador con jarabe de azúcar 1:1 ayuda a sostenerla mientras reconstruye. Evitá abrir la caja innecesariamente en las primeras semanas — cada apertura es una interrupción del trabajo de reconstrucción."
+        }
+      ],
+      "videos": [
+        { "title": "Trasiego de abejas angelitas — colmena INPA", "youtubeId": "N8ZDAy5Jqcs" },
+        { "title": "Trasiego de colmena melipona (Tetragonisca angustula)", "youtubeId": "Hgd2bPSrwc8" },
+        { "title": "Cómo trasegar una colonia de abejas sin aguijón", "youtubeId": "2LdUG3LWa6o" }
+      ],
+      "project": "Hacé el trasiego de tu primera colonia silvestre, o acompañá a un meliponicultor con experiencia en el suyo antes de intentarlo solo.",
+      "check": "Durante un trasiego, ¿cuál es la prioridad número uno antes que cualquier otra cosa?"
+    },
+    {
+      "id": "b6",
+      "number": 6,
+      "title": "Manejo cotidiano",
+      "hours": 2,
+      "goal": "Sostener una colonia sana durante todo el año, incluyendo las temporadas difíciles.",
+      "visual": null,
+      "learn": [
+        {
+          "term": "Ubicación y protección del calor",
+          "body": "Media sombra permanente, con protección especial del sol directo de la tarde, es clave — el mismo principio que ya viste para proteger una huerta del calor chaqueño aplica acá: una caja racional de madera al sol pleno en pleno verano puede sobrecalentarse peligrosamente para la colonia por dentro."
+        },
+        {
+          "term": "Alimentación suplementaria",
+          "body": "Un jarabe de azúcar 1:1 (agua y azúcar en partes iguales) ayuda a colonias débiles, recién trasegadas, o recién divididas, especialmente en época de escasez de floración. Evitá sobrealimentar — el exceso de jarabe sin consumir puede favorecer hongos dentro de la caja."
+        },
+        {
+          "term": "Monitoreo sin invadir",
+          "body": "Observá el tránsito en la entrada regularmente: mucha actividad de entrada y salida es buena señal; entradas con abejas muertas amontonadas, olor extraño, o inactividad repentina son señales de alerta. Reservá la apertura completa de la caja para revisiones puntuales — abrir todo el tiempo estresa a la colonia más de lo que ayuda."
+        },
+        {
+          "term": "Agua cerca de la colmena",
+          "body": "Las abejas necesitan agua para regular la humedad y temperatura interna del nido, además de para diluir la miel cristalizada. Un recipiente con agua y algo flotante (piedras, corcho) para que no se ahoguen, cerca del meliponario, reduce la necesidad de que forrajeen agua lejos."
+        },
+        {
+          "term": "El calendario estacional",
+          "body": "En primavera y verano, con floración abundante, las colonias crecen y acumulan reservas — es la temporada para pensar en dividir (Bloque 7) o cosechar con moderación (Bloque 8). En el invierno, con menos floración, las colonias viven principalmente de las reservas acumuladas — por eso nunca hay que cosechar todo lo disponible en otoño, sino dejar suficiente para sostener a la colonia hasta que vuelva a florecer."
+        }
+      ],
+      "videos": [],
+      "project": "Armá un calendario de manejo anual para tu meliponario, marcando cuándo revisar, alimentar, dividir y cosechar.",
+      "check": "¿Por qué cosechar toda la miel disponible en otoño puede matar a la colonia en invierno?"
+    },
+    {
+      "id": "b7",
+      "number": 7,
+      "title": "Multiplicación por división",
+      "hours": 2,
+      "goal": "Convertir una colonia fuerte en dos, sin depender de un enjambre silvestre.",
+      "visual": "casteDiagram",
+      "learn": [
+        {
+          "term": "División, no enjambrazón",
+          "body": "A diferencia de Apis, las meliponas no forman enjambres que salen volando en masa a buscar un nuevo hogar. La forma en que el meliponicultor multiplica sus colonias es mediante la **división artificial**: repartir una colonia fuerte en dos cajas, cada una con su propia oportunidad de desarrollar una reina que ponga huevos."
+        },
+        {
+          "term": "Cuándo una colonia está lista para dividirse",
+          "body": "Una colonia candidata a dividirse debe ser **fuerte y populosa**, con varios discos de cría en distintas etapas, buenas reservas de miel y polen, y preferentemente con presencia de celdas reales o reinas vírgenes ya disponibles — señal de que la colonia tiene capacidad de reemplazo."
+        },
+        {
+          "term": "El proceso de división",
+          "body": "Se reparte la población de abejas adultas, los discos de cría, y las reservas de alimento de forma relativamente pareja entre las dos cajas. **Una de las dos mitades debe quedarse con la reina** que ya pone huevos; la otra mitad, sin reina, criará una de las reinas vírgenes disponibles hasta que empiece a poner — un proceso que toma varias semanas."
+        },
+        {
+          "term": "Después de dividir",
+          "body": "Mantené ambas mitades cerca del lugar original los primeros días. Si vas a reubicar una de las dos, movela **de a poco, unos pocos metros por día**, para que las forrajeadoras no se pierdan buscando la ubicación anterior. Dale a la mitad huérfana **varias semanas a un par de meses** para estabilizarse con una reina nueva en producción antes de pensar en cosechar o volver a dividir esa colonia."
+        }
+      ],
+      "videos": [],
+      "project": "Dividí tu primera colonia fuerte en dos.",
+      "check": "¿Por qué la mitad sin reina de una división no está realmente \"huérfana\" para siempre?"
+    },
+    {
+      "id": "b8",
+      "number": 8,
+      "title": "Cosecha de miel, polen y propóleo",
+      "hours": 2,
+      "goal": "Cosechar los productos de la colmena sin dañar los potes, la cría, ni dejar a la colonia sin reservas.",
+      "visual": "harvestSyringe",
+      "learn": [
+        {
+          "term": "Cuándo cosechar",
+          "body": "Los potes de miel están listos cuando aparecen llenos y sellados. A diferencia de la miel de Apis, la miel de meliponas tiene un **contenido de humedad naturalmente más alto — entre 23% y 43%** — lo que la hace fermentar de forma natural con el tiempo y le da su característico sabor ácido, distinto al de la miel de abeja europea."
+        },
+        {
+          "term": "El método de la jeringa",
+          "body": "La técnica recomendada para no destruir los potes ni el panal es extraer la miel con una **jeringa grande (60 ml) conectada a un pequeño tramo de manguera**: se introduce la punta en cada pote sellado y se extrae la miel directamente, dejando los potes vacíos pero intactos para que la colonia los reutilice, en vez de cortar o aplastar la estructura de cerumen."
+        },
+        {
+          "term": "Cuánto cosechar",
+          "body": "El rendimiento de una colonia de yateí bien establecida ronda entre **0,6 y 1,5 litros por año** — mucho menos que los 20 a 40 litros de una colmena de Apis, lo cual es esperable y no señal de que algo esté mal. Cosechá solo el excedente, dejando siempre reservas suficientes para que la colonia atraviese la próxima temporada de escasez floral sin problemas."
+        },
+        {
+          "term": "Guardado de la miel",
+          "body": "Por su alta humedad, la miel de meliponas es más propensa a fermentar que la de Apis — conviene guardarla en un **recipiente de vidrio bien cerrado, refrigerado**, y consumirla en un plazo razonable en vez de esperar que se conserve indefinidamente a temperatura ambiente como la miel convencional."
+        },
+        {
+          "term": "Polen (jevorá) y propóleo",
+          "body": "El polen almacenado (llamado **jevorá** en la tradición paraguaya) también se puede cosechar de los potes de forma similar, y se guarda seco, fresco y protegido de la humedad para evitar que se enmohezca. El propóleo (la mezcla de resinas que las abejas usan para sellar grietas y reforzar la entrada) se puede raspar con cuidado en pequeñas cantidades, sin comprometer la protección estructural que le brinda a la colonia."
+        }
+      ],
+      "videos": [],
+      "project": "Hacé tu primera cosecha de miel con el método de la jeringa, midiendo cuánto extraés.",
+      "check": "¿Por qué la miel de meliponas no se conserva igual que la miel de Apis a temperatura ambiente?"
+    },
+    {
+      "id": "b9",
+      "number": 9,
+      "title": "Plagas y enemigos naturales",
+      "hours": 2,
+      "goal": "Reconocer las amenazas más comunes a una colonia y actuar a tiempo.",
+      "visual": "robberBeeWarning",
+      "learn": [
+        {
+          "term": "Lestrimelitta: la abeja ladrona",
+          "body": "El género *Lestrimelitta* agrupa abejas **cleptobióticas** — no recolectan néctar de flores, sino que **asaltan colonias de otras especies de meliponas** (incluido el yateí) para robarles miel, polen y hasta cerumen de construcción. Sus obreras liberan feromonas que reclutan a más asaltantes durante el ataque, y el asalto suele reconocerse por un **olor fuerte, parecido al limón**, que le vale el apodo de \"abeja limón\" en varios países de la región, incluido el registro de la especie en Paraguay. Una colonia fuerte con una entrada bien angosta y bien defendida resiste mucho mejor un intento de asalto; si detectás un ataque en curso, reducir temporalmente el tamaño de la entrada puede frenarlo."
+        },
+        {
+          "term": "Moscas fóridas",
+          "body": "Estas moscas parasitoides ponen huevos cerca de la entrada de colonias débiles; sus larvas parasitan a las abejas. Mantener la entrada angosta y las colonias fuertes reduce mucho el riesgo — son las colonias recién trasegadas, recién divididas, o debilitadas por sobrecosecha las más vulnerables."
+        },
+        {
+          "term": "Hormigas",
+          "body": "Atraídas por el contenido azucarado de la colmena, especialmente en épocas secas y calurosas — el mismo problema que ya conocés si tenés experiencia con vermicompostaje o gallinas en el Chaco. Un soporte elevado con las patas paradas en recipientes con agua (una \"barrera de agua\") es una defensa simple y efectiva contra el acceso de hormigas por tierra."
+        },
+        {
+          "term": "Otros enemigos",
+          "body": "Colonias débiles o abandonadas pueden ser invadidas por polillas u otros insectos oportunistas que aprovechan el cerumen y las reservas sin protección. Sapos, lagartijas y arañas a veces depredan abejas cerca de la entrada, aunque rara vez representan un riesgo serio para una colonia sana."
+        },
+        {
+          "term": "La mejor defensa: colonias fuertes",
+          "body": "Casi todas las plagas y enemigos naturales de las meliponas se aprovechan de colonias **débiles, recién manipuladas, o con reservas insuficientes**. Mantener colonias populosas, con una entrada bien construida y angosta, y evitar el estrés innecesario (aperturas frecuentes, sobrecosecha, traslados mal planificados) es, en la práctica, el manejo de plagas más efectivo que existe."
+        }
+      ],
+      "videos": [],
+      "project": "Revisá tus colmenas buscando señales de asalto de Lestrimelitta u otras plagas, y reforzá las entradas si hace falta.",
+      "check": "¿Cómo reconocerías un asalto de abeja ladrona en curso, sin necesidad de verla directamente?"
+    },
+    {
+      "id": "b10",
+      "number": 10,
+      "title": "Polinización, conservación e integración en tu finca",
+      "hours": 2,
+      "goal": "Ver a tus colmenas como parte de un sistema más amplio, no como una actividad aislada.",
+      "visual": null,
+      "learn": [
+        {
+          "term": "El rol polinizador de las meliponas",
+          "body": "Las abejas sin aguijón son polinizadoras clave de una gran cantidad de flora nativa de flor pequeña, además de contribuir a la polinización de varios cultivos de huerta y frutales. Al ser generalistas y trabajar cerca de su colmena, un meliponario bien ubicado junto a una huerta o un monte frutal mejora la polinización local de forma constante, sin competir por recursos con las gallinas o el compost."
+        },
+        {
+          "term": "Conservación con propósito productivo",
+          "body": "La meliponicultura basada en rescates y divisiones —nunca en la tala de árboles silvestres— convierte una actividad productiva en un aporte directo a la conservación de especies que hoy están en retroceso por la pérdida de monte nativo en Paraguay."
+        },
+        {
+          "term": "Integrando el meliponario a tu sistema",
+          "body": "Un meliponario se integra naturalmente a una finca que ya tiene huerta, gallinas y compost: no requiere protección especial contra el resto de los animales, no representa riesgo para niños o visitas por no picar, y se beneficia de la misma sombra y protección contra el calor extremo que ya planificaste para tu huerta y tus gallinas."
+        },
+        {
+          "term": "Seguir aprendiendo",
+          "body": "La meliponicultura paraguaya tiene una tradición propia, con meliponicultores locales, nombres guaraníes específicos por región, y particularidades de manejo para el clima del país que todavía se documentan activamente. Sumarte a una red o comunidad de meliponicultores locales acelera muchísimo la curva de aprendizaje frente a hacerlo en soledad."
+        }
+      ],
+      "videos": [ { "title": "Meliponicultura — Encuentro 4 (INTA)", "youtubeId": "VM9ozpQfzOQ" } ],
+      "project": "Dibujá un mapa de tu finca marcando dónde se integra el meliponario con tu huerta, tus gallinas y tu compost.",
+      "check": "¿Por qué un meliponario no compite por recursos ni espacio con el resto de una finca pequeña?"
+    }
+  ]
+}

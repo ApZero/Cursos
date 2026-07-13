@@ -1,0 +1,357 @@
+{
+  "schemaVersion": 1,
+  "id": "veggie-growing-101",
+  "title": "Cultivo de Hortalizas 101",
+  "subtitle": "De la semilla al plato — un curso de 20 horas para huertas productivas",
+  "description": "Un curso práctico de horticultura: suelo, siembra, riego, nutrición, plagas, y una huerta que produce todo el año — incluyendo un bloque dedicado a cultivar con calor extremo tipo Chaco.",
+  "totalHours": 20,
+  "resources": {
+    "books": [
+      { "title": "How to Grow More Vegetables", "author": "John Jeavons", "note": "El clásico sobre horticultura biointensiva y cómo maximizar la producción por metro cuadrado." },
+      { "title": "The Vegetable Gardener's Bible", "author": "Edward C. Smith", "note": "Guía completa de suelo, camas elevadas, y cultivo de casi cualquier hortaliza común." }
+    ],
+    "channels": [
+      { "name": "Epic Gardening", "url": "https://www.youtube.com/@epicgardening" },
+      { "name": "GrowVeg", "url": "https://www.growveg.com" },
+      { "name": "MIgardener", "url": "https://www.youtube.com/@MIgardener" }
+    ]
+  },
+  "finalChallenge": [
+    "Mantené una huerta productiva durante un ciclo completo, de siembra a cosecha.",
+    "Diseñá y sembrá al menos tres familias botánicas distintas con un plan de rotación.",
+    "Llevá tu huerta viva a través del pico de calor del verano chaqueño sin perder el cultivo.",
+    "Guardá semillas de al menos un cultivo para el próximo ciclo.",
+    "Integrá tu compost, tus gallinas y tu huerta en un solo sistema de nutrientes."
+  ],
+  "blocks": [
+    {
+      "id": "b1",
+      "number": 1,
+      "title": "El suelo: la base de todo",
+      "hours": 2,
+      "goal": "Entender qué hace que un suelo sea bueno para hortalizas, y cómo evaluar el tuyo.",
+      "visual": "soilTexture",
+      "learn": [
+        {
+          "term": "Textura del suelo",
+          "body": "El suelo es una mezcla de partículas de tres tamaños: **arena** (partículas grandes, drena rápido, no retiene nutrientes), **limo** (partículas medianas), y **arcilla** (partículas diminutas, retiene agua y nutrientes pero se compacta fácilmente y drena mal). El suelo ideal para hortalizas es un **suelo franco (\"loam\")** — una mezcla equilibrada de los tres que combina buen drenaje con buena retención de agua y nutrientes."
+        },
+        {
+          "term": "Materia orgánica y estructura",
+          "body": "Agregar **compost, estiércol curado, o humus de lombriz** mejora casi cualquier suelo: afloja los suelos arcillosos pesados y le da capacidad de retención de agua a los suelos arenosos sueltos. La materia orgánica también alimenta a los microorganismos del suelo, que son los que realmente ponen los nutrientes a disposición de las raíces. Un suelo con **menos del 5% de materia orgánica** (común en muchos suelos de huerta) se beneficia notablemente de aplicaciones regulares de compost."
+        },
+        {
+          "term": "pH: el número que más importa",
+          "body": "La mayoría de las hortalizas rinden mejor en un **pH de 6.0 a 7.0, con 6.5 como el punto ideal** para una huerta mixta. Por debajo de 5.5, el aluminio y el manganeso se vuelven tóxicos y el fósforo queda bloqueado; por encima de 7.5, el hierro, el manganeso y el zinc dejan de estar disponibles y aparecen hojas amarillas con venas verdes (clorosis) — los tomates en particular desarrollan **pudrición apical (blossom-end rot)** por bloqueo de calcio en suelos muy alcalinos, aunque el calcio esté presente. Si el suelo está muy ácido, cal agrícola lo sube; si está muy alcalino, azufre elemental lo baja gradualmente — ambos cambios tardan meses, no días."
+        },
+        {
+          "term": "Cómo testear tu suelo",
+          "body": "Un kit de pH económico (tiras de papel o medidor digital) alcanza para empezar. Tomá varias muestras de distintas zonas de la huerta, un poco por debajo de la superficie, para tener un promedio representativo. Repetí el test una vez al año — el pH cambia lentamente con el riego, la lluvia, y lo que vas agregando al suelo."
+        },
+        {
+          "term": "Construyendo suelo con lo que ya tenés",
+          "body": "Si ya hacés vermicompostaje, el **humus de lombriz es uno de los mejores insumos** para mejorar la estructura y la vida microbiana del suelo de la huerta al mismo tiempo — combina materia orgánica estable con una comunidad microbiana activa, cubierto en detalle en el curso de Vermicompostaje 101."
+        }
+      ],
+      "videos": [],
+      "project": "Testeá el pH y la textura de tres zonas distintas de tu terreno.",
+      "check": "¿Por qué un suelo muy arcilloso Y muy ácido es doblemente difícil para las raíces?"
+    },
+    {
+      "id": "b2",
+      "number": 2,
+      "title": "Sol, clima y planificación de la huerta",
+      "hours": 2,
+      "goal": "Diseñar una huerta que aproveche el sol, el espacio y las estaciones de tu zona.",
+      "visual": "sunHours",
+      "learn": [
+        {
+          "term": "Necesidades de luz solar",
+          "body": "La mayoría de las hortalizas de fruto (tomate, pimiento, zapallo, poroto) necesitan **6 a 8 horas de sol pleno directo** para producir bien. Las hortalizas de hoja (lechuga, acelga, espinaca) toleran mucho mejor la media sombra, y de hecho la agradecen en climas calurosos — es un tema que retomamos en el Bloque 9."
+        },
+        {
+          "term": "Cultivos de estación fría vs. estación cálida",
+          "body": "Las **hortalizas de estación fría** (lechuga, brócoli, arvejas, espinaca, rabanito) crecen mejor entre 10–24°C y se van a flor (\"bolting\") o se ponen amargas con calor sostenido. Las **hortalizas de estación cálida** (tomate, zapallo, poroto, berenjena, maíz, batata) necesitan suelo y aire cálidos para germinar y fructificar bien, y se dañan con frío. Conocer a qué grupo pertenece cada cultivo es la base de toda planificación de siembra."
+        },
+        {
+          "term": "Diseño: hileras, camas elevadas, o cultivo intensivo",
+          "body": "Las **hileras tradicionales** dejan más espacio para caminar pero usan el terreno de forma menos eficiente. Las **camas elevadas** mejoran el drenaje, calientan más rápido en primavera, y facilitan el manejo del suelo (no se pisa donde se cultiva). El **método intensivo o \"square foot\"** maximiza la producción por metro cuadrado sembrando más denso de lo convencional, aprovechando que las plantas se dan sombra mutua y suprimen malezas."
+        },
+        {
+          "term": "Microclimas",
+          "body": "Un mismo terreno puede tener zonas más cálidas (cerca de una pared que absorbe sol), más frescas (bajo sombra de árboles), o más protegidas del viento. Identificar estos microclimas te deja ubicar cada cultivo donde mejor le va — por ejemplo, cultivos sensibles al calor cerca de la sombra de la tarde, tal como se detalla en el Bloque 9."
+        }
+      ],
+      "videos": [],
+      "project": "Dibujá un plano de tu terreno marcando horas de sol, sombra, y viento dominante en distintos puntos.",
+      "check": "¿Por qué la lechuga se pone amarga y se va a flor en pleno verano?"
+    },
+    {
+      "id": "b3",
+      "number": 3,
+      "title": "Empezar desde semilla",
+      "hours": 2,
+      "goal": "Dominar la siembra directa, el almácigo, y el trasplante sin perder plantines.",
+      "visual": "seedStages",
+      "learn": [
+        {
+          "term": "Siembra directa vs. trasplante",
+          "body": "Cultivos de raíz (zanahoria, rabanito, remolacha) y de crecimiento rápido (poroto, arveja, maíz, zapallo) generalmente se siembran **directo en el lugar definitivo**, porque no toleran bien que se les toquen las raíces. Cultivos de ciclo largo (tomate, pimiento, berenjena, brócoli) se benefician de empezar en **almácigo** — adelantás semanas de crecimiento en un ambiente controlado antes de que el clima afuera sea apto."
+        },
+        {
+          "term": "Requisitos de germinación",
+          "body": "Cada semilla necesita una combinación de **temperatura del suelo, humedad constante, y profundidad de siembra** correctas. Como regla general, una semilla se siembra a una profundidad de dos a tres veces su propio diámetro. La humedad debe ser constante pero sin encharcar — dejar secar el sustrato entre riegos en esta etapa es la causa más común de germinación fallida."
+        },
+        {
+          "term": "Almácigo bajo luz",
+          "body": "Sin suficiente luz, los plantines se estiran buscando el sol (\"legginess\") y quedan débiles y propensos a doblarse. Una ventana orientada al sol alcanza para pocas bandejas, pero con más de una docena de plantines conviene una **luz artificial (LED o fluorescente) ubicada bien cerca de las plantas**, con un temporizador para mantener un ciclo de luz constante."
+        },
+        {
+          "term": "Endurecimiento (hardening off)",
+          "body": "Un plantín criado adentro no está listo para el sol y el viento directo — trasplantarlo sin preparación es como \"soltarlo en el desierto\": se quema, se deshidrata, o directamente muere. El proceso de endurecimiento toma **5 a 7 días**: se saca el plantín afuera empezando con 1–2 horas de sol suave (mañana o tarde, nunca sol del mediodía), aumentando gradualmente cada día hasta llegar a un día completo afuera antes del trasplante definitivo. Pasar la mano suavemente sobre los plantines a diario desde que germinan también fortalece el tallo, simulando el viento que van a enfrentar afuera."
+        },
+        {
+          "term": "Técnica de trasplante",
+          "body": "Trasplantá en un día nublado o al atardecer para reducir el estrés. Regá bien antes de sacar el plantín de su maceta, y plantá a la misma profundidad que tenía (excepto el tomate, que puede enterrarse más profundo porque el tallo enterrado genera raíces nuevas). Regá inmediatamente después de trasplantar."
+        }
+      ],
+      "videos": [
+        { "title": "How I Start Seeds Indoors: From Sowing To Planting!", "youtubeId": "bnW7Bq04n08" },
+        { "title": "Hardening Off Young Plants and Seedlings — A Complete Guide", "youtubeId": "CkGiGf9dF7k" }
+      ],
+      "project": "Empezá un almácigo de al menos dos cultivos de ciclo largo.",
+      "check": "¿Qué le pasa a un plantín que se trasplanta afuera sin endurecerlo primero?"
+    },
+    {
+      "id": "b4",
+      "number": 4,
+      "title": "Riego",
+      "hours": 2,
+      "goal": "Regar lo suficiente, de la forma correcta, sin desperdiciar agua.",
+      "visual": "wateringDiagram",
+      "learn": [
+        {
+          "term": "Cuánta agua necesita una huerta",
+          "body": "Una regla general habitual es alrededor de **2.5 cm (1 pulgada) de agua por semana**, contando lluvia y riego, entregada en **pocas sesiones profundas en vez de riegos superficiales diarios**. El riego profundo poco frecuente empuja las raíces a crecer hacia abajo buscando humedad, haciendo plantas más resistentes a la sequía; el riego superficial diario mantiene las raíces cerca de la superficie, más vulnerables al calor y la falta de agua."
+        },
+        {
+          "term": "Métodos de riego",
+          "body": "El **riego por goteo** entrega agua directo a la base de la planta con mínima evaporación y sin mojar el follaje — el método más eficiente para huertas. Las **mangueras porosas (soaker hose)** son una alternativa simple y barata con un efecto similar. El riego por **aspersión** moja también las hojas, lo que en climas húmedos o calurosos aumenta el riesgo de enfermedades fúngicas."
+        },
+        {
+          "term": "Mulch para retener humedad",
+          "body": "Una capa de **5 a 10 cm de mulch orgánico** (paja, hojas secas trituradas, cartón, compost) reduce la evaporación de la superficie del suelo entre un 50% y 70%, y puede bajar la temperatura del suelo entre 5 y 10°C en días de mucho calor. El mulch negro de plástico hace lo contrario — absorbe calor y \"cocina\" el suelo, y conviene evitarlo en climas cálidos."
+        },
+        {
+          "term": "Cuándo regar",
+          "body": "Regar temprano a la mañana es lo ideal: el agua tiene tiempo de penetrar antes de que el sol la evapore, y el follaje se seca durante el día, reduciendo enfermedades. Regar de noche deja el follaje húmedo por horas, un ambiente que favorece hongos."
+        },
+        {
+          "term": "Señales de riego incorrecto",
+          "body": "**Falta de agua**: hojas marchitas que no se recuperan por la noche, suelo seco varios centímetros hacia abajo, crecimiento detenido. **Exceso de agua**: hojas amarillas (especialmente las de abajo), raíces que se pudren, olor a podrido en el sustrato, hongos en la superficie. El marchitamiento solo en las horas de más calor de la tarde que se recupera al anochecer es normal y no significa falta de agua."
+        }
+      ],
+      "videos": [],
+      "project": "Instalá riego por goteo o manguera porosa en al menos un sector de tu huerta.",
+      "check": "¿Por qué el riego profundo poco frecuente es mejor que el riego superficial diario?"
+    },
+    {
+      "id": "b5",
+      "number": 5,
+      "title": "Alimentar las plantas: nutrientes y compost",
+      "hours": 2,
+      "goal": "Entender qué necesitan las plantas y de dónde conseguirlo.",
+      "visual": "npkDiagram",
+      "learn": [
+        {
+          "term": "Nitrógeno, fósforo y potasio (N-P-K)",
+          "body": "El **nitrógeno (N)** impulsa el crecimiento de hojas y tallos — clave para verduras de hoja, exceso de N en tomate da plantas frondosas con poca fruta. El **fósforo (P)** favorece raíces, flores y frutos. El **potasio (K)** fortalece la resistencia general de la planta, regula el uso de agua, y mejora la calidad del fruto. Un fertilizante etiquetado \"10-20-10\", por ejemplo, indica el porcentaje de cada uno en ese orden."
+        },
+        {
+          "term": "Cultivos exigentes vs. livianos vs. fijadores de nitrógeno",
+          "body": "Las familias **Solanaceae (tomate, pimiento, berenjena, papa)**, **Brassicaceae (repollo, brócoli, coliflor)** y **Cucurbitaceae (zapallo, pepino, melón)** son **exigentes en nitrógeno** y rinden mejor en suelo recién enriquecido con compost. Las **leguminosas (poroto, arveja, maní)** hacen lo contrario: fijan nitrógeno atmosférico en el suelo a través de bacterias en sus raíces, dejando el suelo más rico de lo que lo encontraron — por eso conviene sembrarlas antes de un cultivo exigente."
+        },
+        {
+          "term": "Compost, estiércol y humus de lombriz",
+          "body": "Los tres mejoran el suelo, pero no son intercambiables uno a uno: el **compost** es de descomposición más rápida y variable según lo que se le puso; el **estiércol** debe estar bien curado (nunca fresco — quema las raíces por exceso de amoníaco); el **humus de lombriz** entrega nutrientes de forma más gradual junto con una comunidad microbiana particularmente activa, ideal para plantines y trasplantes recientes por su suavidad."
+        },
+        {
+          "term": "Cuándo y cómo fertilizar",
+          "body": "Aplicar la mayor parte del compost o abono **antes de sembrar o trasplantar**, mezclado en el suelo. Si hace falta un refuerzo durante el ciclo, aplicar fertilizante líquido diluido directo al suelo, evitando mojar las hojas (puede quemarlas). Evitar fertilizar durante olas de calor — las plantas en estrés térmico no pueden aprovechar los nutrientes y las sales pueden acumularse y dañar las raíces, tal como se detalla en el Bloque 9."
+        },
+        {
+          "term": "Señales de deficiencia",
+          "body": "**Falta de nitrógeno**: hojas inferiores amarillas uniformes, crecimiento lento. **Falta de fósforo**: tonos púrpura o rojizos en tallos y hojas, floración retrasada. **Falta de potasio**: bordes de hoja quemados o amarillos, frutos de mala calidad. **Falta de calcio** (frecuente en suelos muy alcalinos, ver Bloque 1): pudrición apical en tomate y pimiento."
+        }
+      ],
+      "videos": [],
+      "project": "Elegí qué parte de tu huerta va a recibir compost, cuál humus de lombriz, y anotá el resultado.",
+      "check": "¿Por qué conviene sembrar una leguminosa antes de un cultivo exigente como el tomate?"
+    },
+    {
+      "id": "b6",
+      "number": 6,
+      "title": "Asociación de cultivos y rotación",
+      "hours": 2,
+      "goal": "Usar las relaciones entre plantas para reducir plagas y mantener el suelo sano año tras año.",
+      "visual": "familyWheel",
+      "learn": [
+        {
+          "term": "Por qué funciona la asociación de cultivos",
+          "body": "Plantar especies compatibles juntas puede atraer polinizadores y **insectos benéficos**, confundir a las plagas que buscan su cultivo por olor o forma, y aprovechar mejor el espacio y la luz combinando plantas de porte alto y bajo. No es magia garantizada para cada combinación tradicional, pero el principio general — más diversidad, menos plagas concentradas — está bien respaldado."
+        },
+        {
+          "term": "Combinaciones clásicas",
+          "body": "Las **\"tres hermanas\"** (maíz, poroto trepador, zapallo): el maíz da soporte al poroto, el poroto fija nitrógeno para los otros dos, y las hojas grandes del zapallo cubren el suelo suprimiendo malezas. **Tomate y albahaca**: la albahaca repele algunos insectos y se dice que mejora el sabor del tomate. **Zanahoria y cebolla**: el olor de la cebolla confunde a la mosca de la zanahoria y viceversa."
+        },
+        {
+          "term": "Conocé las familias botánicas",
+          "body": "**Solanaceae** (tomate, pimiento, berenjena, papa), **Brassicaceae** (repollo, brócoli, coliflor, rúcula, rabanito), **Cucurbitaceae** (zapallo, pepino, melón, sandía), **Fabaceae** (poroto, arveja, maní — fijadoras de nitrógeno), **Apiaceae** (zanahoria, apio, perejil), **Amaryllidaceae** (cebolla, ajo, puerro), **Amaranthaceae/Chenopodiaceae** (remolacha, acelga, espinaca). Los miembros de una misma familia comparten plagas y enfermedades — por eso agruparlos ayuda a planificar tanto la asociación como la rotación."
+        },
+        {
+          "term": "Rotación de cultivos",
+          "body": "La regla práctica es **no repetir la misma familia botánica en el mismo lugar antes de 3 a 4 años**, para que las plagas y enfermedades específicas de esa familia, que quedan en el suelo, no encuentren un huésped esperándolas la temporada siguiente. Un orden clásico es: **leguminosas → cultivo exigente (solanáceas o brasicáceas) → cultivo de raíz → de vuelta a leguminosas**, dejando que el nitrógeno fijado por las leguminosas alimente al cultivo exigente que sigue. Una regla específica a recordar: **nunca sembrés tomate después de papa** (o viceversa) — comparten enfermedades del suelo particularmente persistentes."
+        }
+      ],
+      "videos": [
+        { "title": "Why Companion Planting Works (The Science Behind The Magic)", "youtubeId": "r5sNQe6dEt4" },
+        { "title": "Science-Based Companion Planting Combinations That Work", "youtubeId": "mhr3REshTss" },
+        { "title": "Crop Rotation Made Simple", "youtubeId": "XeNA6XdMoF8" }
+      ],
+      "project": "Diseñá un plan de rotación de 4 años para tus camas de cultivo.",
+      "check": "¿Por qué nunca hay que sembrar tomate en el mismo lugar donde creció papa el año anterior?"
+    },
+    {
+      "id": "b7",
+      "number": 7,
+      "title": "Plagas y enfermedades: manejo orgánico",
+      "hours": 2,
+      "goal": "Identificar los problemas más comunes y actuar antes de que se descontrolen.",
+      "visual": "ipmPyramid",
+      "learn": [
+        {
+          "term": "Manejo integrado de plagas (MIP)",
+          "body": "El enfoque MIP tiene tres pasos: **monitorear** (revisar la huerta regularmente, no solo cuando ya se ve el daño), **identificar correctamente** la plaga o enfermedad antes de actuar, y **responder de forma proporcional** — empezando siempre por el control menos agresivo (remoción manual, barrera física) antes de pasar a productos, incluso orgánicos."
+        },
+        {
+          "term": "Plagas comunes",
+          "body": "**Pulgones**: colonias pequeñas en brotes tiernos, se controlan con un chorro de agua o jabón potásico. **Gusano del tomate (cornudo)**: grande, verde, se camufla bien — se retira a mano. **Mosca blanca**: nubes de insectos diminutos al mover la planta, atraída por exceso de nitrógeno. **Chinche del zapallo**: pone huevos en el envés de las hojas, revisar y eliminar huevos regularmente. **Cutworms (gusanos cortadores)**: cortan plantines recién trasplantados a nivel del suelo — un collar de cartón alrededor del tallo los detiene."
+        },
+        {
+          "term": "Enfermedades comunes",
+          "body": "**Tizón (blight)**: manchas oscuras que avanzan rápido en tomate y papa, favorecido por humedad en el follaje — regar de raíz, no por aspersión, ayuda a prevenirlo. **Oídio (powdery mildew)**: polvo blanco en hojas, común en cucurbitáceas con poca circulación de aire. **Damping-off**: plantines que se doblan y mueren apenas emergen, causado por hongos en sustrato demasiado húmedo y sin ventilación. **Pudrición apical**: no es una enfermedad infecciosa sino una deficiencia de calcio agravada por riego irregular, cubierta en el Bloque 1 y el Bloque 5."
+        },
+        {
+          "term": "Controles orgánicos",
+          "body": "**Aceite de neem** y **jabón potásico (insecticidal soap)** controlan buena parte de los insectos de cuerpo blando sin dañar a los polinizadores si se aplican al atardecer. Los **cobertores flotantes (row covers)** son una barrera física simple contra insectos voladores en plantines jóvenes. Fomentar **insectos benéficos** (mariquitas, avispas parasitoides) con flores que los atraigan reduce la necesidad de intervenir manualmente."
+        }
+      ],
+      "videos": [],
+      "project": "Hacé una recorrida semanal de monitoreo y llevá un registro simple de lo que encontrás.",
+      "check": "¿Por qué el manejo integrado empieza siempre por el control menos agresivo?"
+    },
+    {
+      "id": "b8",
+      "number": 8,
+      "title": "Conducción, poda y tutorado",
+      "hours": 2,
+      "goal": "Mantener las plantas ordenadas, sanas y con buena producción usando soporte y poda.",
+      "visual": null,
+      "learn": [
+        {
+          "term": "Tomate determinado vs. indeterminado",
+          "body": "Las variedades **determinadas** crecen hasta una altura fija, florecen y fructifican en un período concentrado, y necesitan poco tutorado. Las **indeterminadas** siguen creciendo y produciendo durante toda la temporada — necesitan una estructura firme (caña, jaula, o espaldera) y se benefician de la poda de brotes (\"chupones\") que salen entre el tallo principal y las ramas, para concentrar energía en menos frutos de mejor tamaño."
+        },
+        {
+          "term": "Espalderas para trepadoras",
+          "body": "Pepino, poroto trepador, arveja y algunas variedades de zapallo rinden mejor y ocupan menos superficie horizontal si se los guía verticalmente con una espaldera, malla, o caña. Esto también mejora la circulación de aire alrededor del follaje, reduciendo el riesgo de hongos mencionado en el Bloque 7."
+        },
+        {
+          "term": "Por qué podar",
+          "body": "Podar hojas inferiores amarillentas o enfermas, y aclarar follaje denso, mejora la circulación de aire (menos hongos) y deja que la luz llegue a más partes de la planta. En plantas de hoja como la albahaca, pinchar la punta de crecimiento regularmente estimula que la planta se ramifique y dé una cosecha más abundante en vez de irse directo a flor."
+        },
+        {
+          "term": "Cuándo NO podar",
+          "body": "Evitar podas fuertes durante olas de calor o justo después del trasplante — la planta necesita toda su energía y follaje disponible para recuperarse del estrés, no para cicatrizar cortes nuevos, tema que se retoma en el Bloque 9."
+        }
+      ],
+      "videos": [],
+      "project": "Armá tutores o espalderas para tus tomates y trepadoras antes de que lo necesiten con urgencia.",
+      "check": "¿Por qué podar los chupones de un tomate indeterminado mejora la calidad de los frutos?"
+    },
+    {
+      "id": "b9",
+      "number": 9,
+      "title": "Cultivar con calor extremo tipo Chaco",
+      "hours": 2,
+      "goal": "Mantener la huerta productiva quando el termómetro pasa los 40°C.",
+      "visual": "vegHeatGauge",
+      "learn": [
+        {
+          "term": "Los umbrales de calor que importan",
+          "body": "Tres o más días seguidos por encima de **32°C (90°F)** empiezan a estresar a la mayoría de las hortalizas; **cinco días o más por encima de 35°C (95°F)** es la zona de daño permanente. En ese rango, muchos cultivos entran en una especie de modo de supervivencia: conservan agua, frenan el crecimiento, dejan de florecer, y priorizan sobrevivir por sobre producir. El calor extremo también puede **esterilizar el polen del tomate**, cortando la producción de fruta hasta que bajen las temperaturas — la planta suele recuperar la floración cuando las máximas vuelven a bajar de los 32°C."
+        },
+        {
+          "term": "Malla de sombra (shade cloth)",
+          "body": "Una malla de sombra al **30–40%** es el estándar para proteger cultivos sensibles durante olas de calor, y puede bajar la temperatura de la hoja entre 5 y 8°C. Para lechuga y otras hojas muy sensibles, o para calor sostenido de 38°C+, se usa una malla más densa, del **50%**. La malla no debe tocar el follaje directamente — el calor acumulado en la tela puede quemar las hojas en contacto — y conviene sujetarla bien para que el viento no la haga golpear las plantas."
+        },
+        {
+          "term": "Mulch como defensa número uno",
+          "body": "Una capa de **5 a 10 cm de mulch orgánico** (paja, hojas secas, cartón) reduce la evaporación superficial entre 50% y 70%, y puede bajar la temperatura del suelo entre 5 y 10°C — el suelo desnudo en pleno sol puede superar los 55°C en la superficie durante una ola de calor, mientras que el suelo cubierto se mantiene mucho más estable. Evitá el mulch de plástico negro: absorbe calor en vez de bloquearlo."
+        },
+        {
+          "term": "Riego durante una ola de calor",
+          "body": "La necesidad de agua puede prácticamente **duplicarse** durante un tramo de calor de 35°C+ comparado con un verano templado normal. Regá profundo y temprano a la mañana, nunca al mediodía, y evitá mojar el follaje directamente bajo sol fuerte — las gotas de agua pueden actuar como lupa y quemar la hoja."
+        },
+        {
+          "term": "Qué NO hacer durante el pico de calor",
+          "body": "**No fertilizar** — la planta semi-dormante no puede aprovechar los nutrientes, y las sales acumuladas pueden quemar raíces ya estresadas. **No podar** fuerte ni trasplantar nada nuevo durante la ola de calor — esperá a que baje. **No regar al mediodía**. Sí conviene: cosechar lo que ya esté maduro (para no perderlo si la planta colapsa), y reducir el tránsito por la huerta para no compactar un suelo ya estresado."
+        },
+        {
+          "term": "Qué cultivar cuando el verano no perdona",
+          "body": "Batata, okra, berenjena, poroto yardlong, algunas variedades de pimiento picante, y amaranto (incluyendo variedades locales usadas como verdura de hoja) toleran considerablemente mejor el calor extremo que la lechuga, las arvejas, o el brócoli, que directamente no sobreviven un verano chaqueño a la intemperie sin sombra artificial. Planificar la siembra de las hortalizas más sensibles para el otoño o bajo malla, y reservar el verano pleno para los cultivos genuinamente resistentes al calor, ahorra mucha frustración."
+        },
+        {
+          "term": "Integrando con tu compost y tus gallinas",
+          "body": "El humus de lombriz es una forma particularmente suave de alimentar plantas ya estresadas por el calor, sin el riesgo de quemar raíces que tienen los fertilizantes concentrados — útil precisamente en la temporada en que hay que ser más cuidadoso con la nutrición. Las estructuras de sombra para las gallinas (cubierto en el curso de Vermicompostaje 101) pueden extenderse o duplicarse para dar sombra parcial a camas de cultivo cercanas, y los restos de cosecha no aptos para consumo humano vuelven al sistema como alimento para las gallinas o material para la compostera."
+        }
+      ],
+      "videos": [],
+      "project": "Instalá malla de sombra y un plan de riego reforzado antes de que llegue el pico del verano.",
+      "check": "Tu huerta lleva cuatro días seguidos a 38°C. ¿Qué tres cosas hacés, y qué tres cosas evitás?"
+    },
+    {
+      "id": "b10",
+      "number": 10,
+      "title": "Cosecha, guardado de semillas, y extender la temporada",
+      "hours": 2,
+      "goal": "Cerrar el ciclo: cosechar bien, guardar semilla para el año que viene, y estirar la temporada de cultivo.",
+      "visual": null,
+      "learn": [
+        {
+          "term": "Cuándo cosechar",
+          "body": "Cada cultivo tiene sus propias señales: hortalizas de hoja se cosechan hoja por hoja o la planta entera antes de que se vaya a flor; frutos como tomate y pimiento dan más sabor si maduran en la planta, pero se pueden cosechar un poco antes si hay riesgo de plaga o clima; las raíces (zanahoria, remolacha) se sienten al tacto empujando la tierra alrededor, sin necesidad de arrancar para verificar el tamaño."
+        },
+        {
+          "term": "Guardado de semillas: lo esencial",
+          "body": "Solo las variedades **de polinización abierta (no híbridas F1)** producen semilla que da plantas iguales a la planta madre — una semilla de híbrido F1 puede dar algo bastante distinto. Para evitar cruzamientos no deseados entre variedades de la misma especie, hace falta una **distancia de aislamiento** o sembrar solo una variedad de cada especie por temporada. Las semillas se cosechan de frutos bien maduros (incluso pasados de maduros para el consumo), se secan completamente, y se guardan en un lugar fresco, oscuro y seco — la humedad es la principal enemiga de la viabilidad de la semilla guardada."
+        },
+        {
+          "term": "Siembra escalonada (succession planting)",
+          "body": "En vez de sembrar todo un cultivo de una vez, sembrar una porción cada 2–3 semanas asegura una cosecha continua en vez de una sola explosión seguida de nada. Funciona especialmente bien con hortalizas de ciclo corto como lechuga, rabanito, y acelga."
+        },
+        {
+          "term": "Extender la temporada",
+          "body": "Cobertores flotantes, minitúneles, o simplemente ubicar los cultivos más sensibles en el microclima más protegido del terreno (ver Bloque 2) permiten empezar antes o terminar después de lo que el calendario \"estándar\" sugiere."
+        },
+        {
+          "term": "Llevar un registro",
+          "body": "Anotar qué se sembró, cuándo, dónde, y cómo resultó — variedades, fechas de siembra y cosecha, problemas de plagas o clima — convierte cada temporada en información útil para la siguiente, en vez de empezar de cero cada año."
+        }
+      ],
+      "videos": [],
+      "project": "Guardá semilla de al menos un cultivo de polinización abierta de esta temporada.",
+      "check": "¿Por qué una semilla de tomate híbrido F1 no te da un tomate igual al del año pasado?"
+    }
+  ]
+}
