@@ -3,15 +3,27 @@
   "id": "meliponicultura-101",
   "title": "Meliponicultura 101",
   "subtitle": "Cría de abejas nativas sin aguijón del Paraguay — 20 horas, del tronco silvestre a tu primera cosecha",
+  "category": "Huerta y Animales",
   "description": "Un curso completo sobre las abejas nativas sin aguijón que ya viven silvestres en el Paraguay — yateí, mandurí, tapezuá y otras — y cómo criarlas en casa: biología, colmenas racionales, trasiego, multiplicación por división, cosecha de miel, y manejo de plagas.",
   "totalHours": 20,
   "resources": {
     "books": [
-      { "title": "Guía ilustrada abejas nativas del Paraguay", "author": "Igor Fleischer", "note": "Referencia paraguaya de identificación de especies, escrita por uno de los meliponicultores pioneros del país." },
-      { "title": "Abejas sin aguijón: Los maravillosos tapezuá", "author": "Igor Fleischer", "note": "Manejo práctico centrado en el tapezuá (Scaptotrigona), con décadas de experiencia de campo en Paraguay." }
+      {
+        "title": "Guía ilustrada abejas nativas del Paraguay",
+        "author": "Igor Fleischer",
+        "note": "Referencia paraguaya de identificación de especies, escrita por uno de los meliponicultores pioneros del país."
+      },
+      {
+        "title": "Abejas sin aguijón: Los maravillosos tapezuá",
+        "author": "Igor Fleischer",
+        "note": "Manejo práctico centrado en el tapezuá (Scaptotrigona), con décadas de experiencia de campo en Paraguay."
+      }
     ],
     "channels": [
-      { "name": "meliponiculturaparaguay.org", "url": "https://meliponiculturaparaguay.org/" }
+      {
+        "name": "meliponiculturaparaguay.org",
+        "url": "https://meliponiculturaparaguay.org/"
+      }
     ]
   },
   "finalChallenge": [
@@ -49,8 +61,14 @@
         }
       ],
       "videos": [
-        { "title": "Qué es la meliponicultura (introducción)", "youtubeId": "T-EIbrABnzw" },
-        { "title": "Qué es la meliponicultura — TvAgro", "youtubeId": "Y4CN1YDS6Bw" }
+        {
+          "title": "Qué es la meliponicultura (introducción)",
+          "youtubeId": "T-EIbrABnzw"
+        },
+        {
+          "title": "Qué es la meliponicultura — TvAgro",
+          "youtubeId": "Y4CN1YDS6Bw"
+        }
       ],
       "project": null,
       "check": "¿Por qué una yateí no representa ningún riesgo de picadura para un niño que se acerca a la colmena?"
@@ -172,9 +190,18 @@
         }
       ],
       "videos": [
-        { "title": "Trasiego de abejas angelitas — colmena INPA", "youtubeId": "N8ZDAy5Jqcs" },
-        { "title": "Trasiego de colmena melipona (Tetragonisca angustula)", "youtubeId": "Hgd2bPSrwc8" },
-        { "title": "Cómo trasegar una colonia de abejas sin aguijón", "youtubeId": "2LdUG3LWa6o" }
+        {
+          "title": "Trasiego de abejas angelitas — colmena INPA",
+          "youtubeId": "N8ZDAy5Jqcs"
+        },
+        {
+          "title": "Trasiego de colmena melipona (Tetragonisca angustula)",
+          "youtubeId": "Hgd2bPSrwc8"
+        },
+        {
+          "title": "Cómo trasegar una colonia de abejas sin aguijón",
+          "youtubeId": "2LdUG3LWa6o"
+        }
       ],
       "project": "Hacé el trasiego de tu primera colonia silvestre, o acompañá a un meliponicultor con experiencia en el suyo antes de intentarlo solo.",
       "check": "Durante un trasiego, ¿cuál es la prioridad número uno antes que cualquier otra cosa?"
@@ -332,7 +359,12 @@
           "body": "La meliponicultura paraguaya tiene una tradición propia, con meliponicultores locales, nombres guaraníes específicos por región, y particularidades de manejo para el clima del país que todavía se documentan activamente. Sumarte a una red o comunidad de meliponicultores locales acelera muchísimo la curva de aprendizaje frente a hacerlo en soledad."
         }
       ],
-      "videos": [ { "title": "Meliponicultura — Encuentro 4 (INTA)", "youtubeId": "VM9ozpQfzOQ" } ],
+      "videos": [
+        {
+          "title": "Meliponicultura — Encuentro 4 (INTA)",
+          "youtubeId": "VM9ozpQfzOQ"
+        }
+      ],
       "project": "Dibujá un mapa de tu finca marcando dónde se integra el meliponario con tu huerta, tus gallinas y tu compost.",
       "check": "¿Por qué un meliponario no compite por recursos ni espacio con el resto de una finca pequeña?"
     }

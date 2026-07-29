@@ -1,0 +1,372 @@
+{
+  "schemaVersion": 1,
+  "id": "compostaje-101",
+  "title": "Compostaje 101",
+  "subtitle": "Compostaje térmico, del montón al humus — 20 horas",
+  "category": "Huerta y Animales",
+  "description": "Un curso completo de compostaje tradicional (térmico): la ciencia de la descomposición, la proporción carbono-nitrógeno, sistemas de compostaje caliente y frío, qué materiales usar y cuáles evitar, solución de problemas comunes, y un bloque dedicado al compostaje en el calor y la sequía del Chaco. Complementa al curso de Vermicompostaje 101, que cubre el compostaje con lombrices como método alternativo.",
+  "totalHours": 20,
+  "resources": {
+    "books": [
+      {
+        "title": "Let It Rot!",
+        "author": "Stu Campbell",
+        "note": "Guía clásica y concisa de compostaje casero, con buen tratamiento de la relación carbono-nitrógeno."
+      },
+      {
+        "title": "The Rodale Book of Composting",
+        "author": "Grace Gershuny & Deborah L. Martin",
+        "note": "Referencia extensa sobre sistemas de compostaje, desde el montón simple hasta operaciones a mayor escala."
+      }
+    ],
+    "channels": [
+      {
+        "name": "Cornell Waste Management Institute — Composting",
+        "url": "https://compost.css.cornell.edu"
+      },
+      {
+        "name": "EPA — Composting at Home",
+        "url": "https://www.epa.gov/recycle/composting-home"
+      }
+    ]
+  },
+  "finalChallenge": [
+    "Armá tu propio sistema de compostaje (montón, bin, o tambor) del tamaño correcto para tu volumen de residuos.",
+    "Lográ que una pila de compostaje caliente alcance y sostenga temperatura termofílica durante al menos tres días.",
+    "Diagnosticá y corregí al menos un problema real en tu propia pila (olor, exceso de humedad, o falta de calor).",
+    "Mantené tu sistema de compostaje activo durante todo el verano chaqueño sin que se seque ni se pudra.",
+    "Cosechá tu primer lote de compost curado y aplicalo en tu huerta o jardín."
+  ],
+  "blocks": [
+    {
+      "id": "b1",
+      "number": 1,
+      "title": "Los fundamentos del compostaje",
+      "hours": 2,
+      "goal": "Entender qué es realmente el compost y qué lo hace funcionar.",
+      "visual": null,
+      "learn": [
+        {
+          "term": "Compostaje: descomposición acelerada y controlada",
+          "body": "El compostaje es, en esencia, el mismo proceso de descomposición que ocurre naturalmente en el suelo de un bosque, pero **acelerado y dirigido** al concentrar los materiales correctos, en las proporciones correctas, con suficiente aire y humedad. El resultado final es **humus**: un material oscuro, suelto y de olor a tierra, mucho más estable y rico biológicamente que los materiales de origen."
+        },
+        {
+          "term": "Quiénes hacen el trabajo",
+          "body": "El proceso lo llevan adelante principalmente **bacterias**, junto con hongos y actinomicetos, que consumen la materia orgánica como alimento y la transforman en compuestos más simples. Ninguno de estos organismos hace falta agregarlo — ya están presentes de forma natural en cualquier material vegetal."
+        },
+        {
+          "term": "Aerobio, no anaeróbico",
+          "body": "Un compostaje bien manejado es un proceso **aeróbico**: los microorganismos que hacen el trabajo necesitan oxígeno para funcionar bien y sin mal olor. Cuando una pila se queda sin oxígeno (por exceso de agua o compactación), toman el relevo microorganismos anaeróbicos que sí generan olores desagradables — la causa de fondo detrás de casi todos los problemas de olor del Bloque 8."
+        },
+        {
+          "term": "Los cuatro ingredientes que importan",
+          "body": "Microorganismos (ya presentes), **materia orgánica** (con el balance correcto de carbono y nitrógeno, Bloque 2), **agua** (ni encharcado ni seco), y **aire** (oxígeno) — el resto de este curso es, en gran medida, aprender a mantener estos cuatro elementos en equilibrio."
+        },
+        {
+          "term": "Este curso complementa al de Vermicompostaje 101",
+          "body": "Si ya hiciste ese curso, vas a reconocer varios principios compartidos (carbono/nitrógeno, humedad, aireación). La diferencia central es que acá **el calor generado por la propia descomposición es parte activa del proceso** (especialmente en compostaje caliente), mientras que el vermicompostaje depende de lombrices que justamente necesitan temperaturas moderadas para sobrevivir — son métodos complementarios, no competidores, y muchas fincas usan ambos a la vez."
+        }
+      ],
+      "videos": [],
+      "project": null,
+      "check": "¿Por qué un compostaje anaeróbico (sin suficiente oxígeno) huele mal, mientras uno aeróbico bien manejado huele a tierra?"
+    },
+    {
+      "id": "b2",
+      "number": 2,
+      "title": "Carbono y nitrógeno: la proporción que lo controla todo",
+      "hours": 2,
+      "goal": "Entender la relación carbono-nitrógeno (C:N) y por qué es, según la evidencia, el factor químico más importante del compostaje.",
+      "visual": "cnRatioGauge",
+      "learn": [
+        {
+          "term": "La proporción ideal: 25–30 a 1",
+          "body": "Para un compostaje caliente rápido, la proporción ideal de carbono a nitrógeno es de **25:1 a 30:1** — suficiente carbono como energía para los microorganismos, y suficiente nitrógeno para que puedan construir sus propias células y multiplicarse rápido. Esta proporción no es arbitraria: refleja las necesidades metabólicas reales de las bacterias termofílicas que hacen la mayor parte del trabajo."
+        },
+        {
+          "term": "Qué pasa fuera de ese rango",
+          "body": "**Por debajo de 20:1** (demasiado nitrógeno): el exceso escapa como gas amoníaco, generando mal olor y desperdiciando un nutriente valioso. **Por encima de 35–40:1** (demasiado carbono): los microorganismos se quedan sin suficiente nitrógeno para multiplicarse, y la descomposición se vuelve mucho más lenta, a veces tardando meses o años de más."
+        },
+        {
+          "term": "\"Marrones\" y \"verdes\": la versión práctica",
+          "body": "En la práctica de jardín, casi nadie calcula la proporción exacta — se habla de **\"marrones\"** (materiales ricos en carbono: hojas secas, cartón, paja) y **\"verdes\"** (materiales ricos en nitrógeno: restos de cocina, pasto recién cortado, estiércol). Como punto de partida razonable, **2 a 4 partes de marrones por cada parte de verdes, por volumen**, suele acercarse bastante a la proporción ideal — aunque, como se ve en el punto siguiente, el volumen no siempre refleja la realidad química."
+        },
+        {
+          "term": "Por qué el volumen puede engañar",
+          "body": "La proporción C:N real se calcula por **peso seco**, no por volumen — un material verde y húmedo pesa mucho más por el mismo volumen que un material marrón y seco, así que una pila que \"se ve\" bien balanceada por volumen puede estar bastante desviada en términos reales. En la práctica de jardín esto rara vez importa al punto de necesitar cálculos exactos, pero explica por qué a veces una pila armada \"a ojo\" con la regla de 3 a 1 no se comporta como se esperaba."
+        },
+        {
+          "term": "Cuando tengas dudas, agregá marrones",
+          "body": "Un exceso de marrones simplemente hace que el proceso sea más lento; un exceso de verdes genera olor y una pila húmeda y pesada. Ante la duda, **agregar más material marrón es el ajuste más seguro** — el peor resultado posible es un compostaje que tarda más, no uno que huele mal o atrae plagas."
+        }
+      ],
+      "videos": [],
+      "project": "Armá una pila nueva apuntando a una proporción de 3 partes de marrones por 1 parte de verdes, y anotá cómo se comporta en los primeros días.",
+      "check": "¿Por qué una pila armada con la regla de \"3 a 1 por volumen\" puede terminar con una proporción C:N real muy distinta a la esperada?"
+    },
+    {
+      "id": "b3",
+      "number": 3,
+      "title": "Sistemas de compostaje: cuál elegir",
+      "hours": 2,
+      "goal": "Conocer las opciones de sistema y elegir la que mejor se adapta a tu espacio y volumen de residuos.",
+      "visual": "compostSystems",
+      "learn": [
+        {
+          "term": "Montón abierto",
+          "body": "La opción más simple y económica: un montón de material apilado directamente en el suelo, sin ninguna estructura de contención. Funciona bien con suficiente volumen, pero es más vulnerable a perder forma, secarse por los bordes, o ser invadido por plagas si no se maneja con cuidado."
+        },
+        {
+          "term": "Bin o cajón",
+          "body": "Una estructura de madera, malla, o plástico que contiene el material, mantiene una forma más compacta (ayuda a retener calor y humedad), y da una apariencia más ordenada — la opción más común en huertas domésticas."
+        },
+        {
+          "term": "Tambor o compostador rotatorio",
+          "body": "Un contenedor cerrado que se puede girar para airear el material sin necesidad de palear — acelera bastante el proceso y facilita el volteo (Bloque 7), a cambio de un costo mayor y una capacidad generalmente más limitada que un montón o bin grande."
+        },
+        {
+          "term": "Compostaje en trinchera",
+          "body": "Se entierra el material orgánico directamente en una zanja en la huerta, dejando que se descomponga bajo tierra sin necesidad de ningún contenedor — un método de muy bajo mantenimiento, cubierto en detalle en el Bloque 5 junto al compostaje frío."
+        },
+        {
+          "term": "Cómo elegir",
+          "body": "Para volumen alto y foco en velocidad: **montón grande o bin con buen volteo** (compostaje caliente, Bloque 4). Para bajo mantenimiento y menos tiempo disponible: **trinchera o pila fría** (Bloque 5). Para espacios chicos o preferencia por un sistema más contenido y prolijo: **tambor rotatorio**. El tamaño mínimo importa en cualquiera de las opciones que busquen calor: **una pila de al menos un metro cúbico** es, en la práctica, el umbral por debajo del cual es difícil sostener temperatura termofílica."
+        }
+      ],
+      "videos": [],
+      "project": "Elegí el sistema de compostaje más adecuado para tu espacio y volumen de residuos, y armalo o adaptá el que ya tenés.",
+      "check": "¿Por qué una pila más chica que un metro cúbico tiene dificultad para calentarse, aunque el resto de los ingredientes esté bien balanceado?"
+    },
+    {
+      "id": "b4",
+      "number": 4,
+      "title": "Compostaje caliente: pasos y temperaturas",
+      "hours": 2,
+      "goal": "Manejar un compostaje caliente de principio a fin, entendiendo qué está pasando en cada etapa de temperatura.",
+      "visual": "hotCompostStages",
+      "learn": [
+        {
+          "term": "La fase termofílica",
+          "body": "Con la proporción C:N correcta (Bloque 2), suficiente volumen (Bloque 3), y buena humedad, una pila bien armada puede alcanzar **entre 55°C y 65°C (131–149°F) dentro de las primeras 48 horas**, sostenido por bacterias termofílicas (\"amantes del calor\") que son las responsables del calor característico del compostaje caliente."
+        },
+        {
+          "term": "Por qué el calor importa, más allá de la velocidad",
+          "body": "Sostener una temperatura de al menos 55°C durante **varios días seguidos** no solo acelera la descomposición: también **mata la mayoría de las semillas de maleza y muchos patógenos comunes** que puedan estar presentes en el material original — una ventaja real del compostaje caliente frente al compostaje frío, que no alcanza temperaturas suficientes para este efecto."
+        },
+        {
+          "term": "Las tres señales de que algo no calienta bien",
+          "body": "Si la pila no calienta, revisá en este orden: **¿el volumen es suficiente?** (menos de un metro cúbico rara vez sostiene calor). **¿la humedad es suficiente?** (una pila seca no sostiene actividad microbiana rápida). **¿la proporción C:N sigue siendo demasiado alta?** (exceso de material marrón sin suficiente nitrógeno). Cualquiera de los tres, por separado, puede explicar una pila que no calienta."
+        },
+        {
+          "term": "El volteo regular",
+          "body": "A medida que el centro de la pila se calienta, el oxígeno se agota más rápido ahí que en los bordes — voltear la pila cada pocos días redistribuye el material, reintroduce oxígeno, y ayuda a que todo el volumen pase por la fase caliente de forma más pareja (se profundiza en el Bloque 7)."
+        },
+        {
+          "term": "El ciclo completo",
+          "body": "Después de varias semanas de fase caliente con volteos regulares, la pila deja de calentarse de forma sostenida — señal de que la mayor parte del material fácil de descomponer ya se procesó. En ese punto entra en la **fase de maduración o curado** (Bloque 10), más lenta y a temperatura ambiente, antes de estar lista para usar."
+        }
+      ],
+      "videos": [],
+      "project": "Armá una pila de compostaje caliente y medí su temperatura diariamente durante las primeras dos semanas con un termómetro de compost.",
+      "check": "Tu pila no está calentando después de armarla bien. ¿Cuáles son los tres factores que revisarías, en qué orden?"
+    },
+    {
+      "id": "b5",
+      "number": 5,
+      "title": "Compostaje frío y en trinchera",
+      "hours": 2,
+      "goal": "Compostar con el mínimo esfuerzo posible, aceptando un proceso más lento a cambio de mucho menos trabajo.",
+      "visual": null,
+      "learn": [
+        {
+          "term": "Qué es el compostaje frío",
+          "body": "Simplemente **acumular material orgánico con el tiempo, sin preocuparse demasiado por proporciones exactas, volteo frecuente, o alcanzar temperatura termofílica** — funciona, solo que mucho más lento (meses a más de un año, en vez de semanas), porque la descomposición ocurre a temperatura ambiente con microorganismos mesofílicos en vez de termofílicos."
+        },
+        {
+          "term": "La proporción C:N importa menos acá",
+          "body": "Como no se busca activamente la fase caliente, la proporción carbono-nitrógeno es **bastante menos crítica** que en el compostaje caliente — el rango tolerable es más amplio (hasta 50:1), aunque seguir cubriendo los verdes con marrones ayuda igual a evitar olores y plagas."
+        },
+        {
+          "term": "Compostaje en trinchera: enterrar en vez de apilar",
+          "body": "Se cava una zanja de unos 30 cm de profundidad directamente en la huerta, se coloca el material orgánico, y se cubre con la misma tierra removida — la descomposición ocurre bajo tierra, alimentando directamente esa zona del suelo sin necesidad de manejar ni cosechar un montón visible."
+        },
+        {
+          "term": "Ventajas del compostaje frío",
+          "body": "Prácticamente **sin mantenimiento activo**: no hace falta voltear, medir temperatura, ni preocuparse tanto por el balance exacto de materiales. Ideal para quien genera residuos de forma constante pero no tiene tiempo o ganas de gestionar activamente una pila caliente."
+        },
+        {
+          "term": "Desventajas a tener en cuenta",
+          "body": "No mata semillas de maleza ni la mayoría de los patógenos de forma confiable (a diferencia del compostaje caliente, Bloque 4) — por eso el compostaje frío es menos apropiado para materiales con enfermedad de planta visible o semillas de maleza abundantes, cubierto con más detalle en el Bloque 6."
+        }
+      ],
+      "videos": [],
+      "project": "Probá el compostaje en trinchera en una sección de tu huerta que vayas a sembrar en unos meses.",
+      "check": "¿Por qué el compostaje frío no es una buena opción para materiales con semillas de maleza abundantes?"
+    },
+    {
+      "id": "b6",
+      "number": 6,
+      "title": "Qué compostar y qué no",
+      "hours": 2,
+      "goal": "Saber con precisión qué materiales entran a la pila y cuáles conviene evitar siempre, y por qué.",
+      "visual": "compostDoDont",
+      "learn": [
+        {
+          "term": "Lo que sí: la gran mayoría de tus residuos",
+          "body": "Restos de frutas y verduras, borra y filtros de café, cáscaras de huevo, cartón y papel sin tintas brillantes, hojas secas, pasto cortado (en capas delgadas, mezclado con marrones para evitar que se compacte y huela), y restos de poda sanos y sin semillas."
+        },
+        {
+          "term": "Carne, lácteos y grasas: siempre afuera",
+          "body": "Se descomponen generando **olores muy fuertes que atraen roedores, moscas y otros animales** de forma prácticamente garantizada, incluso enterrados dentro de la pila. Un sistema de compostaje doméstico estándar no está diseñado para manejar este tipo de material de forma segura."
+        },
+        {
+          "term": "Excrementos de mascotas carnívoras: un riesgo real de salud",
+          "body": "La materia fecal de perros y gatos puede contener **parásitos y bacterias resistentes al calor** (huevos de lombrices intestinales, ciertas bacterias) que un compostaje doméstico típico no siempre alcanza a eliminar de forma confiable, incluso con compostaje caliente bien manejado — este material va a la basura general, nunca al compost de la huerta. El estiércol de animales estrictamente herbívoros (conejo, por ejemplo) sí es un buen aporte de nitrógeno."
+        },
+        {
+          "term": "Plantas enfermas y malezas con semilla",
+          "body": "Un compostaje doméstico típico **no siempre alcanza una temperatura uniforme en toda la pila** — los bordes y las esquinas suelen quedar más fríos que el centro. Material con hongos, tizón, u otra enfermedad visible puede sobrevivir en esas zonas más frías y reintroducir el mismo problema al aplicar el compost terminado en la huerta. Lo mismo aplica a malezas invasoras con semilla o raíces agresivas (como la correhuela): mejor mantenerlas completamente fuera del sistema, o dedicarles un compostaje caliente separado y bien controlado si de verdad querés intentarlo."
+        },
+        {
+          "term": "Otros materiales a evitar siempre",
+          "body": "Madera tratada químicamente, ceniza de carbón (sube demasiado el pH y puede aportar metales pesados), material sintético o plástico (no se descompone, y contamina el compost terminado con fragmentos), y grandes cantidades de cítricos de una sola vez (pueden alterar el pH de una zona puntual de la pila)."
+        }
+      ],
+      "videos": [],
+      "project": "Revisá qué estás agregando actualmente a tu compost y ajustá cualquier material de la lista de \"nunca\".",
+      "check": "¿Por qué el excremento de un perro o un gato es un riesgo distinto al estiércol de un conejo o una gallina?"
+    },
+    {
+      "id": "b7",
+      "number": 7,
+      "title": "Aireación, humedad y tamaño de partícula",
+      "hours": 2,
+      "goal": "Manejar los tres factores físicos que, junto con el C:N, determinan qué tan bien funciona la pila.",
+      "visual": null,
+      "learn": [
+        {
+          "term": "Humedad: como una esponja bien escurrida",
+          "body": "El punto de referencia clásico es que el material se sienta **húmedo al tacto, pero sin gotear agua al apretarlo** — una pila demasiado seca no sostiene actividad microbiana; una pila demasiado húmeda desplaza el oxígeno de los espacios entre partículas y favorece las condiciones anaeróbicas del Bloque 1."
+        },
+        {
+          "term": "Aireación: por qué voltear funciona",
+          "body": "Voltear la pila reintroduce oxígeno en las zonas centrales que se van agotando a medida que los microorganismos consumen el disponible, y redistribuye el material más descompuesto de adentro hacia afuera (y viceversa), ayudando a que toda la pila pase por la fase activa de forma más pareja."
+        },
+        {
+          "term": "Tamaño de partícula: un balance de opuestos",
+          "body": "Material picado en trozos chicos tiene más superficie expuesta y se descompone más rápido — pero si el material es demasiado fino y se compacta, **bloquea justamente el flujo de aire** que la descomposición necesita. Material demasiado grueso (ramas enteras, por ejemplo) mantiene buen flujo de aire pero tarda mucho en descomponerse. Un tamaño intermedio, con algo de material grueso mezclado para mantener espacios de aire, suele ser el mejor equilibrio."
+        },
+        {
+          "term": "Cómo revisar la humedad sin instrumentos",
+          "body": "Tomar un puñado del centro de la pila y apretarlo: si escurre agua, está demasiado húmeda (agregar marrones secos); si se desarma seca y sin cohesión, está demasiado seca (agregar agua o material verde húmedo); si queda húmeda y se mantiene unida sin gotear, está en el punto correcto."
+        },
+        {
+          "term": "Estos tres factores trabajan junto al C:N, no en su lugar",
+          "body": "Una proporción C:N perfecta con una pila demasiado seca o demasiado compactada igual va a fallar en calentarse o descomponerse bien — los cuatro factores (C:N, humedad, aire, tamaño de partícula) necesitan estar razonablemente bien ajustados **al mismo tiempo**, no uno a la vez."
+        }
+      ],
+      "videos": [],
+      "project": "Hacé la prueba del puñado en tu pila actual y ajustá humedad o tamaño de partícula según el resultado.",
+      "check": "¿Por qué picar el material demasiado fino puede terminar perjudicando la descomposición en vez de acelerarla?"
+    },
+    {
+      "id": "b8",
+      "number": 8,
+      "title": "Solución de problemas",
+      "hours": 2,
+      "goal": "Diagnosticar y corregir los problemas más comunes de una pila de compost.",
+      "visual": null,
+      "learn": [
+        {
+          "term": "Olor a amoníaco o a huevo podrido",
+          "body": "El amoníaco señala **exceso de nitrógeno** en relación al carbono disponible (Bloque 2) — agregar material marrón seco corrige el balance. Un olor a podrido o a huevo indica **condiciones anaeróbicas**, generalmente por exceso de humedad o compactación — voltear la pila y agregar material seco y grueso para recuperar aire suele resolverlo."
+        },
+        {
+          "term": "La pila no calienta",
+          "body": "Como se vio en el Bloque 4, revisá en orden: volumen insuficiente, humedad insuficiente, o proporción C:N todavía demasiado alta en carbono. Ajustar el factor identificado casi siempre reactiva la fase caliente."
+        },
+        {
+          "term": "La pila está pegajosa y sin estructura (\"slimy\")",
+          "body": "Generalmente indica **exceso de material verde húmedo sin suficiente estructura** de material grueso o seco que mantenga espacios de aire — agregar cartón picado, paja, o ramas chicas trituradas suele corregirlo rápido."
+        },
+        {
+          "term": "Moscas de la fruta y otras plagas",
+          "body": "Casi siempre por **restos de comida expuestos en la superficie** en vez de bien enterrados dentro de la pila — cubrir cada adición nueva con una capa de material marrón resuelve la mayoría de estos casos sin necesidad de ningún otro cambio."
+        },
+        {
+          "term": "Roedores u otros animales grandes",
+          "body": "Casi siempre relacionado con material que nunca debió estar en la pila (carne, lácteos, grasas — Bloque 6) o restos de comida mal enterrados. Revisar y retirar cualquier material prohibido, y reforzar el enterrado de restos nuevos, suele resolver el problema de raíz en vez de solo ahuyentar a los animales temporalmente."
+        }
+      ],
+      "videos": [],
+      "project": "Diagnosticá el problema más notorio de tu propia pila (si tenés uno) y aplicá el ajuste correspondiente.",
+      "check": "¿Por qué el olor a amoníaco y el olor a podrido apuntan a dos problemas distintos, aunque ambos sean \"mal olor\"?"
+    },
+    {
+      "id": "b9",
+      "number": 9,
+      "title": "Compostaje en el calor y la sequía del Chaco",
+      "hours": 2,
+      "goal": "Mantener un sistema de compostaje activo y equilibrado durante el verano chaqueño, sin que se seque de más ni se pudra.",
+      "visual": null,
+      "learn": [
+        {
+          "term": "El desafío central: la humedad se evapora mucho más rápido",
+          "body": "El mismo punto óptimo de humedad (Bloque 7) se pierde mucho más rápido con el calor y el viento del Chaco que en un clima templado — una pila que se revisaba semanalmente en otras condiciones puede necesitar **revisión de humedad cada dos o tres días** durante las semanas más calurosas del verano."
+        },
+        {
+          "term": "Ubicación y sombra",
+          "body": "Ubicar el sistema de compostaje en **sombra parcial, especialmente protegido del sol directo de la tarde**, reduce notablemente la velocidad de evaporación comparado con exponerlo a sol pleno todo el día — el mismo principio que ya se aplica a la huerta y al meliponario en climas de calor extremo."
+        },
+        {
+          "term": "Una capa de cobertura reduce la evaporación",
+          "body": "Cubrir la superficie de la pila con una capa de paja, hojas secas, o incluso un cartón húmedo, reduce significativamente la pérdida de humedad por evaporación directa — un ajuste simple que hace una diferencia notable durante las semanas de más calor."
+        },
+        {
+          "term": "Regar la pila como se riega una huerta",
+          "body": "Durante el pico de calor, puede hacer falta **regar directamente la pila de compost**, igual que se riega un cultivo, para mantener la humedad dentro del rango correcto — revisando con la prueba del puñado (Bloque 7) antes y después de cada riego para no pasarse."
+        },
+        {
+          "term": "Integración con tu sistema existente",
+          "body": "Si ya tenés vermicompostaje, huerta, y gallinas, el compostaje térmico se suma como una vía adicional para materiales que no son ideales para las lombrices (por ejemplo, mayores volúmenes de material leñoso o poda) — usando el compost térmico y el humus de lombriz de forma complementaria según el tipo de residuo que generes."
+        }
+      ],
+      "videos": [],
+      "project": "Ajustá la ubicación y la cobertura de tu sistema de compostaje pensando específicamente en el pico de calor del verano.",
+      "check": "¿Por qué la frecuencia de revisión de humedad necesita aumentar durante las semanas más calurosas del año?"
+    },
+    {
+      "id": "b10",
+      "number": 10,
+      "title": "Cosecha, curado y uso del compost terminado",
+      "hours": 2,
+      "goal": "Saber cuándo el compost está realmente listo, cómo terminarlo bien, y cómo aplicarlo.",
+      "visual": null,
+      "learn": [
+        {
+          "term": "Señales de que el compost está listo",
+          "body": "El material ya no calienta de forma notoria después de voltearlo, ya no se reconocen los materiales originales (no quedan trozos identificables de cáscara o cartón), y tiene un **color oscuro parejo y olor a tierra**, no a ningún material específico de los que se agregaron."
+        },
+        {
+          "term": "El curado: un paso que no conviene saltear",
+          "body": "Incluso cuando ya dejó de calentar, conviene dejar el compost **reposar (curar) durante al menos cuatro semanas más** antes de usarlo en contacto directo con raíces jóvenes o semillas — un compost recién terminado pero no curado puede seguir teniendo actividad microbiana intensa que compite con las plantas por nitrógeno, o compuestos todavía no completamente estabilizados."
+        },
+        {
+          "term": "Cómo aplicarlo",
+          "body": "Mezclado en el suelo antes de sembrar, como cobertura superficial (mulch) alrededor de plantas ya establecidas, o incorporado a sustrato para macetas en menor proporción — muy similar a cómo se aplica el humus de lombriz, aunque el compost térmico suele tener una textura algo más gruesa salvo que se tamice antes de usar."
+        },
+        {
+          "term": "Compost térmico vs. humus de lombriz: cuándo usar cada uno",
+          "body": "Ambos mejoran el suelo, pero no son idénticos: el compost térmico procesa **mayores volúmenes de una vez**, incluyendo material más leñoso o fibroso que las lombrices manejan peor, y puede eliminar semillas de maleza y patógenos si se maneja como compostaje caliente (algo que el vermicompostaje no hace). El humus de lombriz suele tener una **comunidad microbiana particularmente activa** y una textura más fina, ideal para trasplantes y plantines delicados. Muchas fincas usan ambos según el tipo de residuo y el uso final."
+        },
+        {
+          "term": "Tamizar para un acabado más fino",
+          "body": "Pasar el compost terminado por una malla o zaranda separa los trozos todavía no completamente descompuestos (que vuelven a la próxima pila) del material fino, listo para mezclar en sustratos de siembra o aplicar cerca de plantines jóvenes."
+        }
+      ],
+      "videos": [],
+      "project": "Cosechá tu primer lote de compost curado, tamizalo, y aplicalo en una sección de tu huerta o jardín.",
+      "check": "¿Por qué un compost que ya dejó de calentar todavía puede no estar listo para usar junto a una semilla recién sembrada?"
+    }
+  ]
+}

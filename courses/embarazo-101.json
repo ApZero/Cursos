@@ -1,0 +1,645 @@
+{
+  "schemaVersion": 1,
+  "id": "embarazo-101",
+  "title": "Embarazo 101",
+  "subtitle": "Guía completa del embarazo, el parto y el posparto — 36 horas, de la confirmación al recién nacido",
+  "category": "Salud",
+  "description": "Un curso exhaustivo sobre el embarazo: desarrollo fetal trimestre a trimestre, cambios en el cuerpo, nutrición, controles prenatales, señales de alerta, planificación del parto, las etapas del trabajo de parto, recuperación posparto, salud mental, lactancia, y cuidado del recién nacido. Este curso es educativo y no reemplaza el control con un obstetra o profesional de la salud: cada embarazo es distinto, y las decisiones médicas siempre deben consultarse con quien te atiende.",
+  "totalHours": 36,
+  "resources": {
+    "books": [
+      {
+        "title": "Expecting Better",
+        "author": "Emily Oster",
+        "note": "Revisión basada en evidencia de las recomendaciones estándar del embarazo, útil para entender el porqué detrás de cada indicación."
+      },
+      {
+        "title": "What to Expect When You're Expecting",
+        "author": "Heidi Murkoff",
+        "note": "Referencia clásica semana a semana, ampliamente usada como guía general de consulta."
+      }
+    ],
+    "channels": [
+      {
+        "name": "American College of Obstetricians and Gynecologists (ACOG)",
+        "url": "https://www.acog.org"
+      },
+      {
+        "name": "American Academy of Pediatrics — HealthyChildren.org",
+        "url": "https://www.healthychildren.org"
+      }
+    ]
+  },
+  "finalChallenge": [
+    "Llegá a cada control prenatal programado con tus preguntas anotadas de antemano.",
+    "Armá tu propio plan de parto, conversado con tu equipo médico.",
+    "Identificá de memoria las señales de alerta que requieren atención médica inmediata.",
+    "Prepará la casa y la lista de elementos esenciales para el recién nacido, incluyendo un espacio de sueño seguro.",
+    "Armá una red de apoyo real (pareja, familia, profesionales) para el posparto, antes de que el bebé nazca.",
+    "Si tenés dudas sobre cualquier síntoma, contactá a tu profesional de salud en vez de esperar a que se resuelva solo."
+  ],
+  "blocks": [
+    {
+      "id": "b1",
+      "number": 1,
+      "title": "Confirmar el embarazo y calcular la fecha probable de parto",
+      "hours": 2,
+      "goal": "Entender cómo se confirma un embarazo y cómo se calcula (y por qué varía) la fecha de parto.",
+      "visual": "dueDateWheel",
+      "learn": [
+        {
+          "term": "Confirmar el embarazo",
+          "body": "Un test de embarazo casero detecta la hormona **gonadotrofina coriónica humana (hCG)** en orina, generalmente confiable desde el primer día de atraso menstrual. Un análisis de sangre en un centro de salud puede detectar hCG incluso antes, y es el método que usa tu profesional de salud para confirmar y fechar el embarazo con más precisión."
+        },
+        {
+          "term": "La regla de Naegele: el cálculo clásico",
+          "body": "El método estándar para estimar la fecha probable de parto toma el **primer día de tu última menstruación, le suma un año, le resta tres meses, y le suma siete días** — el resultado son unas 40 semanas (280 días) desde esa fecha, asumiendo un ciclo de 28 días con ovulación en el día 14."
+        },
+        {
+          "term": "Por qué la ecografía temprana es más precisa",
+          "body": "La regla de Naegele asume un ciclo regular de 28 días — algo que no aplica a todo el mundo. Una **ecografía realizada antes de las 14 semanas**, que mide el tamaño del embrión o feto, suele dar una fecha más precisa que el cálculo basado solo en la última menstruación, especialmente con ciclos irregulares, largos o cortos. Una vez establecida por ecografía temprana, la fecha probable de parto generalmente no se vuelve a recalcular con ecografías posteriores."
+        },
+        {
+          "term": "La fecha de parto es una estimación, no una cita",
+          "body": "Según el Colegio Americano de Ginecología y Obstetricia (ACOG), se considera **\"término completo\" desde la semana 39**, y un nacimiento entre las semanas 39 y 41 se considera dentro del rango normal — de hecho, **solo un 4% de los bebés nace exactamente en la fecha calculada**. La variación normal entre embarazos sanos abarca varias semanas."
+        },
+        {
+          "term": "Los tres trimestres",
+          "body": "El embarazo se divide convencionalmente en tres trimestres: **primer trimestre (semanas 1 a 13)**, **segundo trimestre (semanas 14 a 27)**, y **tercer trimestre (semanas 28 a 40)** — una división que organiza el resto de este curso y que vas a escuchar constantemente en tus controles prenatales."
+        }
+      ],
+      "videos": [],
+      "project": null,
+      "check": "¿Por qué una ecografía hecha antes de las 14 semanas suele ser más confiable que el cálculo por última menstruación?"
+    },
+    {
+      "id": "b2",
+      "number": 2,
+      "title": "Primer trimestre: desarrollo fetal y cambios en el cuerpo",
+      "hours": 2,
+      "goal": "Entender qué está pasando con el embrión y con tu cuerpo durante las primeras 13 semanas.",
+      "visual": "fetalGrowth1",
+      "learn": [
+        {
+          "term": "De embrión a los primeros órganos",
+          "body": "Durante las primeras semanas se forman el **tubo neural** (que va a dar origen al cerebro y la médula espinal), el corazón (que empieza a latir alrededor de la semana 6), y los primeros esbozos de brazos y piernas. Por esto es tan importante empezar el ácido fólico **antes** de la concepción si es posible — el tubo neural se cierra en las primeras 3 a 4 semanas, muchas veces antes de que la persona sepa que está embarazada."
+        },
+        {
+          "term": "Hacia el final del primer trimestre",
+          "body": "Para la semana 12–13, el feto ya tiene todos los órganos principales formados (aunque inmaduros), mide unos centímetros, y ya se pueden distinguir dedos de manos y pies en una ecografía."
+        },
+        {
+          "term": "Náuseas y vómitos (\"mareos matutinos\")",
+          "body": "Muy comunes en el primer trimestre, ligados al aumento rápido de hCG y otros cambios hormonales — a pesar del nombre, pueden ocurrir a cualquier hora del día. Comer porciones pequeñas y frecuentes, evitar el estómago completamente vacío, y el jengibre suelen ayudar. Si los vómitos son tan severos que no podés retener líquidos, sentís mareo, o notás orina muy escasa, es momento de consultar — puede indicar deshidratación que necesita atención."
+        },
+        {
+          "term": "Cansancio extremo",
+          "body": "El aumento de progesterona y el enorme gasto energético de las primeras semanas de desarrollo explican una fatiga que sorprende a muchas personas por su intensidad — es normal, y suele mejorar hacia el segundo trimestre."
+        },
+        {
+          "term": "Sensibilidad en los senos y cambios de humor",
+          "body": "Ambos ligados a los cambios hormonales rápidos de esta etapa. Son parte esperada del ajuste del cuerpo, no una señal de alarma por sí solos."
+        }
+      ],
+      "videos": [],
+      "project": "Empezá (o confirmá) tu suplemento de ácido fólico y anotá los síntomas del primer trimestre que estás experimentando.",
+      "check": "¿Por qué el ácido fólico se recomienda incluso antes de confirmar el embarazo, y no solo después?"
+    },
+    {
+      "id": "b3",
+      "number": 3,
+      "title": "Nutrición durante el embarazo: qué comer y qué evitar",
+      "hours": 2,
+      "goal": "Cubrir las necesidades nutricionales del embarazo y conocer los riesgos alimentarios reales, sin caer en el pánico.",
+      "visual": "nutritionPlate",
+      "learn": [
+        {
+          "term": "Ácido fólico",
+          "body": "La dosis estándar recomendada es de **400 microgramos (mcg) diarios** para toda persona en edad fértil, aumentando en muchos casos con el prenatal específico que indique tu profesional de salud. Previene defectos del tubo neural, y por eso su ventana de mayor importancia son las primeras semanas, muchas veces antes de saber que hay embarazo."
+        },
+        {
+          "term": "Hierro, calcio y DHA",
+          "body": "El **hierro** sostiene el aumento del volumen sanguíneo y previene anemia, cada vez más exigido a medida que avanza el embarazo. El **calcio** apoya el desarrollo óseo del feto, tomando del cuerpo materno si la dieta no alcanza. El **DHA** (un ácido graso omega-3) contribuye al desarrollo cerebral y visual fetal, presente en pescados grasos de bajo mercurio (Bloque siguiente) y en muchos prenatales."
+        },
+        {
+          "term": "Listeria: el riesgo más subestimado",
+          "body": "La bacteria *Listeria monocytogenes* puede atravesar la placenta y, aunque en la persona embarazada a veces cause síntomas leves parecidos a gripe o ninguno, puede provocar **aborto espontáneo, parto prematuro o infección grave del recién nacido**. Las personas embarazadas tienen un riesgo notablemente más alto que la población general de desarrollar listeriosis. Fuentes de riesgo: **fiambres y patés refrigerados sin recalentar hasta estar bien calientes, quesos blandos no pasteurizados (brie, feta, azul, roquefort no pasteurizados), leche no pasteurizada, y pescado ahumado refrigerado**. Calentar los fiambres hasta que humeen antes de comerlos elimina el riesgo."
+        },
+        {
+          "term": "Mercurio en pescado",
+          "body": "El metilmercurio atraviesa la placenta y puede dañar el desarrollo del sistema nervioso fetal. Los pescados grandes y de vida larga (**tiburón, pez espada, caballa gigante/king mackerel, blanquillo/tilefish**) acumulan las concentraciones más altas y se recomienda evitarlos; pescados chicos y de agua fría (sardinas, por ejemplo) tienen niveles bajos y se pueden disfrutar dentro de las porciones semanales recomendadas por tu profesional de salud."
+        },
+        {
+          "term": "Otros riesgos a evitar",
+          "body": "**Carne, pollo, pescado o huevo crudo o poco cocido** (riesgo de salmonella, toxoplasma y otras bacterias), **brotes crudos**, y por supuesto **alcohol**, que no tiene un nivel considerado seguro durante el embarazo. La cafeína no necesita eliminarse del todo, pero se recomienda moderarla según la indicación de tu profesional de salud."
+        }
+      ],
+      "videos": [],
+      "project": "Revisá tu heladera y despensa, identificando y ajustando cualquier alimento de riesgo de la lista anterior.",
+      "check": "¿Por qué un fiambre frío del mostrador de la fiambrería representa un riesgo, pero el mismo fiambre bien recalentado no?"
+    },
+    {
+      "id": "b4",
+      "number": 4,
+      "title": "Controles prenatales y estudios importantes",
+      "hours": 2,
+      "goal": "Saber qué esperar de cada control prenatal y para qué sirve cada estudio.",
+      "visual": "prenatalSchedule",
+      "learn": [
+        {
+          "term": "Por qué empezar el control cuanto antes",
+          "body": "ACOG recomienda comenzar el control prenatal **lo antes posible dentro del primer trimestre** — permite fechar el embarazo con precisión (Bloque 1), detectar condiciones preexistentes que puedan afectar el embarazo, y establecer una línea de base para comparar en controles futuros."
+        },
+        {
+          "term": "Frecuencia habitual de controles",
+          "body": "Un cronograma típico (que tu profesional puede ajustar según tu situación) es aproximadamente **una vez al mes hasta la semana 28, cada dos semanas de la semana 28 a la 36, y semanalmente desde la semana 36 hasta el parto** — la frecuencia aumenta a medida que se acerca la fecha porque hay más que monitorear y menos margen de tiempo para actuar si algo cambia."
+        },
+        {
+          "term": "Ecografías",
+          "body": "Una **ecografía temprana** (antes de la semana 14) confirma la fecha y detecta embarazos múltiples. Una **ecografía morfológica o \"anatómica\"**, generalmente entre las semanas 18 y 22, revisa en detalle el desarrollo de los órganos y detecta la mayoría de las anomalías estructurales visibles."
+        },
+        {
+          "term": "Análisis de sangre y orina de rutina",
+          "body": "Se controla de forma repetida a lo largo del embarazo: **grupo sanguíneo y factor Rh, hemoglobina (para detectar anemia), glucosa (para detectar diabetes gestacional, generalmente entre las semanas 24 y 28), proteína en orina (asociada a preeclampsia), e infecciones urinarias**, que en el embarazo tienen mayor riesgo de complicarse si no se tratan."
+        },
+        {
+          "term": "Test de estreptococo del grupo B",
+          "body": "Un hisopado vaginal y rectal de rutina, generalmente entre las semanas 36 y 37, detecta esta bacteria común que puede transmitirse al bebé durante el parto vaginal — si da positivo, se indica un antibiótico durante el trabajo de parto, no antes, para proteger al recién nacido."
+        },
+        {
+          "term": "Llevá tus preguntas anotadas",
+          "body": "Un control prenatal dura poco tiempo y es fácil olvidar preguntas que surgieron en la semana. Anotarlas de antemano en el teléfono o en un cuaderno asegura que se aprovechen bien esos minutos con tu profesional de salud."
+        }
+      ],
+      "videos": [],
+      "project": "Armá tu calendario de controles prenatales según la indicación de tu profesional, con recordatorios para cada uno.",
+      "check": "¿Por qué la frecuencia de los controles prenatales aumenta a medida que se acerca la fecha de parto?"
+    },
+    {
+      "id": "b5",
+      "number": 5,
+      "title": "Segundo trimestre: desarrollo fetal y cambios en el cuerpo",
+      "hours": 2,
+      "goal": "Entender por qué muchas personas llaman al segundo trimestre el \"período dorado\", y qué está pasando por dentro.",
+      "visual": "fetalGrowth2",
+      "learn": [
+        {
+          "term": "Crecimiento acelerado",
+          "body": "Durante el segundo trimestre el feto crece rápidamente en tamaño, se desarrollan los sentidos (el oído empieza a funcionar, los ojos pueden reaccionar a la luz hacia el final del trimestre), y los movimientos se vuelven más coordinados y frecuentes."
+        },
+        {
+          "term": "\"Quickening\": los primeros movimientos que se sienten",
+          "body": "La mayoría de las personas empieza a sentir los primeros movimientos fetales notorios entre las semanas 16 y 25 — más temprano en embarazos posteriores al primero, ya que se reconoce mejor la sensación. Antes de esto, el feto ya se mueve, simplemente todavía no se percibe desde afuera."
+        },
+        {
+          "term": "Por qué se lo llama el período \"dorado\"",
+          "body": "Para muchas personas, las náuseas del primer trimestre ya disminuyeron, el cansancio extremo mejora, y la panza todavía no alcanzó el tamaño que puede volver incómodos el sueño y el movimiento en el tercer trimestre — una ventana relativamente cómoda entre dos etapas más desafiantes."
+        },
+        {
+          "term": "Cambios visibles en el cuerpo",
+          "body": "La panza se vuelve claramente visible, puede aparecer una línea oscura vertical en el abdomen (**línea negra**), y algunas personas notan **dolor de ligamento redondo** — un dolor agudo y breve a los costados de la panza baja, causado por el estiramiento de los ligamentos que sostienen el útero en crecimiento, generalmente inofensivo pero vale la pena mencionarlo en el control si es muy intenso o persistente."
+        },
+        {
+          "term": "Cambios en la piel y la circulación",
+          "body": "Muchas personas notan más brillo en la piel (por el aumento de volumen sanguíneo y actividad de las glándulas sebáceas), y algunas desarrollan manchas de pigmentación en el rostro (**melasma o \"máscara del embarazo\"**), que generalmente se atenúan después del parto."
+        }
+      ],
+      "videos": [],
+      "project": "Llevá un registro diario de los primeros movimientos fetales que empieces a notar.",
+      "check": "¿Por qué muchas personas describen el segundo trimestre como más cómodo que el primero y el tercero?"
+    },
+    {
+      "id": "b6",
+      "number": 6,
+      "title": "Ejercicio y movimiento seguro durante el embarazo",
+      "hours": 2,
+      "goal": "Mantenerse activa de forma segura durante el embarazo, ajustando la actividad a cada etapa.",
+      "visual": null,
+      "learn": [
+        {
+          "term": "El ejercicio moderado generalmente es seguro y beneficioso",
+          "body": "Para un embarazo sin complicaciones, la actividad física moderada regular está asociada a mejor manejo del peso, mejor calidad de sueño, menor riesgo de diabetes gestacional, y una recuperación posparto más rápida — siempre consultando primero con tu profesional de salud, especialmente si el embarazo tiene alguna condición particular."
+        },
+        {
+          "term": "Actividades generalmente bien toleradas",
+          "body": "Caminar, nadar, bicicleta fija, y yoga prenatal son opciones ampliamente recomendadas durante todo el embarazo, ajustando intensidad según cómo te sientas."
+        },
+        {
+          "term": "Qué evitar o discutir primero con tu profesional",
+          "body": "Deportes de contacto o con alto riesgo de caída (equitación, esquí, deportes de contacto), ejercicios boca arriba prolongados a partir del segundo trimestre (pueden comprimir vasos sanguíneos importantes), y buceo con tanque (riesgo de descompresión para el feto)."
+        },
+        {
+          "term": "Señales para detenerte y consultar",
+          "body": "Sangrado, mareo, dolor de pecho, contracciones, pérdida de líquido, o disminución de movimiento fetal durante o después de ejercitar son señales para parar y contactar a tu profesional de salud, no para \"esperar a ver si pasa\"."
+        },
+        {
+          "term": "Ajustar, no necesariamente parar",
+          "body": "La mayoría de las personas activas antes del embarazo pueden mantener buena parte de su rutina, ajustando intensidad y ciertos movimientos según el trimestre — la conversación con tu profesional de salud sobre tu caso particular vale mucho más que una regla genérica de internet."
+        }
+      ],
+      "videos": [],
+      "project": "Conversá con tu profesional de salud sobre qué actividad física es apropiada para tu situación particular, y armá una rutina simple.",
+      "check": "¿Por qué acostarse boca arriba por períodos prolongados se desaconseja a partir del segundo trimestre?"
+    },
+    {
+      "id": "b7",
+      "number": 7,
+      "title": "Tercer trimestre: desarrollo fetal y cambios en el cuerpo",
+      "hours": 2,
+      "goal": "Prepararse para las últimas semanas, entendiendo la maduración final del bebé y los cambios más intensos del cuerpo.",
+      "visual": "fetalGrowth3",
+      "learn": [
+        {
+          "term": "Maduración pulmonar",
+          "body": "Uno de los últimos sistemas en madurar por completo es el pulmonar — el desarrollo de **surfactante** (una sustancia que evita que los alvéolos colapsen) avanza fuertemente en las últimas semanas, una de las razones por las que nacer antes de tiempo aumenta el riesgo de dificultad respiratoria."
+        },
+        {
+          "term": "Aumento de peso y posicionamiento",
+          "body": "El feto gana la mayor parte de su peso en el tercer trimestre. Hacia el final, la mayoría se posiciona **cabeza abajo (presentación cefálica)** en preparación para el parto — tu profesional de salud confirma la posición en los controles finales."
+        },
+        {
+          "term": "Contracciones de Braxton Hicks",
+          "body": "Contracciones irregulares, generalmente indoloras o levemente incómodas, que preparan al útero para el trabajo de parto real sin ser trabajo de parto en sí — la diferencia clave con las contracciones reales es que **no siguen un patrón regular y no se intensifican progresivamente** (se profundiza en el Bloque 11)."
+        },
+        {
+          "term": "Falta de aire y dificultad para dormir",
+          "body": "El útero en su tamaño máximo presiona el diafragma, generando sensación de falta de aire, e incomodidad general dificulta encontrar una posición cómoda para dormir — dormir de costado, con almohadas de apoyo entre las piernas y bajo la panza, suele aliviar bastante."
+        },
+        {
+          "term": "Hinchazón (edema)",
+          "body": "Cierta hinchazón en pies y tobillos es común y esperable hacia el final del embarazo por la retención de líquidos y la presión del útero sobre la circulación. La hinchazón **súbita** en cara y manos, en cambio, es una señal de alerta distinta (Bloque 9) que no debe confundirse con la hinchazón gradual y común de fin de embarazo."
+        }
+      ],
+      "videos": [],
+      "project": "Armá una posición para dormir más cómoda usando almohadas de apoyo, y probá distintas configuraciones.",
+      "check": "¿Qué diferencia a las contracciones de Braxton Hicks de las contracciones de trabajo de parto real?"
+    },
+    {
+      "id": "b8",
+      "number": 8,
+      "title": "Señales de alerta: cuándo buscar atención médica inmediata",
+      "hours": 2,
+      "goal": "Reconocer con claridad las señales que requieren atención médica urgente, sin generar pánico por síntomas normales del embarazo.",
+      "visual": "warningSigns",
+      "learn": [
+        {
+          "term": "Sangrado vaginal",
+          "body": "El manchado leve puede ser normal en ciertas etapas, pero el **sangrado abundante, con coágulos, o acompañado de dolor** debe evaluarse de inmediato — puede indicar desprendimiento de placenta, aborto espontáneo, u otras causas que requieren atención urgente. Cualquier sangrado en el segundo o tercer trimestre debe consultarse sin demora."
+        },
+        {
+          "term": "Disminución o ausencia de movimiento fetal",
+          "body": "A partir de que empezás a sentir un patrón regular de movimientos (generalmente en el tercer trimestre), una **reducción notoria** merece atención: tomate un momento en un lugar tranquilo, recostada de costado, y contá los movimientos durante 30–60 minutos. Si sentís claramente menos de lo habitual, contactá a tu profesional de salud el mismo día — no esperes a ver si mejora sola."
+        },
+        {
+          "term": "Señales de preeclampsia",
+          "body": "**Dolor de cabeza severo o persistente que no mejora con descanso o analgésicos habituales, cambios en la visión (visión borrosa, ver destellos o manchas), hinchazón súbita en cara y manos, y dolor en la parte superior derecha del abdomen** son señales de alerta de preeclampsia, una complicación de presión arterial que puede progresar rápidamente y afectar tanto a la persona embarazada como al bebé. Ante cualquiera de estos síntomas, contactá a tu profesional de salud o andá a una guardia de inmediato."
+        },
+        {
+          "term": "Fiebre, dolor al orinar, y ruptura de membranas",
+          "body": "**Fiebre de 38°C o más** puede indicar infección y merece evaluación. **Dolor o ardor al orinar** puede ser una infección urinaria, más riesgosa durante el embarazo si no se trata. Una **pérdida repentina de líquido** (en chorro o goteo constante) puede ser ruptura de membranas, especialmente relevante si ocurre antes de la semana 37."
+        },
+        {
+          "term": "Contracciones regulares antes de la semana 37",
+          "body": "Contracciones que se repiten a intervalos regulares, dolor lumbar constante, presión pélvica, o cambios en el flujo vaginal antes de la semana 37 pueden ser señales de trabajo de parto prematuro y deben evaluarse cuanto antes."
+        },
+        {
+          "term": "La regla general: confiá en tu instinto",
+          "body": "Ante la duda sobre cualquier síntoma nuevo o que se siente distinto a lo habitual, **la recomendación consistente de los profesionales de salud es consultar**, incluso si termina siendo algo menor — es preferible una consulta de más que una señal seria pasada por alto."
+        }
+      ],
+      "videos": [],
+      "project": "Guardá en tu teléfono el número de contacto de tu profesional de salud y de la guardia más cercana, junto con esta lista de señales de alerta.",
+      "check": "¿Por qué una reducción notoria del movimiento fetal amerita actuar el mismo día, en vez de esperar al próximo control programado?"
+    },
+    {
+      "id": "b9",
+      "number": 9,
+      "title": "Condiciones comunes del embarazo",
+      "hours": 2,
+      "goal": "Conocer, a nivel general, las condiciones que tu profesional de salud monitorea activamente durante el embarazo.",
+      "visual": "conditionsOverview",
+      "learn": [
+        {
+          "term": "Diabetes gestacional",
+          "body": "Una forma de intolerancia a la glucosa que aparece durante el embarazo, generalmente detectada con el test de tolerancia a la glucosa entre las semanas 24 y 28 (Bloque 4). Se maneja con ajustes de alimentación, actividad física, y en algunos casos medicación, bajo seguimiento de tu profesional de salud — bien controlada, la mayoría de los embarazos con diabetes gestacional llegan a término sin mayores complicaciones."
+        },
+        {
+          "term": "Preeclampsia",
+          "body": "Presión arterial elevada durante el embarazo, frecuentemente acompañada de proteína en la orina, cubierta en detalle en el Bloque 8 por sus señales de alerta. El único tratamiento definitivo es el parto; mientras tanto, se maneja con monitoreo cercano y, según la gravedad, medicación para controlar la presión."
+        },
+        {
+          "term": "Placenta previa",
+          "body": "Ocurre cuando la placenta cubre parcial o totalmente el cuello uterino. Puede causar sangrado sin dolor, especialmente en el tercer trimestre, y según el grado y el momento del embarazo puede requerir cesárea programada en vez de parto vaginal."
+        },
+        {
+          "term": "Rotura prematura de membranas",
+          "body": "Cuando la bolsa de líquido amniótico se rompe antes del inicio del trabajo de parto — si ocurre antes de la semana 37, se considera prematura y requiere manejo especializado inmediato para reducir el riesgo de infección y anticipar el parto de forma segura."
+        },
+        {
+          "term": "Por qué estas condiciones se monitorean tan de cerca",
+          "body": "Ninguna de estas condiciones significa automáticamente un mal resultado — la razón por la que los controles prenatales existen (Bloque 4) es justamente **detectarlas temprano y manejarlas activamente**, algo que reduce enormemente el riesgo comparado con no detectarlas hasta que generan una complicación seria."
+        }
+      ],
+      "videos": [],
+      "project": "Anotá cualquier factor de riesgo personal o familiar relevante y conversalo explícitamente con tu profesional de salud en el próximo control.",
+      "check": "¿Por qué la detección temprana de la diabetes gestacional cambia tanto el resultado del embarazo?"
+    },
+    {
+      "id": "b10",
+      "number": 10,
+      "title": "Preparar el plan de parto",
+      "hours": 2,
+      "goal": "Pensar y conversar con anticipación las preferencias para el parto, sabiendo que la flexibilidad también es parte del plan.",
+      "visual": "birthPlanChecklist",
+      "learn": [
+        {
+          "term": "Qué es un plan de parto",
+          "body": "Un documento breve, conversado con tu profesional de salud y el equipo del lugar donde vas a dar a luz, que resume tus preferencias: manejo del dolor, quién te acompaña, posiciones para el parto, contacto piel con piel inmediato, y otras decisiones que preferís anticipar en vez de decidir en el momento."
+        },
+        {
+          "term": "Manejo del dolor: opciones a conversar",
+          "body": "Desde técnicas de respiración y movimiento sin medicación, pasando por óxido nitroso, hasta anestesia epidural — cada opción tiene distintos tiempos, efectos, y disponibilidad según el centro de salud. Conversarlas con anticipación te da más claridad al momento de decidir, aunque el plan pueda cambiar durante el parto mismo."
+        },
+        {
+          "term": "Dónde dar a luz",
+          "body": "Hospital, centro de parto, o parto domiciliario asistido son las opciones principales, cada una con distinto nivel de acceso inmediato a intervenciones médicas si surge una complicación — una conversación importante con tu profesional de salud, especialmente si tu embarazo tiene algún factor de riesgo."
+        },
+        {
+          "term": "La flexibilidad es parte del plan, no un fracaso del plan",
+          "body": "El trabajo de parto no siempre sigue lo planificado, y **necesitar un cambio de plan (por ejemplo, pasar de parto vaginal a cesárea) no es un fracaso personal** — es el sistema funcionando como debe cuando las circunstancias cambian. Un buen plan de parto incluye espacio mental para esa posibilidad desde el principio."
+        },
+        {
+          "term": "Compartilo con todo tu equipo",
+          "body": "Asegurate de que tu pareja o acompañante, y el equipo médico del lugar de parto, tengan una copia clara de tus preferencias — un plan que solo vive en tu cabeza es mucho más difícil de respetar en el momento."
+        }
+      ],
+      "videos": [],
+      "project": "Escribí tu plan de parto y conversalo en tu próximo control prenatal.",
+      "check": "¿Por qué se recomienda pensar la flexibilidad como parte del plan de parto, en vez de solo como un plan de respaldo?"
+    },
+    {
+      "id": "b11",
+      "number": 11,
+      "title": "Trabajo de parto: las etapas",
+      "hours": 2,
+      "goal": "Reconocer las etapas del trabajo de parto y qué esperar de cada una.",
+      "visual": "laborStages",
+      "learn": [
+        {
+          "term": "Las tres etapas generales",
+          "body": "El trabajo de parto se divide en **primera etapa (dilatación del cuello uterino), segunda etapa (pujo y nacimiento), y tercera etapa (alumbramiento de la placenta)** — cada una con su propia duración y ritmo, que tu equipo médico monitorea para guiar el proceso."
+        },
+        {
+          "term": "Primera etapa: trabajo de parto temprano, activo y transición",
+          "body": "El **trabajo de parto temprano** implica contracciones leves a moderadas cada 5 a 20 minutos, con dilatación de hasta unos 6 cm. El **trabajo de parto activo** suele empezar alrededor de los 6 cm, con contracciones más intensas y frecuentes. La **transición** (8 a 10 cm) es la parte final y más intensa de esta etapa, generalmente más corta pero física y emocionalmente más demandante — una señal de que el nacimiento se acerca."
+        },
+        {
+          "term": "Segunda etapa: pujo y nacimiento",
+          "body": "Comienza con la dilatación completa (10 cm) y termina con el nacimiento del bebé — incluye el descenso, el pujo coordinado, el coronamiento (cuando se empieza a ver la cabeza), y finalmente el nacimiento."
+        },
+        {
+          "term": "Tercera etapa: alumbramiento de la placenta",
+          "body": "Después del nacimiento, contracciones adicionales (generalmente más suaves) expulsan la placenta — el equipo médico la revisa para confirmar que salió completa, ya que restos retenidos pueden causar sangrado o infección."
+        },
+        {
+          "term": "La duración varía mucho, y eso es normal",
+          "body": "El trabajo de parto de un primer embarazo suele ser más largo que en embarazos posteriores, y **no existe un cronograma único que aplique a todos** — tu equipo médico evalúa el progreso combinando la dilatación, el patrón de contracciones, la posición del bebé, y el bienestar materno y fetal, no solo el reloj."
+        }
+      ],
+      "videos": [],
+      "project": "Conversá con tu profesional de salud sobre las señales específicas que indican que es momento de dirigirte al lugar de parto.",
+      "check": "¿Por qué la duración del trabajo de parto no se evalúa solo por el tiempo transcurrido, sino por varios factores combinados?"
+    },
+    {
+      "id": "b12",
+      "number": 12,
+      "title": "Parto vaginal y cesárea",
+      "hours": 2,
+      "goal": "Entender ambas vías de nacimiento, sus indicaciones, y qué implica cada una para la recuperación.",
+      "visual": "deliveryTypes",
+      "learn": [
+        {
+          "term": "Parto vaginal",
+          "body": "La vía de nacimiento más común cuando no hay factores que la contraindiquen. La recuperación inicial suele ser más rápida que la de una cesárea, aunque puede incluir molestias perineales, especialmente si hubo desgarro o episiotomía (un corte quirúrgico para ampliar la abertura vaginal, hoy reservado para situaciones específicas y no como rutina)."
+        },
+        {
+          "term": "Cesárea programada vs. de urgencia",
+          "body": "Una **cesárea programada** se decide con anticipación por indicaciones conocidas (placenta previa, presentación de nalgas persistente, cesárea previa con ciertas condiciones, entre otras). Una **cesárea de urgencia** se decide durante el trabajo de parto cuando surge una situación que hace más seguro el nacimiento quirúrgico que continuar por vía vaginal — sufrimiento fetal, falta de progreso del parto, o complicaciones maternas, entre otras razones."
+        },
+        {
+          "term": "Qué implica una cesárea",
+          "body": "Es una cirugía mayor: incisión abdominal y uterina, generalmente con anestesia regional (epidural o raquídea) que permite estar despierta durante el nacimiento. La recuperación es más larga que la de un parto vaginal sin complicaciones, con restricciones temporales de actividad física y cuidado de la herida quirúrgica."
+        },
+        {
+          "term": "Ninguna vía es un fracaso",
+          "body": "El objetivo final de cualquier parto es un nacimiento seguro para la persona gestante y el bebé — la vía por la que se llega a eso, decidida junto al equipo médico según las circunstancias reales, no define el valor de la experiencia ni el vínculo posterior con el bebé."
+        },
+        {
+          "term": "Parto vaginal después de una cesárea (PVDC)",
+          "body": "En muchos casos, sí es posible tener un parto vaginal en un embarazo posterior a una cesárea, dependiendo del tipo de incisión previa y otros factores individuales — una conversación específica para tener con tu profesional de salud si es tu situación."
+        }
+      ],
+      "videos": [],
+      "project": "Conversá con tu profesional de salud sobre qué escenarios podrían indicar una cesárea en tu caso particular.",
+      "check": "¿Por qué una cesárea de urgencia decidida durante el trabajo de parto no debería vivirse como un plan de parto \"fallido\"?"
+    },
+    {
+      "id": "b13",
+      "number": 13,
+      "title": "Las primeras horas después del parto",
+      "hours": 2,
+      "goal": "Saber qué sucede en las primeras horas, tanto con la persona que dio a luz como con el recién nacido.",
+      "visual": "apgarScore",
+      "learn": [
+        {
+          "term": "El puntaje Apgar",
+          "body": "Al minuto y a los cinco minutos de vida, se evalúa al recién nacido en cinco categorías —**apariencia (color), pulso, gesticulación/reflejos, actividad muscular, y respiración**—, cada una puntuada de 0 a 2, para un máximo de 10. Es una **instantánea rápida de adaptación inicial**, no un diagnóstico ni una predicción a largo plazo — un puntaje algo bajo al minuto que mejora a los cinco minutos es un patrón común y tranquilizador."
+        },
+        {
+          "term": "Contacto piel con piel",
+          "body": "Colocar al recién nacido sobre el pecho de la persona que dio a luz inmediatamente después del nacimiento (cuando la condición de ambos lo permite) ayuda a regular la temperatura y el ritmo cardíaco del bebé, y favorece el inicio de la lactancia — una práctica hoy priorizada en la mayoría de los protocolos de nacimiento."
+        },
+        {
+          "term": "Alumbramiento de la placenta y revisión",
+          "body": "Como se vio en el Bloque 11, la placenta se expulsa poco después del nacimiento, y el equipo médico la revisa para confirmar que salió completa. También se revisa y, si hace falta, se repara cualquier desgarro perineal."
+        },
+        {
+          "term": "Primeras revisiones del recién nacido",
+          "body": "Además del Apgar, en las primeras horas se controla peso, temperatura, y se realizan las primeras intervenciones de rutina que indique el protocolo del lugar de parto (por ejemplo, vitamina K y profilaxis ocular, según la práctica local)."
+        },
+        {
+          "term": "El sangrado posparto se vigila de cerca",
+          "body": "Las primeras horas después del parto son también el período de mayor vigilancia por sangrado excesivo (hemorragia posparto) — el equipo médico controla activamente el tono uterino y el sangrado durante este tiempo, independientemente de si el parto fue vaginal o por cesárea."
+        }
+      ],
+      "videos": [],
+      "project": "Conversá con tu equipo médico sobre las prácticas de rutina del lugar donde vas a dar a luz para las primeras horas después del nacimiento.",
+      "check": "¿Por qué un Apgar bajo al minuto que sube a los cinco minutos generalmente no es motivo de alarma?"
+    },
+    {
+      "id": "b14",
+      "number": 14,
+      "title": "Recuperación posparto: el cuerpo",
+      "hours": 2,
+      "goal": "Saber qué esperar del cuerpo en las semanas posteriores al parto, y qué señales ameritan consulta.",
+      "visual": "postpartumRecovery",
+      "learn": [
+        {
+          "term": "Sangrado posparto (loquios)",
+          "body": "Un sangrado vaginal que dura típicamente **entre 4 y 6 semanas**, cambiando gradualmente de rojo intenso a un tono más claro y escaso con el paso de los días. Un sangrado que empapa una toalla higiénica por hora durante varias horas seguidas, o que reaparece abundante después de haber disminuido, debe consultarse de inmediato."
+        },
+        {
+          "term": "Recuperación perineal (parto vaginal)",
+          "body": "La zona entre la vagina y el ano puede estar sensible o adolorida por días o semanas, más aún si hubo desgarro o episiotomía. Compresas frías en las primeras 24 horas, y baños de asiento tibios después, suelen aliviar bastante — junto con las indicaciones específicas de tu profesional de salud."
+        },
+        {
+          "term": "Recuperación de cesárea",
+          "body": "Como cirugía mayor, implica cuidado específico de la herida, restricciones temporales para levantar peso, y un ritmo de recuperación de varias semanas antes de retomar actividad física completa — las indicaciones exactas las da el equipo que realizó la cirugía."
+        },
+        {
+          "term": "Cambios hormonales y los \"entuertos\"",
+          "body": "El útero se contrae activamente durante los primeros días para volver a su tamaño previo, generando cólicos (\"entuertos\") que pueden sentirse más intensos durante la lactancia, ya que la succión estimula la misma hormona (oxitocina) que provoca esas contracciones."
+        },
+        {
+          "term": "El control posparto",
+          "body": "La mayoría de los protocolos incluyen un control entre las 4 y 6 semanas después del parto — pero cualquier duda o síntoma preocupante antes de esa fecha amerita contactar a tu profesional de salud sin esperar al control programado."
+        }
+      ],
+      "videos": [],
+      "project": "Armá una lista de qué necesitás tener a mano en casa para tu propia recuperación (no solo para el bebé) en las primeras semanas.",
+      "check": "¿Por qué un sangrado que reaparece abundante después de haber disminuido es una señal para consultar, aunque el sangrado posparto en general sea esperado?"
+    },
+    {
+      "id": "b15",
+      "number": 15,
+      "title": "Salud mental posparto",
+      "hours": 2,
+      "goal": "Distinguir la tristeza posparto común (baby blues) de la depresión posparto, y saber cuándo y cómo buscar ayuda.",
+      "visual": "ppdVsBabyBlues",
+      "learn": [
+        {
+          "term": "\"Baby blues\": muy común y esperado",
+          "body": "Afecta a una amplia mayoría de personas después del parto — cambios de humor, llanto sin causa clara, irritabilidad, todo ligado al cambio hormonal abrupto y al agotamiento del posparto inmediato. Típicamente **empieza dos o tres días después del parto y se resuelve sola dentro de las primeras dos semanas**. No indica que algo esté mal ni que vayas a ser una mala madre o padre."
+        },
+        {
+          "term": "Depresión posparto: distinta en duración e intensidad",
+          "body": "A diferencia del baby blues, la depresión posparto (DPP) **puede empezar en cualquier momento del primer año after el parto, dura más de dos semanas, y no se resuelve sola** — incluye tristeza persistente, dificultad para conectar con el bebé, cambios marcados de apetito o sueño más allá de lo esperable por cuidar a un recién nacido, sensación de desesperanza o culpa excesiva, y pérdida de interés en actividades que antes disfrutabas."
+        },
+        {
+          "term": "No es un signo de debilidad ni de mal cuidado",
+          "body": "La depresión posparto es una condición médica real, con una base hormonal y biológica, que **no se resuelve por fuerza de voluntad** y responde bien a tratamiento (terapia, medicación, o ambas, según cada caso) — buscar ayuda es un acto de cuidado hacia vos y hacia el bebé, no una falla personal."
+        },
+        {
+          "term": "Cuándo buscar ayuda de inmediato",
+          "body": "Si los síntomas persisten más de dos semanas, si sentís que no podés con las tareas del día a día, o especialmente si aparecen **pensamientos de hacerte daño a vos misma o al bebé, contactá a tu profesional de salud de inmediato o acudí a una guardia** — estos pensamientos son una emergencia médica que requiere atención inmediata, no algo para procesar en soledad ni para esperar a que pase."
+        },
+        {
+          "term": "Hablalo, no lo minimices",
+          "body": "En tu control posparto, contá con honestidad cómo te sentís en cuanto a ánimo, sueño y apetito — muchos protocolos incluyen preguntas específicas de tamizaje justamente para dar espacio a esta conversación, y no hace falta esperar a que te pregunten para mencionarlo vos misma."
+        }
+      ],
+      "videos": [],
+      "project": "Conversá de antemano con tu pareja o red de apoyo sobre qué señales de alerta de salud mental posparto observar juntos.",
+      "check": "¿Cuáles son las dos diferencias principales entre el baby blues y la depresión posparto?"
+    },
+    {
+      "id": "b16",
+      "number": 16,
+      "title": "Lactancia materna: los fundamentos",
+      "hours": 2,
+      "goal": "Entender lo básico de la lactancia, sabiendo que la fórmula también es una opción de alimentación válida y segura.",
+      "visual": "breastfeedingLatch",
+      "learn": [
+        {
+          "term": "El calostro: la primera leche",
+          "body": "En los primeros días, el pecho produce **calostro**, un líquido espeso y concentrado en anticuerpos, producido en pequeñas cantidades que coinciden con el tamaño del estómago de un recién nacido, todavía diminuto en esos primeros días."
+        },
+        {
+          "term": "El agarre (latch): la base de una lactancia sin dolor",
+          "body": "Un buen agarre —el bebé tomando buena parte de la areola, no solo la punta del pezón, con los labios evertidos hacia afuera— es la diferencia principal entre una lactancia cómoda y una dolorosa. Un dolor persistente más allá de los primeros segundos de cada toma suele indicar que vale la pena ajustar la posición, idealmente con ayuda de una consultora de lactancia o profesional de salud capacitado."
+        },
+        {
+          "term": "Producción de leche: oferta y demanda",
+          "body": "La producción de leche funciona mayormente por el principio de oferta y demanda: cuanto más frecuente y efectivamente se vacía el pecho, más señal recibe el cuerpo para producir. Esto explica por qué las tomas frecuentes en los primeros días, aunque agotadoras, son importantes para establecer una buena producción."
+        },
+        {
+          "term": "Señales de hambre del bebé, más que el reloj",
+          "body": "Llevarse las manos a la boca, hacer movimientos de succión, o girar la cabeza buscando el pecho (reflejo de búsqueda) suelen aparecer **antes** del llanto — el llanto es una señal tardía de hambre, y responder a las señales tempranas suele facilitar tomas más tranquilas."
+        },
+        {
+          "term": "La fórmula es una alternativa segura y válida",
+          "body": "Por razones médicas, de producción insuficiente, elección personal, o cualquier combinación de motivos, **alimentar con fórmula es una forma perfectamente válida y segura de nutrir a un bebé** — la decisión sobre cómo alimentar al bebé le corresponde a cada familia, idealmente conversada con su pediatra, sin que eso determine la calidad del vínculo ni del cuidado."
+        }
+      ],
+      "videos": [],
+      "project": "Si vas a amamantar, conversá con anticipación con una consultora de lactancia o tu profesional de salud sobre el agarre y la posición.",
+      "check": "¿Por qué el llanto se considera una señal tardía de hambre, más que la primera señal a la que responder?"
+    },
+    {
+      "id": "b17",
+      "number": 17,
+      "title": "Cuidado del recién nacido y sueño seguro",
+      "hours": 2,
+      "goal": "Cubrir lo esencial del cuidado diario de un recién nacido, con foco especial en las prácticas de sueño seguro.",
+      "visual": "safeSleepCrib",
+      "learn": [
+        {
+          "term": "Sueño seguro: las reglas que más importan",
+          "body": "Las principales academias de pediatría son consistentes en esto: **el bebé debe dormir boca arriba, sobre una superficie firme y plana, sin nada suelto en el espacio de sueño** (sin almohadas, mantas sueltas, protectores de cuna/bumpers, ni peluches) — estas medidas reducen de forma comprobada el riesgo de muerte súbita del lactante y de asfixia accidental."
+        },
+        {
+          "term": "Compartir habitación, no la cama",
+          "body": "Se recomienda que el bebé duerma en la misma habitación que sus cuidadores, en su propio espacio (cuna o moisés junto a la cama), idealmente durante los primeros seis meses — esto facilita la atención nocturna y reduce el riesgo de muerte súbita, mientras que **compartir la misma superficie de sueño (colecho en la cama) aumenta el riesgo** y no se recomienda como práctica habitual."
+        },
+        {
+          "term": "Vestimenta en vez de mantas",
+          "body": "Para mantener al bebé abrigado sin usar mantas sueltas en la cuna, se recomienda vestirlo con una capa adicional de ropa o un saco de dormir para bebés (sin capucha ni partes sueltas), ajustado al tamaño correcto."
+        },
+        {
+          "term": "Cuidado del cordón umbilical",
+          "body": "El muñón umbilical se mantiene limpio y seco hasta que se cae solo, generalmente en una a dos semanas — la mayoría de los protocolos actuales recomiendan simplemente mantenerlo seco y expuesto al aire, evitando cubrirlo con el pañal, sin necesidad de aplicar productos salvo indicación específica de tu pediatra."
+        },
+        {
+          "term": "Cuándo llamar al pediatra en las primeras semanas",
+          "body": "Fiebre en un recién nacido (una temperatura rectal de 38°C o más en un bebé muy pequeño) es siempre motivo de consulta inmediata, no de \"esperar a ver\". Lo mismo aplica a dificultad marcada para respirar, rechazo persistente del alimento, o cualquier cambio de comportamiento que te genere preocupación real — confiar en el propio instinto como cuidador es, otra vez, la norma general."
+        }
+      ],
+      "videos": [],
+      "project": "Armá el espacio de sueño del bebé siguiendo todas las pautas de sueño seguro, y revisalo con tu pareja o red de apoyo antes de que nazca.",
+      "check": "¿Por qué compartir la habitación con el bebé se recomienda, pero compartir la misma superficie de sueño no?"
+    },
+    {
+      "id": "b18",
+      "number": 18,
+      "title": "Preparativos prácticos: la lista y la casa lista",
+      "hours": 2,
+      "goal": "Llegar a la fecha de parto con la casa y los elementos esenciales organizados, sin estrés de último momento.",
+      "visual": "prepChecklist",
+      "learn": [
+        {
+          "term": "El bolso para el hospital o centro de parto",
+          "body": "Preparado con anticipación (idealmente hacia las 36 semanas): documentación, ropa cómoda para vos y para el bebé, artículos de higiene personal, cargador de teléfono, y una copia impresa de tu plan de parto (Bloque 10) — tenerlo listo con semanas de margen evita el apuro de armarlo en medio del trabajo de parto."
+        },
+        {
+          "term": "El espacio de sueño, ya armado",
+          "body": "Como se vio en el Bloque 17, el espacio de sueño seguro del bebé debería estar armado y revisado **antes** de la fecha probable de parto, no como una tarea para después de volver a casa con el bebé."
+        },
+        {
+          "term": "El asiento del auto (silla infantil)",
+          "body": "Instalado y revisado antes de la fecha de parto, ya que en la mayoría de los lugares es requisito para salir del hospital o centro de parto con el bebé en auto — vale la pena practicar la instalación con anticipación, no en el estacionamiento del hospital con el bebé recién nacido esperando."
+        },
+        {
+          "term": "Provisiones básicas para las primeras semanas",
+          "body": "Pañales de tamaño recién nacido (en cantidad moderada, ya que muchos bebés crecen rápido del talle inicial), ropa de recién nacido, elementos de higiene específicos para bebés, y —muy importante— **comida fácil de preparar o congelada para vos y tu familia**, ya que cocinar suele ser lo último en lo que hay energía disponible las primeras semanas."
+        },
+        {
+          "term": "Armar la red de apoyo antes de necesitarla",
+          "body": "Conversar con anticipación quién puede ayudar con comidas, otros hijos si los hay, tareas de la casa, o simplemente turnos para que puedas dormir en las primeras semanas, es mucho más efectivo que intentar organizar esa ayuda recién cuando ya estás agotada — las primeras semanas posparto no son el mejor momento para coordinar logística desde cero."
+        }
+      ],
+      "videos": [],
+      "project": "Armá tu bolso para el parto y una lista de contactos de tu red de apoyo, ambos listos antes de la semana 36.",
+      "check": "¿Por qué conviene organizar la red de apoyo posparto antes del nacimiento, en vez de esperar a necesitarla?"
+    }
+  ]
+}

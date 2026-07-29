@@ -1,0 +1,587 @@
+{
+  "schemaVersion": 1,
+  "id": "carpinteria-101",
+  "title": "Carpintería 101",
+  "subtitle": "Del banco de trabajo al mueble terminado — un curso extendido de 32 horas",
+  "category": "Oficios",
+  "description": "Un curso completo de carpintería: seguridad de taller, elección de madera (con foco en las especies del Chaco paraguayo), herramientas manuales y eléctricas, medición y marcado, afilado, técnicas de corte, uniones simples y avanzadas, pegamentos y sujetadores, lijado, acabados, planificación de proyectos, y mantenimiento del taller.",
+  "totalHours": 32,
+  "resources": {
+    "books": [
+      {
+        "title": "The Complete Manual of Woodworking",
+        "author": "Albert Jackson & David Day",
+        "note": "Referencia clásica e ilustrada de herramientas, uniones y técnicas, usada en talleres de todo el mundo."
+      },
+      {
+        "title": "Understanding Wood",
+        "author": "R. Bruce Hoadley",
+        "note": "El libro de referencia sobre la ciencia de la madera: humedad, movimiento, dureza y comportamiento estructural."
+      }
+    ],
+    "channels": [
+      {
+        "name": "Woodworking Network",
+        "url": "https://www.woodworkingnetwork.com"
+      },
+      {
+        "name": "Fine Woodworking",
+        "url": "https://www.finewoodworking.com"
+      }
+    ]
+  },
+  "finalChallenge": [
+    "Armá tu propio banco de trabajo básico o una estación de corte segura y estable.",
+    "Identificá y elegí correctamente al menos tres maderas distintas disponibles en tu zona para tres usos diferentes.",
+    "Afilá un formón o cepillo hasta lograr un filo que corte papel limpiamente.",
+    "Hacé al menos una unión de cada tipo: a tope reforzada, media madera, y espiga (mortaja y espiga o clavija).",
+    "Construí un proyecto completo para tu finca (soporte para tu compostera, estante, o caja para tu meliponario) de principio a fin, incluyendo acabado.",
+    "Armá una rutina de mantenimiento de herramientas adaptada a la humedad y el calor del Chaco."
+  ],
+  "blocks": [
+    {
+      "id": "b1",
+      "number": 1,
+      "title": "Introducción a la carpintería y seguridad en el taller",
+      "hours": 2,
+      "goal": "Empezar con los hábitos de seguridad que van a acompañar cada bloque siguiente.",
+      "visual": "shopSafety",
+      "learn": [
+        {
+          "term": "Por qué la seguridad va primero, no al final",
+          "body": "La carpintería es uno de los oficios manuales donde la mayoría de los accidentes serios son **prevenibles con hábitos simples y consistentes**, no con reflejos rápidos en el momento del error. Este curso mete la seguridad en el Bloque 1 a propósito: cada técnica de los bloques siguientes se apoya sobre estos hábitos base."
+        },
+        {
+          "term": "Equipo de protección personal (EPP)",
+          "body": "**Protección ocular** (anteojos con certificación de impacto, no anteojos comunes) en cualquier corte, lijado o cepillado. **Protección auditiva** (tapones o auriculares) con herramientas eléctricas ruidosas, ya que el daño auditivo acumulado no se siente hasta que ya es permanente. **Sin ropa suelta, guantes, mangas sueltas, o joyas** cerca de cualquier herramienta rotativa — pueden engancharse y arrastrar la mano hacia la herramienta, algo que un guante suelto en particular no previene sino que empeora. Calzado cerrado y antideslizante."
+        },
+        {
+          "term": "Reglas generales del taller",
+          "body": "Mantené el área de trabajo **libre de virutas, cables sueltos y recortes de madera** — el desorden es una causa común de tropiezos justo cerca de herramientas peligrosas. Buena iluminación sobre el punto de corte. Desenchufá cualquier herramienta antes de cambiar una hoja, mecha, o hacer un ajuste que acerque tus dedos a una parte cortante. Nunca trabajes con sueño, apurado, o después de consumir alcohol."
+        },
+        {
+          "term": "Inspeccioná la madera antes de cortar",
+          "body": "Revisá cada pieza buscando **nudos, grietas, torceduras, o clavos y tornillos ocultos** (frecuente en madera reciclada) antes de acercarla a cualquier herramienta. Una tabla alabeada o torcida alimentada a una sierra de mesa es una de las causas más comunes de rebote (Bloque 8) — aplanar una cara y un canto en una cepilladora antes de cortar reduce mucho ese riesgo."
+        },
+        {
+          "term": "El error más caro es el apuro",
+          "body": "La gran mayoría de los accidentes de taller no ocurren por falta de conocimiento técnico, sino por **saltarse un paso de seguridad conocido bajo presión de tiempo**. Un buen hábito de cierre de bloque: si te sentís apurado o cansado, es el momento de parar, no de acelerar."
+        }
+      ],
+      "videos": [],
+      "project": null,
+      "check": "¿Por qué usar guantes cerca de una herramienta rotativa puede ser más peligroso que no usarlos?"
+    },
+    {
+      "id": "b2",
+      "number": 2,
+      "title": "Maderas: dureza, humedad y elección",
+      "hours": 2,
+      "goal": "Entender qué hace que una madera sea apta para un proyecto determinado.",
+      "visual": "hardnessScale",
+      "learn": [
+        {
+          "term": "La escala Janka: qué tan dura es una madera",
+          "body": "La **escala Janka** mide la fuerza necesaria para incrustar una bolilla de acero de 11,28 mm hasta la mitad de su diámetro en la madera — cuanto mayor el número, más dura y resistente al desgaste. Como referencia: el pino blanco ronda las 380 lbf (blanda, fácil de trabajar), el roble rojo unas 1.290 lbf (el estándar de referencia para pisos y muebles), y el arce duro unas 1.450 lbf. Maderas tropicales muy densas como el ipê superan las 3.600 lbf."
+        },
+        {
+          "term": "Más dureza no siempre es mejor",
+          "body": "Una madera muy dura resiste mejor el desgaste y los golpes, pero es **más difícil de cortar, taladrar y clavar**, desgasta más rápido filos y mechas, y puede ser más propensa a rajarse si no se preperfora antes de atornillar o clavar. Para un mueble de uso diario, una madera de dureza media suele ser más práctica que la más dura disponible."
+        },
+        {
+          "term": "Contenido de humedad: el factor que casi nadie mira primero",
+          "body": "La madera es **higroscópica**: absorbe y libera humedad del aire constantemente, y ese movimiento es la causa de la mayoría de las rajaduras, deformaciones y juntas que se abren con el tiempo. Para muebles de interior, el estándar es una madera secada en horno (kiln-dried) a **6–8% de humedad**; para exterior o estructuras, un rango más alto (10–15%) es aceptable. Un medidor de humedad económico es una de las herramientas más subestimadas por quien recién empieza."
+        },
+        {
+          "term": "Por qué la madera se mueve incluso después de cortada",
+          "body": "Una tabla nunca deja de reaccionar a la humedad del ambiente — se expande en la estación húmeda y se contrae en la seca, principalmente **a lo ancho de la veta, casi nada a lo largo**. Ignorar este movimiento al diseñar un mueble (por ejemplo, encolando una tabla ancha por los cuatro costados) es una de las causas más comunes de piezas que se rajan meses después de terminadas, mucho después de que el error de diseño quedó oculto detrás del acabado."
+        },
+        {
+          "term": "Aclimatar la madera antes de trabajarla",
+          "body": "Dejar que la madera nueva repose en el espacio donde se va a trabajar (o donde va a vivir el mueble terminado) durante **al menos varios días, idealmente una a dos semanas**, permite que se equilibre con la humedad ambiente local antes de cortarla — cortar y ensamblar madera que todavía se está aclimatando es una receta para juntas que se abren después."
+        }
+      ],
+      "videos": [],
+      "project": "Con un medidor de humedad (o dejando secar visualmente), compará dos maderas distintas que tengas disponibles y anotá su comportamiento.",
+      "check": "¿Por qué una tabla ancha encolada rígidamente por los cuatro bordes tiende a rajarse con el tiempo?"
+    },
+    {
+      "id": "b3",
+      "number": 3,
+      "title": "Maderas del Paraguay y el Chaco",
+      "hours": 2,
+      "goal": "Conocer las especies de madera disponibles localmente y para qué sirve cada una.",
+      "visual": "paraguayWoods",
+      "learn": [
+        {
+          "term": "Quebracho colorado: la madera que \"quiebra el hacha\"",
+          "body": "Su nombre viene justamente de lo difícil que es trabajarlo con herramientas simples: extremadamente duro, denso, y con un alto contenido de tanino que le da una resistencia notable a la humedad y a la putrefacción, incluso en contacto directo con el suelo. Ideal para postes, umbrales, durmientes y cualquier pieza expuesta a la intemperie o al desgaste — pero exige herramientas bien afiladas y más esfuerzo que casi cualquier otra madera de la región."
+        },
+        {
+          "term": "Algarrobo",
+          "body": "Tan resistente y duradero como el quebracho según la tradición regional, y más manejable para trabajar. Muy usado en la fabricación de muebles rústicos y en construcción, con una veta atractiva que lo hace tan apreciado estéticamente como estructuralmente."
+        },
+        {
+          "term": "Lapacho",
+          "body": "Conocido también como \"árbol de hierro\" por su dureza y densidad, comparable a la del quebracho en muchos usos. De crecimiento lento, lo que contribuye a su densidad — una madera de larga vida útil para pisos, umbrales y estructuras expuestas."
+        },
+        {
+          "term": "Cedro: la madera de la ebanistería",
+          "body": "A diferencia de las anteriores, el cedro (particularmente el \"cedro fluvial\" de la región del Paraguay y el Chaco, de mejor calidad que otras variedades regionales) es **liviano, de grano parejo, fácil de trabajar, y con buena estabilidad dimensional** — la elección clásica para muebles finos, ebanistería y carpintería de taller en general, donde la facilidad de trabajo y el acabado importan más que la resistencia bruta a la intemperie."
+        },
+        {
+          "term": "Otras especies de la región",
+          "body": "**Curupay, urunday y guayacán** se consideran, según la tradición regional, tan resistentes y duraderas como el quebracho colorado. **Incienso** y otras maderas de calidad intermedia ofrecen buena resistencia y duración con algo más de facilidad de trabajo. Conocer estas alternativas te da opciones cuando el quebracho es demasiado difícil de conseguir o de trabajar para un proyecto puntual."
+        },
+        {
+          "term": "Elegir según el uso, no según la fama",
+          "body": "Para un poste de cerco o un umbral expuesto a la humedad del suelo, el quebracho o el lapacho son la elección correcta. Para un mueble, una caja de herramientas, o cualquier proyecto donde vas a pasar horas cortando y lijando a mano, el **cedro (u otra madera de dureza media) te va a ahorrar mucho esfuerzo** sin sacrificar un resultado duradero para uso de interior."
+        }
+      ],
+      "videos": [],
+      "project": "Hacé un inventario de las maderas que tenés disponibles en tu zona y clasificalas por dureza y uso recomendado.",
+      "check": "¿Por qué elegirías cedro en vez de quebracho para hacer un cajón de herramientas, aunque el quebracho sea la madera más resistente?"
+    },
+    {
+      "id": "b4",
+      "number": 4,
+      "title": "Herramientas manuales esenciales",
+      "hours": 2,
+      "goal": "Conocer y elegir bien las herramientas manuales de base antes de sumar herramientas eléctricas.",
+      "visual": "handTools",
+      "learn": [
+        {
+          "term": "Serrucho y sierra de costilla",
+          "body": "Un **serrucho** de dientes gruesos corta rápido pero deja un corte más tosco; una **sierra de costilla (backsaw)**, con un refuerzo metálico en el lomo que mantiene la hoja rígida, da cortes mucho más precisos y rectos — la elección correcta para uniones que necesitan encajar bien."
+        },
+        {
+          "term": "Formones (escoplos)",
+          "body": "Un juego básico de formones de distintos anchos permite limpiar mortajas, ajustar uniones, y tallar detalles. Un formón desafilado es, contraintuitivamente, **más peligroso que uno bien afilado** — necesita más fuerza para cortar, lo que aumenta el riesgo de que resbale de forma impredecible (el afilado se cubre en profundidad en el Bloque 7)."
+        },
+        {
+          "term": "Cepillo de mano (garlopa/cepillo)",
+          "body": "Sirve para aplanar una superficie, enderezar un canto, o ajustar el grosor de una pieza sin necesidad de una máquina. Requiere práctica para regular la profundidad de corte y mantener un ángulo constante, pero es una habilidad que da un control muy fino que las herramientas eléctricas no siempre igualan en piezas pequeñas."
+        },
+        {
+          "term": "Instrumentos de marcado y medición",
+          "body": "Una **escuadra** (para verificar y trazar ángulos de 90°), un **gramil o gauge de marcado** (para trazar líneas paralelas a un borde con precisión), y un **metro o regla metálica** son la base de cualquier trabajo preciso — se profundiza en el Bloque 6."
+        },
+        {
+          "term": "Martillo, mazo y destornilladores",
+          "body": "Un martillo de carpintero estándar para clavos, un **mazo de goma o madera** (no metálico) para golpear formones y ajustar uniones sin dañar la madera, y un juego de destornilladores de punta plana y cruz en varios tamaños."
+        },
+        {
+          "term": "Prensas y sargentos",
+          "body": "Imprescindibles para sostener piezas mientras se cortan o se encolan — casi ningún corte preciso o encolado sólido se puede hacer sosteniendo la pieza solo con la mano. Conviene tener varios tamaños, porque rara vez alcanza con uno solo."
+        }
+      ],
+      "videos": [],
+      "project": "Armá o completá tu juego básico de herramientas manuales antes de avanzar al bloque de herramientas eléctricas.",
+      "check": "¿Por qué un formón desafilado es más peligroso de usar que uno bien afilado?"
+    },
+    {
+      "id": "b5",
+      "number": 5,
+      "title": "Herramientas eléctricas y de banco",
+      "hours": 2,
+      "goal": "Conocer las herramientas eléctricas más comunes, su uso principal, y su riesgo específico.",
+      "visual": "powerTools",
+      "learn": [
+        {
+          "term": "Sierra circular",
+          "body": "Versátil y portátil, ideal para cortar tableros grandes a medida. Requiere una guía recta para cortes precisos a mano libre, y **la misma lógica de rebote (kickback) que una sierra de mesa** aplica si la hoja se traba en la madera — mantener el cable lejos de la línea de corte y nunca forzar el avance son hábitos clave."
+        },
+        {
+          "term": "Sierra de mesa",
+          "body": "La herramienta de banco más productiva para cortes rectos y repetibles, y también una de las más asociadas a lesiones serias si se usa sin sus protecciones — el detalle completo de seguridad de sierra de mesa se cubre en profundidad en el Bloque 8."
+        },
+        {
+          "term": "Taladro y atornillador",
+          "body": "Para perforar y atornillar. Un **taladro de banco (columna)** da perforaciones perfectamente perpendiculares, algo difícil de garantizar a pulso con un taladro manual — vale la pena para mortajas, bisagras empotradas, o cualquier perforación donde el ángulo importa."
+        },
+        {
+          "term": "Router (fresadora)",
+          "body": "Corta molduras, rebajes, y ranuras con una variedad enorme de mechas intercambiables. Gira a velocidades muy altas — cualquier contacto accidental con la mecha en movimiento es serio, y el control firme de la pieza y de la propia fresadora es esencial."
+        },
+        {
+          "term": "Lijadora eléctrica",
+          "body": "Una lijadora orbital acelera enormemente el lijado de superficies grandes comparado con lijar a mano — se retoma en detalle en el Bloque 12."
+        },
+        {
+          "term": "Regla general con cualquier herramienta eléctrica nueva",
+          "body": "Antes de usar una herramienta eléctrica por primera vez, **leé el manual completo**, identificá dónde está el interruptor de apagado rápido, y hacé una prueba en un recorte de madera antes de trabajar en una pieza que te importa. La familiaridad reduce el riesgo mucho más que la prisa por empezar a producir."
+        }
+      ],
+      "videos": [],
+      "project": "Hacé una lista de las herramientas eléctricas que tenés o planeás conseguir, y anotá el riesgo específico de cada una antes de usarla.",
+      "check": "¿Por qué conviene probar una herramienta eléctrica nueva en un recorte de descarte antes de usarla en una pieza real?"
+    },
+    {
+      "id": "b6",
+      "number": 6,
+      "title": "Medir y marcar con precisión",
+      "hours": 2,
+      "goal": "Dominar el paso que decide, más que ningún otro, si una unión va a encajar bien.",
+      "visual": "markingTools",
+      "learn": [
+        {
+          "term": "\"Medí dos veces, cortá una vez\"",
+          "body": "El cliché existe porque es cierto: un error de medición se puede corregir antes del corte revisando de nuevo, pero **una vez cortada la madera de más, no hay vuelta atrás** sin desperdiciar material. Conviene adoptar el hábito de verificar cada medida antes de acercar la herramienta de corte."
+        },
+        {
+          "term": "Usá una sola regla para todo un proyecto",
+          "body": "Distintas reglas o metros pueden tener pequeñas diferencias de fabricación entre sí. Medir todas las piezas de un mismo proyecto con la **misma regla o cinta métrica** evita que esas diferencias mínimas se acumulen en desajustes notorios al ensamblar."
+        },
+        {
+          "term": "Marcá con precisión, no a ojo",
+          "body": "Una línea de corte trazada con lápiz grueso puede tener uno o dos milímetros de ancho — suficiente para desviar un corte de precisión. Un **gramil de marcado o un cuchillo de marcar** trazan una línea mucho más fina y exacta que un lápiz, especialmente importante en uniones ajustadas como espigas o colas de milano."
+        },
+        {
+          "term": "Marcá desde una cara y un canto de referencia",
+          "body": "Elegir una cara y un canto de cada pieza como \"referencia\" y medir siempre desde esos mismos puntos —en vez de medir a veces desde un lado y a veces desde el otro— evita que pequeñas imperfecciones de la madera se traduzcan en errores acumulados de una pieza a otra."
+        },
+        {
+          "term": "Plantillas y listones de medida (story sticks)",
+          "body": "Para proyectos con piezas repetidas (varios cajones iguales, por ejemplo), un **listón de medida marcado una sola vez** y usado como plantilla para todas las piezas siguientes es más preciso y más rápido que volver a medir con la regla cada vez."
+        }
+      ],
+      "videos": [],
+      "project": "Marcá y cortá cinco piezas idénticas usando la misma regla de referencia y un listón de medida, y compará qué tan parejas resultaron.",
+      "check": "¿Por qué medir distintas piezas del mismo proyecto con reglas diferentes puede generar errores de ensamblaje que no vienen de un error de cálculo?"
+    },
+    {
+      "id": "b7",
+      "number": 7,
+      "title": "Afilado de herramientas",
+      "hours": 2,
+      "goal": "Mantener formones y cepillos con un filo que corte limpio y de forma segura.",
+      "visual": "sharpeningAngle",
+      "learn": [
+        {
+          "term": "Por qué el afilado es una habilidad central, no un extra",
+          "body": "Ninguna técnica de corte a mano compensa una herramienta desafilada — un formón o cepillo sin filo **exige más fuerza, se resbala de forma impredecible, y produce cortes desgarrados** en vez de limpios. Afilar bien es, en la práctica, tan importante como saber usar la herramienta."
+        },
+        {
+          "term": "El ángulo de afilado",
+          "body": "La mayoría de los formones y hierros de cepillo se afilan con un **bisel de entre 25° y 30°** — más cerrado (25°) corta con menos esfuerzo pero se desgasta más rápido en maderas duras; más abierto (30°) dura más filo entre afilados a cambio de exigir algo más de fuerza. Para las maderas duras de la región (Bloque 3), un ángulo algo más cerrado a 30° suele ser un buen punto medio."
+        },
+        {
+          "term": "Piedras de afilar: la progresión de grano",
+          "body": "El afilado se hace en una progresión de piedras de grano cada vez más fino — de una piedra gruesa (para corregir una mella o cambiar el ángulo) a una piedra fina (para pulir el filo final). Saltar directo a la piedra fina sin pasar por las gruesas cuando hace falta corregir el bisel lleva mucho más tiempo del necesario."
+        },
+        {
+          "term": "Cómo saber si está realmente afilado",
+          "body": "Un filo bien afilado **corta papel limpiamente con un solo movimiento**, sin desgarrarlo, y se \"agarra\" ligeramente a la uña de un dedo pasado con cuidado sobre el filo (nunca a lo largo, siempre perpendicular y con extremo cuidado). Si el filo resbala sobre la uña sin agarrar nada, todavía no está listo."
+        },
+        {
+          "term": "Mantenimiento regular en vez de rescate ocasional",
+          "body": "Afilar brevemente cada formón o cepillo **antes de que pierda notoriamente el filo**, en sesiones cortas y frecuentes, es mucho más rápido en el tiempo total que esperar a que la herramienta esté visiblemente desafilada y necesite una sesión larga de recuperación del bisel."
+        }
+      ],
+      "videos": [],
+      "project": "Afilá un formón hasta lograr un corte limpio de papel, siguiendo la progresión completa de piedras.",
+      "check": "¿Por qué un formón bien afilado es, en la práctica, más seguro de usar que uno desafilado?"
+    },
+    {
+      "id": "b8",
+      "number": 8,
+      "title": "Cortes y corte de precisión",
+      "hours": 2,
+      "goal": "Cortar de forma segura y precisa con sierra de mesa y sierra circular, entendiendo a fondo el riesgo de rebote.",
+      "visual": "kickbackDiagram",
+      "learn": [
+        {
+          "term": "Corte transversal vs. corte al hilo",
+          "body": "El **corte transversal** corta la madera perpendicular a la veta (para cortar una tabla a la longitud deseada); el **corte al hilo (rip cut)** corta a lo largo de la veta (para angostar una tabla). Cada uno tiene su configuración de herramienta más segura: el corte transversal se hace mejor con una escuadra o guía de ingletes, el corte al hilo con la guía paralela (fence)."
+        },
+        {
+          "term": "Qué es el rebote (kickback) y por qué pasa",
+          "body": "El rebote ocurre cuando la madera **se traba entre la hoja y la guía, o se pellizca contra la parte trasera de la hoja**, y la hoja la lanza violentamente hacia atrás, hacia el operador — es la causa de lesión más grave y más común en sierras de mesa. Una madera alabeada, torcida, o con nudos que libera tensión de forma repentina durante el corte es una causa frecuente."
+        },
+        {
+          "term": "Los tres elementos de protección que nunca deberían faltar",
+          "body": "El **cuchillo divisor (riving knife)**, que se mueve junto con la hoja y evita que la madera se cierre y pellizque la parte trasera — la causa principal de rebote. Las **uñas antirretroceso (anti-kickback pawls)**, que muerden la madera si empieza a moverse hacia atrás. El **protector de hoja**, que reduce el contacto accidental con la parte superior de la hoja. Los tres son requisitos estándar de seguridad ocupacional, no accesorios opcionales."
+        },
+        {
+          "term": "Postura y palo empujador",
+          "body": "Pararse **ligeramente a un costado de la línea de corte, nunca directamente detrás**, saca al cuerpo de la trayectoria de un posible rebote (que sale disparado hacia atrás en línea recta). Un **palo o taco empujador** mantiene las manos lejos de la hoja en los últimos centímetros de cualquier corte, especialmente al cortar piezas angostas."
+        },
+        {
+          "term": "Altura de hoja y estado de la hoja",
+          "body": "La hoja debe sobresalir apenas **entre 3 y 6 mm por encima de la madera** — más alto de lo necesario expone más superficie de hoja sin necesidad y aumenta el riesgo. Una hoja desafilada exige más fuerza para avanzar la madera, lo que también aumenta el riesgo de perder el control del corte."
+        }
+      ],
+      "videos": [],
+      "project": "Practicá cortes transversales y al hilo en madera de descarte, verificando la posición del cuerpo y el uso del palo empujador en cada corte.",
+      "check": "¿Cuáles son los tres elementos de protección de una sierra de mesa, y qué previene cada uno específicamente?"
+    },
+    {
+      "id": "b9",
+      "number": 9,
+      "title": "Uniones de madera: lo esencial",
+      "hours": 2,
+      "goal": "Dominar las uniones más simples y de uso más frecuente antes de pasar a las avanzadas.",
+      "visual": "basicJoints",
+      "learn": [
+        {
+          "term": "Unión a tope (butt joint)",
+          "body": "La más simple: dos piezas se unen directamente por sus caras planas, sin ningún tallado adicional. Es rápida de hacer pero **mecánicamente débil por sí sola** — casi siempre necesita refuerzo con tornillos, clavos, o algún elemento adicional (biscuit, dowel) para resistir cargas reales, cubierto en el Bloque 10."
+        },
+        {
+          "term": "Unión a media madera (lap joint)",
+          "body": "Se quita la mitad del espesor de cada pieza en la zona de unión, de forma que ambas se traban una con la otra a ras. Da bastante más superficie de contacto para el encolado que una unión a tope simple, y una resistencia notablemente mejor sin necesitar herramientas muy especializadas."
+        },
+        {
+          "term": "Rebajo (rabbet) y ranura (dado)",
+          "body": "Un **rebajo** es un escalón cortado en el borde de una pieza (común en la parte de atrás de cajones y muebles). Una **ranura (dado)** es un canal cortado a través de una pieza, no en el borde — ambos se usan mucho para alojar el fondo de un cajón o un estante fijo, dando una unión mucho más resistente y mejor alineada que apoyar una pieza suelta sobre otra."
+        },
+        {
+          "term": "Cuándo alcanza con una unión simple",
+          "body": "Para estructuras que no reciben carga estructural pesada ni estrés repetido — un cajón sencillo, un estante fijo, la caja de un cajón de herramientas — una unión simple bien reforzada con el pegamento y los sujetadores correctos (Bloque 11) suele ser suficiente y considerablemente más rápida de hacer que una unión avanzada."
+        },
+        {
+          "term": "Cuándo hace falta subir de nivel",
+          "body": "Para piezas que van a soportar peso, movimiento repetido, o estrés de torsión — patas de una silla, el marco de una puerta, una mesa — una unión simple no alcanza, y hace falta pasar a las uniones avanzadas del Bloque 10."
+        }
+      ],
+      "videos": [],
+      "project": "Hacé una unión a tope reforzada y una unión a media madera, y compará cuánta fuerza hace falta para separarlas.",
+      "check": "¿Por qué un cajón simple puede andar bien con una unión a tope reforzada, pero la pata de una silla no?"
+    },
+    {
+      "id": "b10",
+      "number": 10,
+      "title": "Uniones de madera avanzadas",
+      "hours": 2,
+      "goal": "Elegir y ejecutar la unión correcta cuando la resistencia estructural realmente importa.",
+      "visual": "advancedJoints",
+      "learn": [
+        {
+          "term": "Mortaja y espiga (mortise and tenon)",
+          "body": "La unión tradicional de referencia para estructuras que reciben carga: una espiga (protrusión) tallada en una pieza encaja en una mortaja (hueco) tallada en la otra, dando una enorme superficie de contacto y un traba mecánico fuerte incluso antes de aplicar pegamento. Es la elección clásica para el marco de sillas, mesas, puertas, y cualquier estructura sometida a tensión repetida."
+        },
+        {
+          "term": "Espiga postiza (loose/floating tenon)",
+          "body": "Una variante moderna donde en vez de tallar la espiga como parte de la pieza, se corta una mortaja en ambas piezas y se inserta una espiga suelta independiente entre las dos — con la herramienta correcta (una fresadora de mortajas), es considerablemente más rápida de hacer que una espiga tradicional tallada, con una resistencia muy similar."
+        },
+        {
+          "term": "Cola de milano (dovetail)",
+          "body": "Una serie de proyecciones en forma de cuña que se entrelazan mecánicamente entre dos piezas, tradicionalmente usada en las esquinas de cajones de calidad. Su forma en cuña **resiste la tracción en la dirección en que un cajón se abre y se cierra** de una forma que ninguna otra unión iguala sin sujetadores adicionales — es exigente de tallar a mano pero extremadamente duradera."
+        },
+        {
+          "term": "Clavija (dowel)",
+          "body": "Se perforan agujeros alineados en ambas piezas y se insertan clavijas cilíndricas de madera con pegamento. Es relativamente simple de hacer con una guía o plantilla, y en pruebas de resistencia comparativas ha llegado a superar tanto a la mortaja y espiga como a la unión con biscuit en algunas configuraciones — aunque exige una perforación precisa, porque un desalineamiento pequeño es difícil de corregir una vez encolado."
+        },
+        {
+          "term": "Biscuit (galleta)",
+          "body": "Se corta una ranura con forma de media luna en cada pieza y se inserta una \"galleta\" ovalada de madera comprimida con pegamento, que se hincha ligeramente al absorber la humedad del pegamento para trabar la unión. Es, en términos generales, **la más rápida de hacer y la más débil de las cuatro** — su punto fuerte es la alineación precisa durante el encolado de paneles anchos, más que la resistencia estructural por sí sola."
+        },
+        {
+          "term": "Cómo elegir entre las cuatro",
+          "body": "Para una estructura que va a recibir carga real (silla, mesa, marco de puerta): **mortaja y espiga**, tradicional o postiza. Para la esquina de un cajón de calidad donde la tracción repetida es constante: **cola de milano**. Para unir piezas con buena alineación y resistencia razonable sin tanta exigencia de herramientas: **clavija**. Para alinear paneles anchos durante el encolado, sin depender de esa unión para la resistencia final de la pieza: **biscuit**."
+        }
+      ],
+      "videos": [],
+      "project": "Elegí un proyecto pequeño (por ejemplo, un banquito o una caja) y hacé al menos una unión de mortaja y espiga de principio a fin.",
+      "check": "¿Por qué una unión con biscuit es una mala elección para la pata de una mesa, aunque sea rápida y fácil de hacer?"
+    },
+    {
+      "id": "b11",
+      "number": 11,
+      "title": "Pegamentos y sujetadores",
+      "hours": 2,
+      "goal": "Elegir el pegamento y los sujetadores correctos, y aplicarlos con la técnica adecuada.",
+      "visual": "glueClamp",
+      "learn": [
+        {
+          "term": "Cola blanca / cola de carpintero (PVA)",
+          "body": "El pegamento de uso general más común en carpintería: fácil de aplicar, se limpia con agua mientras está húmeda, y da una unión más fuerte que la madera misma en muchos casos, siempre que las superficies encolen bien ajustadas entre sí. No es resistente al agua de forma confiable salvo en variantes específicamente formuladas para exterior."
+        },
+        {
+          "term": "Epoxi",
+          "body": "Se mezcla de dos componentes, tarda más en curar que la cola blanca, pero **llena huecos y espacios donde el ajuste no es perfecto** (algo que la cola blanca no hace bien), y resiste mucho mejor la humedad y el paso del tiempo — apropiado para reparaciones, uniones que no van a quedar perfectamente ajustadas, o proyectos de exterior."
+        },
+        {
+          "term": "Tiempo abierto y presión de encolado",
+          "body": "Cada pegamento tiene un **tiempo abierto** — la ventana antes de que empiece a curar — durante el cual hay que terminar de posicionar y prensar la unión. Una vez aplicado el pegamento, las prensas deben aplicar presión pareja en toda la superficie, ni tan floja que la unión quede débil ni tan fuerte que expulse todo el pegamento de la junta."
+        },
+        {
+          "term": "Tornillos vs. clavos",
+          "body": "Los **tornillos** dan mucha más resistencia a la tracción (que se abra la unión al tirar) y se pueden retirar sin destruir la pieza — la elección por defecto para casi cualquier ensamblaje que pueda necesitar desarmarse después. Los **clavos** son más rápidos de colocar y resisten mejor la fuerza cortante (deslizamiento lateral) en ciertas configuraciones, y siguen siendo la elección estándar en carpintería de obra donde la velocidad importa más que la posibilidad de desarmar."
+        },
+        {
+          "term": "Preperforar en maderas duras",
+          "body": "En las maderas duras de la región (quebracho, lapacho, algarrobo — Bloque 3), atornillar o clavar sin **preperforar un agujero guía** casi garantiza que la madera se raje, especialmente cerca de los bordes. Preperforar toma unos segundos extra y evita perder una pieza ya cortada y ajustada."
+        }
+      ],
+      "videos": [],
+      "project": "Encolá una unión con cola blanca y otra con epoxi, y compará el tiempo de secado y la resistencia final de cada una.",
+      "check": "¿Por qué preperforar es especialmente importante al atornillar quebracho o lapacho, más que con una madera blanda?"
+    },
+    {
+      "id": "b12",
+      "number": 12,
+      "title": "Lijado y preparación de superficie",
+      "hours": 2,
+      "goal": "Preparar la superficie de la madera para que el acabado se vea y dure bien.",
+      "visual": "sandingGrits",
+      "learn": [
+        {
+          "term": "La progresión de grano",
+          "body": "El lijado se hace en una secuencia de granos cada vez más finos — por ejemplo, empezando en 80 o 100 para nivelar imperfecciones, pasando por 120 y 150, y terminando en 220 para una superficie lista para acabado. **Saltarse pasos de la secuencia** (ir directo de un grano grueso a uno muy fino) deja rayones del grano grueso que el grano fino no alcanza a eliminar."
+        },
+        {
+          "term": "Lijar en el sentido de la veta",
+          "body": "Lijar en contra o en diagonal a la veta deja marcas visibles, especialmente notorias una vez aplicado un acabado que resalta el grano. Lijar siempre en la misma dirección que la veta de la madera, incluso con lijadora orbital, da un resultado mucho más parejo."
+        },
+        {
+          "term": "El levantamiento de fibra (raising the grain)",
+          "body": "Al humedecer la madera (con agua o con un acabado a base de agua), las fibras cortadas se hinchan y se levantan ligeramente, dejando una superficie que se siente áspera aunque haya sido lijada a fondo antes de mojarla. Humedecer la madera levemente y **dejarla secar antes del acabado final, lijando ese levantamiento con un grano fino**, evita ese efecto sorpresa después de aplicar el acabado."
+        },
+        {
+          "term": "Lijadora eléctrica vs. lijado a mano",
+          "body": "Una lijadora orbital ahorra muchísimo tiempo en superficies grandes y planas, pero **puede redondear bordes y esquinas de forma no deseada** si no se tiene cuidado. Para bordes, esquinas, y detalles finos, un taco de lijado a mano da más control, aunque tome más tiempo."
+        },
+        {
+          "term": "Limpieza antes del acabado",
+          "body": "El polvo de lijado que queda sobre la superficie o metido en los poros de la madera **arruina un acabado prolijo** si no se quita antes de aplicar barniz o aceite. Un paño ligeramente humedecido o un paño especial que atrapa polvo (tack cloth), pasado justo antes de aplicar el acabado, hace una diferencia notable en el resultado final."
+        }
+      ],
+      "videos": [],
+      "project": "Lijá una pieza siguiendo la progresión completa de grano, humedeciéndola una vez a mitad de proceso para manejar el levantamiento de fibra.",
+      "check": "¿Por qué una pieza bien lijada puede sentirse áspera de nuevo después de aplicar un acabado a base de agua?"
+    },
+    {
+      "id": "b13",
+      "number": 13,
+      "title": "Acabados: aceites, barnices y protección",
+      "hours": 2,
+      "goal": "Elegir el acabado correcto según el uso de la pieza y el clima donde va a vivir.",
+      "visual": "finishLayers",
+      "learn": [
+        {
+          "term": "Aceites (tung, linaza, aceites para muebles)",
+          "body": "Penetran en la madera en vez de formar una capa sobre la superficie, dando un acabado de aspecto natural y fácil de retocar (basta con aplicar otra mano) pero con **menor protección contra el agua y el desgaste** que un barniz. Buena elección para piezas decorativas o de bajo contacto con líquidos."
+        },
+        {
+          "term": "Barnices y poliuretano",
+          "body": "Forman una **película protectora sobre la superficie**, dando mucha mejor resistencia al agua, las manchas y el desgaste diario — la elección más práctica para mesas de cocina, tablas de trabajo, o cualquier superficie de uso intenso. A cambio, un rayón profundo es más difícil de reparar de forma invisible que con un acabado de aceite."
+        },
+        {
+          "term": "Elegir el acabado según el clima",
+          "body": "En un clima con oscilaciones fuertes de humedad y temperatura como el del Chaco, un acabado que **selle bien la madera de forma pareja en todas sus caras** (no solo la vista) ayuda a que la pieza se mueva de forma más uniforme frente a los cambios estacionales de humedad (Bloque 2) — dejar una cara sin sellar (por ejemplo, el interior de un cajón) mientras la otra sí lo está puede generar un movimiento desigual que termina en alabeo."
+        },
+        {
+          "term": "Aplicación en capas finas",
+          "body": "Casi cualquier acabado rinde mejor en **varias capas finas lijadas levemente entre mano y mano**, que en una sola capa gruesa — una capa demasiado gruesa tarda mucho más en secar de forma pareja y es más propensa a quedar con marcas de pincel o burbujas atrapadas."
+        },
+        {
+          "term": "Ventilación y tiempo de secado",
+          "body": "Trabajar en un espacio bien ventilado no es solo una cuestión de olor: muchos acabados curan más rápido y de forma más pareja con buena circulación de aire. Respetar el tiempo de secado indicado por el fabricante entre manos, en vez de apurar el proceso, evita que capas posteriores arruinen el trabajo de las anteriores."
+        }
+      ],
+      "videos": [],
+      "project": "Aplicá dos acabados distintos (uno de aceite, uno de barniz) sobre dos recortes de la misma madera y compará el resultado después de una semana.",
+      "check": "¿Por qué sellar solo la cara visible de una pieza y dejar la otra sin acabado puede terminar deformando la pieza con el tiempo?"
+    },
+    {
+      "id": "b14",
+      "number": 14,
+      "title": "Planificación de proyectos y lectura de planos",
+      "hours": 2,
+      "goal": "Planificar un proyecto completo antes de cortar la primera pieza.",
+      "visual": "cutList",
+      "learn": [
+        {
+          "term": "Lista de corte (cut list)",
+          "body": "Antes de cortar nada, conviene armar una **lista completa de todas las piezas** del proyecto con sus medidas exactas — esto evita descubrir a mitad de camino que falta una pieza o que el material comprado no alcanza."
+        },
+        {
+          "term": "Dejar margen para el movimiento de la madera",
+          "body": "Como se vio en el Bloque 2, la madera se mueve principalmente a lo ancho de la veta con los cambios de humedad. Un buen plano de proyecto **deja margen para ese movimiento** en el diseño — por ejemplo, usando tornillos en ranuras alargadas en vez de encolado rígido para fijar un tablero ancho a un marco, permitiendo que se expanda y contraiga sin rajarse."
+        },
+        {
+          "term": "Optimizar el corte de la madera comprada",
+          "body": "Planificar en qué orden y en qué posición se van a cortar todas las piezas dentro de las tablas disponibles, **antes de hacer el primer corte**, reduce el desperdicio de material y evita quedarte sin margen para corregir un error de corte a mitad de proyecto."
+        },
+        {
+          "term": "Secuencia de armado",
+          "body": "Pensar el **orden en que las piezas se van a ensamblar** antes de empezar evita quedar atrapado en una secuencia imposible — por ejemplo, encolar una pieza que después ya no se puede alcanzar para atornillar otra, o cerrar un cajón antes de poder lijar su interior."
+        },
+        {
+          "term": "Prototipo o maqueta a escala",
+          "body": "Para un proyecto complejo o nuevo, armar una versión simplificada en cartón, madera de descarte, o incluso solo un dibujo a escala, ayuda a **detectar errores de diseño antes de gastar la madera buena** en un error que se podría haber visto antes."
+        }
+      ],
+      "videos": [],
+      "project": "Armá la lista de corte completa y el plano de armado de tu próximo proyecto antes de cortar la primera pieza.",
+      "check": "¿Por qué dejar margen para el movimiento de la madera en el diseño es más importante que elegir la madera más estable posible?"
+    },
+    {
+      "id": "b15",
+      "number": 15,
+      "title": "Proyectos para el hogar y la finca",
+      "hours": 2,
+      "goal": "Aplicar todo lo aprendido a proyectos concretos y útiles para tu sistema de finca.",
+      "visual": "farmProjects",
+      "learn": [
+        {
+          "term": "Soporte o base para la compostera",
+          "body": "Elevar la caja racional del meliponario o una compostera del contacto directo con el suelo reduce el acceso de hormigas y humedad ascendente — un proyecto simple de unión a media madera o mortaja y espiga básica, buena práctica para consolidar las técnicas de los Bloques 9 y 10."
+        },
+        {
+          "term": "Estantería o mueble de guardado para herramientas",
+          "body": "Un proyecto clásico para poner en práctica uniones simples reforzadas (Bloque 9), con la ventaja de que un error de medida es mucho menos costoso que en un mueble de uso diario."
+        },
+        {
+          "term": "Caja para colmena racional",
+          "body": "Si seguiste el curso de Meliponicultura 101, ya conocés los requisitos de diseño de una caja racional (madera bien seca, entrada angosta, buen ensamblado sin filtraciones) — es un proyecto que combina precisión de corte (Bloque 8), uniones (Bloques 9–10), y un acabado que resista la intemperie (Bloque 13) en un solo objeto con un propósito productivo real."
+        },
+        {
+          "term": "Nidales para gallinas",
+          "body": "Un proyecto de complejidad moderada que combina cortes repetidos (buen caso de uso para un listón de medida, Bloque 6), uniones simples, y consideraciones de acabado no tóxico apropiado para estar en contacto con aves."
+        },
+        {
+          "term": "Elegir el primer proyecto real con criterio",
+          "body": "El mejor primer proyecto de finca es uno que **tolere un margen de error visible sin comprometer su función** — un soporte o una estantería, no una pieza de mobiliario fino. Reservar los proyectos más exigentes en precisión y acabado para después de haber consolidado las técnicas básicas en algo de menor riesgo."
+        }
+      ],
+      "videos": [],
+      "project": "Elegí un proyecto real para tu finca y llevalo de principio a fin: planificación, corte, unión, y acabado.",
+      "check": "¿Por qué conviene elegir un soporte o estantería como primer proyecto real, en vez de empezar directamente por un mueble fino?"
+    },
+    {
+      "id": "b16",
+      "number": 16,
+      "title": "Mantenimiento del taller y de las herramientas",
+      "hours": 2,
+      "goal": "Sostener el taller y las herramientas en buen estado a través del tiempo y el clima del Chaco.",
+      "visual": "toolMaintenance",
+      "learn": [
+        {
+          "term": "Óxido: un riesgo real con la humedad del Chaco",
+          "body": "Los cambios de humedad estacional favorecen la formación de óxido en herramientas de acero, especialmente hojas de sierra, formones y superficies de fundición de máquinas. Una **capa fina de aceite protector** sobre las superficies metálicas después de cada uso, y guardar las herramientas en un ambiente lo más seco posible, previene la mayoría de los problemas antes de que empiecen."
+        },
+        {
+          "term": "Rutina de afilado periódico",
+          "body": "En vez de esperar a que una herramienta esté visiblemente desafilada (Bloque 7), conviene incorporar el afilado como **mantenimiento programado**, por ejemplo revisando el filo de las herramientas de uso frecuente cada cierto número de proyectos, no solo cuando ya cuesta notoriamente cortar."
+        },
+        {
+          "term": "Mantenimiento de herramientas eléctricas",
+          "body": "Limpiar el polvo de aserrín acumulado en motores y ventilaciones (que puede sobrecalentar el motor con el tiempo), revisar que las guías y escuadras de las sierras sigan alineadas correctamente, y reemplazar hojas y mechas desgastadas antes de que fuercen al motor a trabajar de más."
+        },
+        {
+          "term": "Organización del taller",
+          "body": "Un taller ordenado no es solo estética: **reduce el riesgo de accidentes** (menos objetos con los que tropezar o que puedan caer sobre una herramienta en uso) y ahorra tiempo real buscando la herramienta correcta en medio de un proyecto."
+        },
+        {
+          "term": "Revisar el estado de la madera almacenada",
+          "body": "La madera guardada también necesita atención: apilada con separadores para permitir circulación de aire, protegida de la humedad directa del suelo, y revisada de vez en cuando por señales de hongos, insectos, o deformación antes de que un problema arruine todo un lote de material guardado."
+        }
+      ],
+      "videos": [],
+      "project": "Armá una rutina mensual de mantenimiento de herramientas y de revisión de tu stock de madera almacenada.",
+      "check": "¿Por qué un taller desordenado es un riesgo de seguridad real, y no solo un problema estético?"
+    }
+  ]
+}

@@ -1,0 +1,365 @@
+{
+  "schemaVersion": 1,
+  "id": "gluten-free-bread-101",
+  "title": "Panadería sin Gluten 101",
+  "subtitle": "De la ciencia de la harina a la hogaza — 20 horas para hacer pan sin gluten que realmente funcione",
+  "category": "Cocina",
+  "description": "Un curso completo de panificación sin gluten: por qué el pan sin gluten es un problema de ingeniería distinto al pan común, cómo armar tu propia mezcla de harinas, qué aglutinante usar y por qué, fermentación, horneado, masa madre sin gluten, resolución de problemas comunes, y seguridad real para celíacos.",
+  "totalHours": 20,
+  "resources": {
+    "books": [
+      {
+        "title": "Gluten-Free Baking at Home",
+        "author": "America's Test Kitchen",
+        "note": "Enfoque metódico y probado en laboratorio de por qué funcionan (o no) las distintas mezclas de harina sin gluten."
+      },
+      {
+        "title": "The Bread Kitchen Table (blog): Ultimate Gluten Free Bread",
+        "author": "The Loopy Whisk",
+        "note": "Referencia detallada sobre la técnica del gel de psyllium y masa artesanal sin gluten."
+      }
+    ],
+    "channels": [
+      {
+        "name": "gfJules",
+        "url": "https://gfjules.com"
+      },
+      {
+        "name": "The Loopy Whisk",
+        "url": "https://theloopywhisk.com"
+      }
+    ]
+  },
+  "finalChallenge": [
+    "Armá tu propia mezcla de harinas sin gluten desde cero, sin depender de una premezcla comprada.",
+    "Horneá una hogaza con miga abierta, no gomosa, que se sostenga sola al cortarla.",
+    "Hacé nacer y mantené viva una masa madre sin gluten durante al menos dos semanas.",
+    "Diagnosticá y corregí al menos un problema de textura en una hogaza (densidad, gomosidad, o desmoronamiento).",
+    "Armá una cocina con protocolo de cero contaminación cruzada si compartís espacio con productos con gluten."
+  ],
+  "blocks": [
+    {
+      "id": "b1",
+      "number": 1,
+      "title": "Por qué el pan sin gluten es un problema distinto",
+      "hours": 2,
+      "goal": "Entender qué hace el gluten en un pan común, para saber qué es lo que realmente hay que reemplazar.",
+      "visual": "glutenNetwork",
+      "learn": [
+        {
+          "term": "Qué hace el gluten en un pan común",
+          "body": "El gluten es una red de proteínas (glutenina y gliadina) que se forma al mezclar harina de trigo con agua y amasar. Esa red es **elástica y a la vez extensible**: atrapa los gases de la fermentación, permite que la masa se estire sin romperse, y le da al pan su estructura esponjosa característica y su masticabilidad. Sin gluten, no hay red — y sin red, no hay nada que retenga el gas ni que le dé cuerpo a la masa por sí sola."
+        },
+        {
+          "term": "El pan sin gluten no es \"pan común sin un ingrediente\"",
+          "body": "Quitar el gluten de una receta de pan y no reemplazarlo por nada da una masa que se derrama como una pasta espesa, no retiene el gas de la fermentación, y se desarma al hornear. Por eso el pan sin gluten exitoso **no es una sustitución simple**, sino una reconstrucción de la estructura del pan usando otros materiales: una mezcla de harinas distinta, y un aglutinante que cumpla el rol mecánico que el gluten cumplía antes."
+        },
+        {
+          "term": "Los tres bloques de una receta sin gluten",
+          "body": "Casi toda receta de pan sin gluten se arma sobre tres pilares: una **mezcla de harinas y almidones** (Bloque 2) que da el volumen y el sabor base; un **aglutinante** (goma xantana o cáscara de psyllium, Bloque 3) que reemplaza la elasticidad del gluten; y **agua en mayor proporción** que en una masa de trigo tradicional, porque los almidones sin gluten absorben humedad de forma distinta."
+        },
+        {
+          "term": "Por qué vale la pena entender la ciencia antes de seguir una receta",
+          "body": "A diferencia del pan de trigo, donde muchas recetas son intercambiables, el pan sin gluten es **mucho más sensible a la proporción exacta** entre harina, almidón, aglutinante y agua. Entender qué función cumple cada ingrediente te permite ajustar una receta que no te convence, en vez de tener que empezar de cero cada vez que algo sale mal."
+        }
+      ],
+      "videos": [],
+      "project": null,
+      "check": "¿Por qué simplemente quitar la harina de trigo de una receta de pan común no funciona?"
+    },
+    {
+      "id": "b2",
+      "number": 2,
+      "title": "Armar tu mezcla de harinas",
+      "hours": 2,
+      "goal": "Construir una mezcla de harinas propia, equilibrada, en vez de depender de una premezcla comercial.",
+      "visual": "flourBlendPie",
+      "learn": [
+        {
+          "term": "La lógica de una mezcla equilibrada",
+          "body": "Una mezcla de harinas sin gluten que funciona bien para pan suele combinar **una harina base neutra (arroz blanco o integral), uno o dos almidones (fécula de mandioca/tapioca, fécula de papa, o maicena), y opcionalmente una harina integral con más sabor y nutrientes** (sorgo, mijo, o trigo sarraceno). Una proporción de referencia habitual es aproximadamente **50% harina de arroz, 30% almidón (tapioca y/o papa), 20% harina integral con más carácter** — un punto de partida razonable para empezar a experimentar."
+        },
+        {
+          "term": "Harina de arroz: la base más común",
+          "body": "Neutra en sabor, ampliamente disponible, y la base de la mayoría de las mezclas comerciales. La harina de arroz integral aporta algo más de fibra y sabor que la blanca, a cambio de una miga ligeramente más densa."
+        },
+        {
+          "term": "Los almidones: fécula de mandioca/tapioca, papa y maíz",
+          "body": "Los almidones aligeran la mezcla y ayudan a la retención de humedad. La **fécula de papa** (no confundir con harina de papa, que es un producto distinto hecho de papa entera) absorbe agua especialmente bien. La **fécula de mandioca (tapioca)** aporta algo de elasticidad y un buen dorado de corteza. Ninguno de los dos aporta sabor propio significativo."
+        },
+        {
+          "term": "Harinas integrales con carácter: sorgo, mijo, trigo sarraceno",
+          "body": "Agregar una porción (alrededor del 20% de la mezcla total) de una harina integral sin gluten le da al pan más sabor, color y valor nutricional que una mezcla hecha solo de harina de arroz y almidones, que tiende a resultar plana y genérica en sabor."
+        },
+        {
+          "term": "Por qué pesar en vez de medir por volumen",
+          "body": "Las harinas sin gluten varían mucho en densidad entre sí — una taza de harina de arroz no pesa lo mismo que una taza de fécula de mandioca. Usar una **balanza de cocina y medir en gramos** en vez de tazas es, con diferencia, la forma más confiable de repetir una mezcla exitosa o de ajustarla con precisión cuando algo no sale bien."
+        }
+      ],
+      "videos": [],
+      "project": "Armá tu propia mezcla de harinas en un contenedor grande, etiquetada con las proporciones exactas que usaste.",
+      "check": "¿Por qué dos mezclas de harina sin gluten hechas \"a ojo\" con las mismas tazas pueden pesar y comportarse de forma muy distinta?"
+    },
+    {
+      "id": "b3",
+      "number": 3,
+      "title": "Aglutinantes: goma xantana vs. cáscara de psyllium",
+      "hours": 2,
+      "goal": "Elegir el aglutinante correcto para pan, entendiendo qué hace cada uno distinto.",
+      "visual": "bindingChoice",
+      "learn": [
+        {
+          "term": "Qué hace un aglutinante en una masa sin gluten",
+          "body": "Tanto la goma xantana como la cáscara de psyllium son **hidrocoloides**: absorben agua y forman un gel que ayuda a unir la mezcla, retener humedad, y atrapar el gas de la fermentación — cumpliendo, de forma imperfecta pero funcional, el rol mecánico que el gluten cumple en el pan de trigo."
+        },
+        {
+          "term": "Goma xantana: mejor para tortas, galletas y masas delicadas",
+          "body": "Funciona muy bien dando una miga tierna y suave en tortas, muffins y galletas, pero **no aporta suficiente elasticidad y estructura para un pan con buena miga abierta** — para eso, el psyllium rinde considerablemente mejor."
+        },
+        {
+          "term": "Cáscara de psyllium: el ingrediente clave para pan",
+          "body": "El psyllium (la cáscara de la semilla de *Plantago ovata*) forma un **gel mucho más elástico y extensible** que la goma xantana al mezclarse con agua, lo que le permite a la masa comportarse de forma mucho más parecida a una masa de trigo real: se puede amasar, estirar y formar sin desarmarse, retiene bien el gas de fermentación, y da como resultado una miga abierta, elástica, y masticable — la textura que la mayoría de la gente busca imitar del pan con gluten."
+        },
+        {
+          "term": "Cáscara entera vs. psyllium en polvo",
+          "body": "No son intercambiables uno por uno en volumen: si una receta pide polvo, no uses cáscara entera sin ajustar, y viceversa. Muchos panaderos prefieren la **cáscara entera** porque no forma grumos al hidratarse tan fácilmente como el polvo, y no tiñe la miga de un tono violáceo como a veces hace el polvo. Como referencia general de sustitución, cuando una receta pide goma xantana se puede reemplazar por psyllium en polvo en una proporción de aproximadamente **2 cucharadas de psyllium por cada cucharadita de goma xantana**, ajustando según el tipo de receta."
+        },
+        {
+          "term": "El gel de psyllium",
+          "body": "Mezclar el psyllium con agua tibia por separado, dejarlo reposar uno o dos minutos hasta que espese en un gel, e incorporar ese gel a la mezcla de harinas — en vez de agregar el psyllium seco directo a la harina — suele dar una hidratación más pareja y evita grumos, aunque algunos panaderos con experiencia logran buenos resultados agregándolo directo a los secos siempre que dejen reposar la masa el tiempo suficiente para hidratarse del todo."
+        }
+      ],
+      "videos": [],
+      "project": "Prepará un gel de psyllium y observá cuánto tarda en espesar y qué consistencia toma.",
+      "check": "¿Por qué la goma xantana sola no te va a dar una buena hogaza de pan con miga abierta, aunque funcione bien en una torta?"
+    },
+    {
+      "id": "b4",
+      "number": 4,
+      "title": "Levadura y fermentación en una masa sin gluten",
+      "hours": 2,
+      "goal": "Entender cómo se comporta la fermentación en ausencia de una red de gluten.",
+      "visual": "doughHydration",
+      "learn": [
+        {
+          "term": "La levadura funciona igual, la masa no",
+          "body": "La levadura (fresca, seca activa, o instantánea) sigue haciendo el mismo trabajo biológico de siempre: consume azúcares y libera dióxido de carbono. La diferencia está en qué tan bien la masa retiene ese gas — con una red de gluten bien desarrollada, una masa de trigo lo retiene de forma muy eficiente; una masa sin gluten, incluso con psyllium, lo retiene de forma más limitada."
+        },
+        {
+          "term": "Más agua de lo que esperarías",
+          "body": "Una masa de pan sin gluten típicamente lleva **más hidratación (más agua en proporción a la harina)** que una masa de trigo equivalente, porque los almidones y el psyllium absorben agua de forma distinta a la proteína del gluten. El resultado es una masa que, incluso bien lograda, suele quedar más pegajosa y menos manejable con las manos secas que una masa de trigo tradicional — esto es esperable, no una señal de que algo salió mal."
+        },
+        {
+          "term": "Por qué casi siempre hace falta un molde",
+          "body": "Sin la elasticidad completa del gluten, una masa sin gluten generalmente **no puede sostener su propia forma libre sobre la bandeja** durante la fermentación y el horneado como sí puede una hogaza artesanal de trigo bien amasada. Por eso la gran mayoría de las recetas de pan sin gluten (salvo las que usan cantidades altas de psyllium y técnica avanzada) se hornean en **molde de budín inglés (pan de molde)**, que le da a la masa el soporte estructural que le falta durante el horneado."
+        },
+        {
+          "term": "Una sola fermentación, generalmente",
+          "body": "Muchas recetas de pan sin gluten hacen **una sola fermentación dentro del molde**, en vez de las dos fermentaciones (bulk fermentation y fermentación final) típicas del pan de trigo — la masa sin gluten no se beneficia tanto de un desgasificado y reformado intermedio, porque no tiene la misma red que reorganizar."
+        },
+        {
+          "term": "El crecimiento en el horno (oven spring) es más limitado",
+          "body": "Una masa de trigo bien fermentada sigue creciendo notablemente en los primeros minutos de horneado (el llamado \"oven spring\"). Una masa sin gluten crece bastante menos en el horno — por eso es importante dejarla fermentar bien **antes** de hornear, en vez de contar con que el horno complete el crecimiento."
+        }
+      ],
+      "videos": [],
+      "project": "Prepará una masa base y observá cuánto crece durante la fermentación comparado con lo que crece en el horno.",
+      "check": "¿Por qué una masa sin gluten necesita generalmente más agua que una masa de trigo con el mismo peso de harina?"
+    },
+    {
+      "id": "b5",
+      "number": 5,
+      "title": "Herramientas y técnica de mezclado",
+      "hours": 2,
+      "goal": "Mezclar y formar una masa sin gluten con la técnica correcta, sin pelear contra ella.",
+      "visual": null,
+      "learn": [
+        {
+          "term": "Orden de mezclado recomendado",
+          "body": "Un orden que suele dar buenos resultados: primero preparar el gel de psyllium (Bloque 3) y dejarlo espesar; después mezclar los ingredientes secos (mezcla de harinas, sal, y levadura si es seca) por separado; luego combinar el gel de psyllium con el resto de los líquidos (agua, aceite); y finalmente unir ambas mezclas hasta formar la masa."
+        },
+        {
+          "term": "No hace falta amasar mucho, y no hay ventana de gluten que buscar",
+          "body": "En una masa de trigo, amasar desarrolla la red de gluten y se comprueba con la clásica \"prueba de la ventana\" (estirar la masa hasta ver luz a través sin que se rompa). **Esa prueba no aplica a una masa sin gluten** — no hay red de gluten que desarrollar con el amasado. Un mezclado breve para integrar bien los ingredientes y activar el gel de psyllium alcanza; amasar de más no mejora la estructura como sí lo hace en una masa de trigo."
+        },
+        {
+          "term": "Herramientas: batidora con pala, no gancho amasador",
+          "body": "Si usás batidora eléctrica, conviene usar el **accesorio de pala (paddle) en vez del gancho amasador (dough hook)** — una masa sin gluten se comporta más como una masa espesa y pegajosa que como una masa de trigo elástica, y la pala mezcla mejor ese tipo de consistencia."
+        },
+        {
+          "term": "Manos húmedas o aceitadas, no harina extra",
+          "body": "Cuando una masa de trigo se pega a las manos, agregar más harina es una solución razonable. En una masa sin gluten, **agregar harina extra para que deje de pegarse suele arruinar la proporción cuidadosamente calculada de la receta** — es mejor trabajar con las manos húmedas o ligeramente aceitadas para manejar la pegajosidad sin alterar la mezcla."
+        }
+      ],
+      "videos": [
+        {
+          "title": "This Gluten-Free Psyllium Husk Bread Is A GAMECHANGER",
+          "youtubeId": "9DTcj5SoWRQ"
+        }
+      ],
+      "project": "Mezclá tu primera masa siguiendo el orden recomendado, sin agregar harina extra aunque se sienta pegajosa.",
+      "check": "¿Por qué la \"prueba de la ventana\" que se usa con masa de trigo no tiene sentido aplicarla a una masa sin gluten?"
+    },
+    {
+      "id": "b6",
+      "number": 6,
+      "title": "Horneado: moldes, vapor y temperatura",
+      "hours": 2,
+      "goal": "Hornear la masa de forma que desarrolle buena corteza y una miga bien cocida por dentro.",
+      "visual": "ovenBake",
+      "learn": [
+        {
+          "term": "Molde de budín inglés como default",
+          "body": "Como se vio en el Bloque 4, la gran mayoría de los panes sin gluten se benefician de un molde que sostenga la forma — un molde de budín inglés (pan de molde) bien aceitado o enmantecado es la opción más confiable para empezar, antes de intentar una hogaza artesanal de forma libre."
+        },
+        {
+          "term": "Vapor para mejor corteza",
+          "body": "Igual que con el pan de trigo, agregar humedad al horno durante los primeros minutos de cocción (una bandeja con agua caliente en la base del horno, u hornear dentro de una olla de hierro tipo dutch oven con tapa) ayuda a que la corteza se forme más lentamente y termine más crocante, en vez de sellarse demasiado rápido y quedar gruesa y dura."
+        },
+        {
+          "term": "Temperatura interna, no solo el tiempo del reloj",
+          "body": "El pan sin gluten está bien cocido cuando alcanza una **temperatura interna de aproximadamente 93 a 99°C (200 a 210°F)**, medida con un termómetro de cocina insertado en el centro de la hogaza. Confiar solo en el tiempo de la receta es arriesgado porque los hornos varían mucho — el termómetro es la forma más confiable de evitar un pan crudo por dentro."
+        },
+        {
+          "term": "Dejar enfriar completamente antes de cortar",
+          "body": "Este paso es **más crítico en pan sin gluten que en pan de trigo**: la miga sin gluten sigue terminando de fijar su estructura mientras se enfría, gracias a que los almidones y el gel de psyllium siguen reorganizándose con la pérdida de calor. Cortar una hogaza todavía caliente casi garantiza una miga que se ve gomosa o cruda, incluso si el pan estaba perfectamente cocido por dentro."
+        }
+      ],
+      "videos": [],
+      "project": "Horneá una hogaza usando termómetro de cocina para confirmar el punto de cocción, y esperá a que se enfríe del todo antes de cortarla.",
+      "check": "¿Por qué un pan sin gluten puede parecer gomoso al cortarlo aunque el termómetro haya marcado la temperatura correcta al salir del horno?"
+    },
+    {
+      "id": "b7",
+      "number": 7,
+      "title": "Masa madre sin gluten desde cero",
+      "hours": 2,
+      "goal": "Criar y mantener un fermento natural (masa madre) completamente libre de gluten.",
+      "visual": "sourdoughJar",
+      "learn": [
+        {
+          "term": "Por qué armar una masa madre propia desde el día uno",
+          "body": "Si necesitás que el resultado sea genuinamente sin gluten (por ejemplo, por celiaquía), **no se recomienda alimentar una masa madre de trigo ya existente con harina sin gluten** esperando que se \"convierta\" — incluso después de muchas alimentaciones, suele quedar rastro de proteína de trigo en el cultivo. Lo seguro es armar una masa madre nueva, sin gluten desde el primer día."
+        },
+        {
+          "term": "Harinas recomendadas para el cultivo",
+          "body": "Una combinación de **harina de arroz integral y harina de trigo sarraceno (buckwheat) en partes iguales** es un punto de partida clásico: el arroz aporta el carbohidrato base, y el trigo sarraceno trae más levaduras silvestres naturalmente presentes en el grano, acelerando el arranque del cultivo. El trigo sarraceno solo, sin embargo, tiende a enmohecerse más rápido que otras combinaciones, así que conviene no exceder aproximadamente la mitad de la mezcla de alimentación."
+        },
+        {
+          "term": "El proceso: unos 6 a 7 días",
+          "body": "El patrón general es: mezclar harina y agua tibia, dejar reposar 24 horas tapado sin sellar del todo, y luego **descartar una parte y \"alimentar\" con harina y agua fresca todos los días**, pasando a dos alimentaciones diarias hacia la segunda mitad del proceso. Es normal que alrededor del día 4 o 5 el cultivo pase por una fase de olor desagradable mientras se reequilibra la comunidad microbiana — con alimentación constante, ese olor se resuelve hacia un aroma agradable y ácido en los días siguientes."
+        },
+        {
+          "term": "No esperes que duplique como una masa madre de trigo",
+          "body": "Una masa madre sin gluten burbujea y fermenta, pero **generalmente no duplica su volumen** de forma tan dramática como una masa madre de trigo bien alimentada, incluso estando perfectamente sana y activa — no es una señal de fracaso, es una diferencia estructural esperable por la ausencia de la red de gluten."
+        },
+        {
+          "term": "Agua sin cloro",
+          "body": "El agua de red clorada puede inhibir el desarrollo de las levaduras silvestres del cultivo. Dejar el agua de la canilla reposar destapada durante una noche (para que el cloro se evapore), o usar agua filtrada, ayuda a que el cultivo arranque con más fuerza."
+        }
+      ],
+      "videos": [],
+      "project": "Empezá tu propia masa madre sin gluten y llevá un registro diario de olor, burbujas y crecimiento durante una semana.",
+      "check": "¿Por qué no conviene simplemente empezar a alimentar una masa madre de trigo ya existente con harina sin gluten si necesitás que el resultado sea apto para celíacos?"
+    },
+    {
+      "id": "b8",
+      "number": 8,
+      "title": "Solución de problemas: denso, gomoso, o se desmorona",
+      "hours": 2,
+      "goal": "Diagnosticar por qué salió mal una hogaza, en vez de tirar la receta entera a la basura.",
+      "visual": null,
+      "learn": [
+        {
+          "term": "Miga gomosa",
+          "body": "Las causas más comunes son: **cortar el pan antes de que se enfríe completamente** (Bloque 6), un horneado insuficiente en el centro de la hogaza (confirmar con termómetro), o un exceso de líquido en relación a la mezcla de harinas y aglutinante usada."
+        },
+        {
+          "term": "Pan denso y pesado",
+          "body": "Generalmente indica una **fermentación insuficiente antes de hornear** (Bloque 4), demasiado poco aglutinante para retener el gas producido, o una proporción de harinas con demasiado almidón y poca estructura. Aumentar ligeramente el tiempo de fermentación o ajustar la proporción de psyllium suele mejorar notablemente el resultado."
+        },
+        {
+          "term": "Pan que se desmorona",
+          "body": "Casi siempre señala **falta de aglutinante** — muy poco psyllium o goma xantana para la cantidad de harina usada — o una mezcla de harinas con demasiada proporción de harinas sin cuerpo (como exceso de almidón puro sin suficiente harina de arroz o integral que le dé estructura)."
+        },
+        {
+          "term": "Corteza demasiado gruesa o dura",
+          "body": "Suele deberse a falta de humedad durante el horneado — agregar vapor (Bloque 6) casi siempre resuelve este problema sin necesidad de cambiar la receta."
+        },
+        {
+          "term": "Color violáceo en la miga",
+          "body": "Un tono ligeramente púrpura o grisáceo en la miga, sin que nada esté mal con el sabor o la textura, suele venir del **psyllium en polvo** (no de la cáscara entera) reaccionando con otros ingredientes — si te molesta estéticamente, cambiar a cáscara entera o buscar psyllium etiquetado como \"blond\" (más claro) resuelve el problema."
+        }
+      ],
+      "videos": [],
+      "project": "Elegí el problema más común en tus propias hogazas anteriores y ajustá una sola variable a la vez para corregirlo.",
+      "check": "Tu pan salió denso y con la corteza muy gruesa a la vez. ¿Qué dos ajustes probarías primero, y por qué esos dos?"
+    },
+    {
+      "id": "b9",
+      "number": 9,
+      "title": "Seguridad para celíacos: evitar la contaminación cruzada",
+      "hours": 2,
+      "goal": "Entender qué tan estricta debe ser la separación de gluten cuando el pan es para alguien con enfermedad celíaca.",
+      "visual": "crossContam",
+      "learn": [
+        {
+          "term": "El estándar de 20 ppm",
+          "body": "Tanto en Estados Unidos como en la Unión Europea, un alimento puede etiquetarse \"libre de gluten\" si contiene **menos de 20 partes por millón (ppm) de gluten** — el umbral que la evidencia científica considera seguro para la gran mayoría de las personas con enfermedad celíaca. Algunas certificaciones privadas (como GFCO) exigen un estándar más estricto, por debajo de 10 ppm."
+        },
+        {
+          "term": "La contaminación cruzada es el riesgo real, no el ingrediente en sí",
+          "body": "Muchos casos de exposición accidental al gluten no vienen de un ingrediente mal etiquetado, sino de **contacto compartido**: una tabla de cortar, un tostador, una superficie de trabajo, o utensilios usados antes con productos con gluten y no limpiados a fondo. Un tostador dedicado exclusivamente a pan sin gluten es una de las medidas más simples y efectivas en una cocina compartida."
+        },
+        {
+          "term": "La avena: un caso especial",
+          "body": "La avena en sí **no contiene gluten**, pero se cultiva y procesa frecuentemente junto con trigo, cebada y centeno, lo que genera una contaminación cruzada real — la avena convencional de supermercado puede llegar a superar ampliamente los 20 ppm. Solo la **avena certificada específicamente como libre de gluten**, cultivada y procesada en líneas dedicadas, es segura para consumo de alguien con celiaquía."
+        },
+        {
+          "term": "Buenas prácticas en una cocina compartida",
+          "body": "Guardar los ingredientes sin gluten en recipientes separados y bien identificados, usar utensilios, tablas y bandejas de horno **dedicados exclusivamente** a la preparación sin gluten cuando sea posible, limpiar bien las superficies de trabajo antes de empezar, y evitar reutilizar aceite de fritura que ya se usó con productos con gluten."
+        },
+        {
+          "term": "Leer etiquetas, no asumir",
+          "body": "Ingredientes que \"deberían\" ser naturalmente libres de gluten (como ciertos condimentos, caldos, o mezclas de especias) a veces contienen trigo como espesante o relleno oculto — revisar la etiqueta de cada ingrediente nuevo, en vez de asumir por la categoría del producto, es un hábito que vale la pena mantener siempre."
+        }
+      ],
+      "videos": [],
+      "project": "Revisá tu cocina y armá un protocolo simple de separación (utensilios, tostador, superficies) si compartís el espacio con productos con gluten.",
+      "check": "¿Por qué la avena \"común\" de supermercado no es automáticamente segura para alguien celíaco, aunque la avena en sí no tenga gluten?"
+    },
+    {
+      "id": "b10",
+      "number": 10,
+      "title": "Variaciones y mantener el hábito",
+      "hours": 2,
+      "goal": "Expandir más allá de la hogaza básica y sostener la panificación sin gluten como una práctica habitual.",
+      "visual": null,
+      "learn": [
+        {
+          "term": "Más allá del molde: baguettes y panecillos",
+          "body": "Con suficiente psyllium y práctica en el formado (Bloque 5), es posible pasar de la hogaza en molde a formatos de forma libre como baguettes o panecillos individuales — conviene dominar primero la versión en molde antes de intentar formatos que dependen más de la fuerza estructural de la propia masa."
+        },
+        {
+          "term": "Guardado: el pan sin gluten se seca más rápido",
+          "body": "Por su composición distinta de almidones, el pan sin gluten tiende a **perder humedad y volverse duro (\"stale\") más rápido que el pan de trigo**. Guardarlo en una bolsa u contenedor bien cerrado a temperatura ambiente sirve para el consumo de un par de días; para más tiempo, **cortarlo en rebanadas y congelarlo** conserva mucho mejor la textura que guardarlo entero en la heladera, que de hecho acelera el endurecimiento."
+        },
+        {
+          "term": "Sumar variedad de harinas integrales",
+          "body": "Una vez que domines la mezcla base (Bloque 2), experimentar con distintas proporciones de harinas integrales — más trigo sarraceno para un perfil más rústico, más mijo para un sabor más suave — es la forma más simple de variar el carácter del pan sin tener que rearmar toda la técnica desde cero."
+        },
+        {
+          "term": "Llevar un registro",
+          "body": "Anotar la mezcla exacta de harinas, la cantidad de aglutinante, el tiempo de fermentación, y el resultado de cada hogaza convierte cada intento en información útil para el siguiente — especialmente valioso en panificación sin gluten, donde pequeños ajustes de proporción tienen un impacto mucho mayor que en el pan de trigo tradicional."
+        },
+        {
+          "term": "De la cocina a la mesa, todo el año",
+          "body": "Con la mezcla de harinas, el aglutinante y la técnica de horneado ya resueltos, panificar sin gluten deja de ser un experimento puntual y se convierte en una rutina de cocina más — pan fresco, sin depender de una premezcla comercial ni de encontrar el producto correcto en el supermercado cada semana."
+        }
+      ],
+      "videos": [],
+      "project": "Horneá una variación de tu receta base (baguette, panecillos, o una harina integral distinta) y compará el resultado con tu primera hogaza.",
+      "check": "¿Por qué congelar rebanadas conserva mejor un pan sin gluten que guardarlo entero en la heladera?"
+    }
+  ]
+}

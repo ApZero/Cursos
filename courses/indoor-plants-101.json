@@ -1,0 +1,357 @@
+{
+  "schemaVersion": 1,
+  "id": "indoor-plants-101",
+  "title": "Plantas de Interior 101",
+  "subtitle": "Hierbas y frutillas — 20 horas para tener una huerta viva adentro de casa, todo el año",
+  "category": "Huerta y Animales",
+  "description": "Un curso práctico sobre cultivar hierbas aromáticas y frutillas (fresas) dentro de casa: luz, sustrato, riego, poda para cosecha continua, polinización manual, y manejo de plagas típicas del interior.",
+  "totalHours": 20,
+  "resources": {
+    "books": [
+      {
+        "title": "The Complete Houseplant Survival Manual",
+        "author": "Barbara Pleasant",
+        "note": "Guía general de plantas de interior con secciones sólidas sobre luz y sustrato aplicables a hierbas y frutillas."
+      }
+    ],
+    "channels": [
+      {
+        "name": "Epic Gardening",
+        "url": "https://www.youtube.com/@epicgardening"
+      },
+      {
+        "name": "Savvy Gardening (Niki Jabbour)",
+        "url": "https://savvygardening.com"
+      }
+    ]
+  },
+  "finalChallenge": [
+    "Mantené un set de al menos tres hierbas distintas produciendo hojas cosechables todo el año.",
+    "Conseguí que una planta de frutilla día-neutral florezca y fructifique adentro de casa.",
+    "Polinizá manualmente al menos una flor de frutilla y llevala a fruto maduro.",
+    "Propagá una hierba nueva por esqueje (menta o romero) sin comprarla ya crecida.",
+    "Pasá tus plantas por un cambio de estación (más luz de invierno o menos agua de verano) sin perder ninguna."
+  ],
+  "blocks": [
+    {
+      "id": "b1",
+      "number": 1,
+      "title": "Luz: el factor que decide todo",
+      "hours": 2,
+      "goal": "Entender cuánta luz necesita realmente una hierba o una frutilla adentro de casa, y de dónde sacarla.",
+      "visual": "lightGauge",
+      "learn": [
+        {
+          "term": "Luz natural: ventanas y orientación",
+          "body": "La mayoría de las hierbas necesitan entre **6 y 8 horas de luz solar directa** por día para producir bien. Una ventana orientada al **norte** (en el hemisferio sur, equivalente al sur en el hemisferio norte) suele dar la luz más intensa y constante del día; una ventana este da sol suave de mañana, buena para hierbas más delicadas como el perejil y el cilantro; una ventana oeste da sol fuerte de tarde, que puede ser demasiado intenso y caluroso para algunas especies."
+        },
+        {
+          "term": "Cuándo hace falta luz artificial",
+          "body": "Si tu ventana más luminosa no llega a esas 6–8 horas —algo muy común en invierno o en ambientes con poca luz—, una **luz de cultivo (grow light) de espectro completo** cubre la diferencia. La regla general es un **panel LED ubicado a 15–30 cm de las hojas**, con un temporizador que la mantenga encendida entre **12 y 16 horas diarias** para la mayoría de las hierbas de cocina (albahaca, perejil, cilantro, ciboulette, orégano)."
+        },
+        {
+          "term": "No todas las hierbas quieren lo mismo",
+          "body": "La **albahaca** tolera y hasta aprovecha hasta **18 horas de luz** por día. El **cilantro**, en cambio, empieza a estresarse y a irse a flor antes de tiempo con más de **10–11 horas** de luz diaria — es una excepción a tener en cuenta si cultivás varias hierbas bajo la misma luz con el mismo temporizador. El **romero** y el **tomillo** quieren luz fuerte y prolongada (14–16 horas) combinada con sustrato que se seque bien entre riegos."
+        },
+        {
+          "term": "El descanso oscuro también importa",
+          "body": "Durante la noche, sin luz, la planta respira y usa las reservas de energía acumuladas durante el día para crecer y reparar tejido — un ciclo que necesita **al menos 8 a 10 horas de oscuridad** para completarse bien. Dejar una luz de cultivo encendida las 24 horas no acelera el crecimiento; le quita a la planta ese período de descanso metabólico."
+        }
+      ],
+      "videos": [],
+      "project": null,
+      "check": "¿Por qué el cilantro y la albahaca no deberían compartir el mismo temporizador de luz de 16 horas?"
+    },
+    {
+      "id": "b2",
+      "number": 2,
+      "title": "Sustrato, macetas y drenaje",
+      "hours": 2,
+      "goal": "Elegir el contenedor y el sustrato correctos antes de plantar nada.",
+      "visual": "potCrossSection",
+      "learn": [
+        {
+          "term": "Sustrato para maceta, no tierra de jardín",
+          "body": "La tierra de jardín se compacta dentro de una maceta, ahoga las raíces, y suele traer plagas o patógenos. Un **sustrato para maceta (potting mix)** — liviano, bien aireado, generalmente a base de turba o fibra de coco con perlita — es la base correcta para cualquier hierba o frutilla de interior."
+        },
+        {
+          "term": "Una especie, una maceta",
+          "body": "Cada hierba tiene su propia combinación ideal de agua y luz — mezclar varias especies en una sola maceta hace que sea imposible satisfacer a todas a la vez. Lo recomendable es **una especie por maceta**, incluso si después las agrupás juntas por estética o para compartir la misma luz de cultivo."
+        },
+        {
+          "term": "Tamaño de maceta y drenaje",
+          "body": "Una maceta **demasiado grande para la planta se mantiene húmeda por más tiempo del que la raíz necesita**, favoreciendo pudrición — el tamaño debe ajustarse al tamaño real de la planta, no al que tendrá en un año. El **drenaje es no negociable**: toda maceta necesita orificios en la base. Las macetas de terracota, al ser porosas, dejan secar el sustrato más rápido que las de plástico o cerámica esmaltada — una ventaja para hierbas mediterráneas que prefieren estar más secas entre riegos."
+        },
+        {
+          "term": "Frutillas: profundidad moderada, ancho generoso",
+          "body": "Las raíces de la frutilla son poco profundas, así que no hace falta una maceta muy honda —entre **20 y 25 cm de profundidad** alcanza—, pero sí conviene un buen ancho: una maceta de unos **30 cm de diámetro** entra bien para tres plantas, o una de 15–20 cm para una sola planta."
+        }
+      ],
+      "videos": [],
+      "project": "Trasplantá tus hierbas actuales (si vienen de macetas de vivero) a sustrato para maceta fresco, una especie por contenedor.",
+      "check": "¿Por qué una maceta demasiado grande para una hierba mediterránea como el romero puede matarla por exceso de humedad?"
+    },
+    {
+      "id": "b3",
+      "number": 3,
+      "title": "Riego y humedad",
+      "hours": 2,
+      "goal": "Regar cada planta según lo que realmente necesita, y manejar la humedad del ambiente sin generar plagas.",
+      "visual": null,
+      "learn": [
+        {
+          "term": "Dos grupos, dos lógicas de riego",
+          "body": "Las **hierbas mediterráneas** (romero, tomillo, orégano, lavanda) prefieren que el sustrato se seque bastante entre riego y riego, y son propensas a pudrición de raíz si se las mantiene húmedas todo el tiempo. Otras hierbas y las **frutillas** prefieren humedad **constante pero nunca encharcada** — dejar que se sequen del todo entre riegos las estresa, pero el exceso de agua ahoga igual a la raíz."
+        },
+        {
+          "term": "Cómo saber cuándo regar",
+          "body": "Para las mediterráneas: esperá a que los primeros 2–3 cm de sustrato estén secos al tacto. Para frutillas y hierbas de humedad constante: regá cuando la superficie empiece a secarse, sin dejar que la planta llegue a marchitarse. Regar de a poco pero seguido genera raíces débiles y superficiales — mejor un riego más completo y espaciado que moje todo el pan de sustrato."
+        },
+        {
+          "term": "Humedad ambiental: un equilibrio incómodo",
+          "body": "El aire seco típico de interiores con calefacción o aire acondicionado es exactamente la condición que **favorece a los ácaros araña (arañuela)** — un problema cubierto en detalle en el Bloque 9. Elevar la humedad ambiental con un humidificador cerca del grupo de plantas, o una bandeja con piedras y agua debajo de las macetas (sin que la maceta toque el agua directamente), ayuda a mantener un ambiente menos favorable para esa plaga sin encharcar el sustrato."
+        },
+        {
+          "term": "Riego automático o autorregado",
+          "body": "Las macetas autorregadas (con reservorio de agua en la base y una mecha o sistema de mecha) simplifican mucho el mantenimiento de frutillas y hierbas de humedad constante, sobre todo si viajás seguido — pero no son ideales para las mediterráneas, que necesitan justamente el ciclo de secado entre riegos."
+        }
+      ],
+      "videos": [],
+      "project": "Agrupá tus macetas en dos zonas según su lógica de riego (mediterráneas vs. humedad constante).",
+      "check": "¿Por qué el romero en una maceta autorregada tiene más riesgo de pudrirse que en una maceta de riego manual?"
+    },
+    {
+      "id": "b4",
+      "number": 4,
+      "title": "Elegí tus hierbas: guía por especie",
+      "hours": 2,
+      "goal": "Conocer las necesidades específicas de las hierbas de cocina más comunes para interior.",
+      "visual": null,
+      "learn": [
+        {
+          "term": "Albahaca",
+          "body": "Necesita luz fuerte (hasta 18 horas bajo luz de cultivo) y temperaturas cálidas, entre **18 y 24°C**. Es sensible al frío y al agua estancada en las hojas. Es también la hierba que más se beneficia de la poda frecuente, cubierta en el Bloque 6."
+        },
+        {
+          "term": "Menta",
+          "body": "A diferencia de casi todas las demás hierbas de esta lista, la menta **necesita su propia maceta, siempre, sin excepción** — sus raíces (rizomas) son extremadamente invasivas y van a competir agresivamente con cualquier otra planta que comparta el sustrato. Tolera algo más de sombra que el resto y prefiere el sustrato con humedad más constante."
+        },
+        {
+          "term": "Romero y tomillo",
+          "body": "Ambas son hierbas mediterráneas que quieren luz intensa y prolongada (14–16 horas) y sustrato que se seque bien entre riegos — el exceso de agua es, con diferencia, la causa más común de que un romero de interior muera. Toleran temperaturas frescas (18–24°C) mejor que la albahaca."
+        },
+        {
+          "term": "Orégano",
+          "body": "Tolerante a la sequía, prefiere luz plena (12–14 horas) y temperaturas de 18–24°C. Como el romero, se beneficia de dejar secar el sustrato entre riegos."
+        },
+        {
+          "term": "Perejil y cilantro",
+          "body": "Ambas toleran mejor la luz indirecta que las mediterráneas, y funcionan bien en ventanas este. El cilantro es la excepción a la regla de \"más luz, mejor\": con más de 10–11 horas diarias tiende a acelerar su ciclo y irse a flor antes de dar suficiente hoja — conviene darle su propio horario de luz, más corto que el del resto."
+        }
+      ],
+      "videos": [],
+      "project": "Armá una ficha con las necesidades de luz, agua y temperatura de cada hierba que tengas o quieras tener.",
+      "check": "¿Por qué la menta nunca debería compartir maceta con otra hierba, sin importar cuánto espacio parezca sobrar?"
+    },
+    {
+      "id": "b5",
+      "number": 5,
+      "title": "Sembrar y trasplantar hierbas de interior",
+      "hours": 2,
+      "goal": "Empezar cada hierba de la forma más confiable: semilla, plantín, o esqueje según el caso.",
+      "visual": null,
+      "learn": [
+        {
+          "term": "Desde semilla",
+          "body": "Funciona bien para albahaca, perejil, cilantro y orégano. Sembrá a poca profundidad (dos o tres veces el diámetro de la semilla), mantené el sustrato uniformemente húmedo hasta la germinación, y esperá a tener varias hojas verdaderas antes de exponer la plantita a un régimen de luz completo."
+        },
+        {
+          "term": "Desde plantín de vivero",
+          "body": "El camino más rápido para tener una hierba productiva ya — pero conviene **revisar cuidadosamente antes de traerla a casa**, buscando plagas escondidas en el envés de las hojas o en la base del tallo, y considerar una breve cuarentena separada del resto de tus plantas antes de integrarla al grupo (más sobre esto en el Bloque 9)."
+        },
+        {
+          "term": "Desde esqueje",
+          "body": "La **menta y el romero enraízan con facilidad en un vaso de agua**: cortá un tallo de unos 10 cm, quitá las hojas de la mitad inferior, y sumergí esa parte en agua hasta que aparezcan raíces (generalmente unas dos semanas), antes de pasarlo a sustrato. Es la forma más económica de multiplicar una planta que ya tenés sin comprar otra."
+        },
+        {
+          "term": "Trasplante sin estrés",
+          "body": "Trasplantá cuando la planta ya tiene un sistema de raíces establecido pero antes de que quede apretada en su maceta actual. Regá bien antes y después del trasplante, y evitá exponer la planta recién trasplantada a luz muy intensa los primeros días."
+        }
+      ],
+      "videos": [],
+      "project": "Propagá al menos una hierba por esqueje en un vaso de agua.",
+      "check": "¿Por qué conviene poner en cuarentena un plantín de vivero antes de ubicarlo junto al resto de tus plantas?"
+    },
+    {
+      "id": "b6",
+      "number": 6,
+      "title": "Cosecha continua: podar para producir más",
+      "hours": 2,
+      "goal": "Cosechar tus hierbas de una forma que estimule más producción en vez de agotar la planta.",
+      "visual": "pruningDiagram",
+      "learn": [
+        {
+          "term": "La regla del tercio",
+          "body": "En una sola cosecha, no conviene quitar más de **un tercio del follaje total** de la planta — pasarse de ese límite deja a la planta sin suficiente hoja para seguir fotosintetizando y recuperarse rápido."
+        },
+        {
+          "term": "Cortar en el lugar correcto",
+          "body": "El corte debe hacerse **justo arriba de un nudo de hojas** (el punto donde nace un par de hojas del tallo), no en cualquier parte del tallo. Ese nudo tiene yemas laterales que, al quitar la punta de crecimiento, se activan y generan **dos tallos nuevos en vez de uno** — así es como la poda hace que una planta se vuelva más tupida en vez de más alta y desgarbada."
+        },
+        {
+          "term": "Podar temprano y seguido",
+          "body": "Con la albahaca en particular, conviene empezar a pellizcar la punta de crecimiento cuando la planta todavía es joven (15–20 cm de alto, con 3–4 pares de hojas), y repetir cada una o dos semanas — podar temprano y seguido da una planta mucho más productiva en el mediano plazo que esperar a que crezca grande antes de cortar por primera vez."
+        },
+        {
+          "term": "Sacar las flores antes de que se abran",
+          "body": "Cuando una hierba como la albahaca empieza a florecer, redirige buena parte de su energía hacia la floración y semillas, y el sabor de las hojas suele volverse más amargo. **Pellizcar los botones de flor apenas aparecen** redirige esa energía de vuelta al crecimiento de hojas — conviene revisar la planta cada semana buscando brotes florales nuevos."
+        }
+      ],
+      "videos": [
+        {
+          "title": "How and When to Prune (Pinch) Basil",
+          "youtubeId": "VDrOdMXFz1g"
+        },
+        {
+          "title": "How to Harvest Herbs — prune basil, mint, sage",
+          "youtubeId": "y5eBpCw_6s0"
+        }
+      ],
+      "project": "Podá cada una de tus hierbas siguiendo la regla del tercio y el corte sobre el nudo.",
+      "check": "¿Por qué cortar justo arriba de un nudo de hojas hace que la planta crezca más tupida?"
+    },
+    {
+      "id": "b7",
+      "number": 7,
+      "title": "Frutillas de interior: elegir la variedad correcta",
+      "hours": 2,
+      "goal": "Entender por qué no cualquier frutilla sirve para cultivo de interior, y elegir bien desde el principio.",
+      "visual": null,
+      "learn": [
+        {
+          "term": "Los tres grupos de frutilla",
+          "body": "Las variedades de frutilla se dividen en tres grupos según cuándo fructifican: **June-bearing** (una sola cosecha grande, atada a la duración del día), **everbearing** (dos o tres tandas de fruta por temporada) y **día-neutral** (fructifica de forma continua, sin importar la duración del día). Para interior, donde no hay estaciones marcadas de la misma forma que afuera, **las variedades día-neutral son, con diferencia, la mejor opción** — producen desde el primer año y de forma mucho más pareja que las otras dos."
+        },
+        {
+          "term": "Variedades día-neutral recomendadas",
+          "body": "**Albion** y **Seascape** son dos de las variedades día-neutral más citadas y disponibles para cultivo en maceta e interior, junto con las **frutillas alpinas (Fragaria vesca)**, más pequeñas pero con fruta continua y buen sabor, particularmente adecuadas para espacios reducidos."
+        },
+        {
+          "term": "Por qué NO elegir June-bearing para adentro",
+          "body": "Las variedades June-bearing están genéticamente atadas a la duración del día para decidir cuándo florecer, lo que las hace dar **una sola cosecha concentrada y depender de un ciclo de luz estacional** que es difícil de replicar de forma consistente adentro de casa todo el año."
+        },
+        {
+          "term": "La planta no dura para siempre",
+          "body": "Incluso bien cuidada, una planta de frutilla **empieza a perder vigor después de 2 a 3 años**. Lo normal es planificar reemplazos periódicos, ya sea con plantines nuevos o con los propios estolones (guías) que la planta genera — aunque las día-neutral producen bastantes menos estolones que las June-bearing, lo cual es una ventaja para mantenerlas ordenadas en maceta."
+        }
+      ],
+      "videos": [],
+      "project": "Elegí y conseguí una variedad día-neutral (Albion, Seascape, o una alpina) para tu primera frutilla de interior.",
+      "check": "¿Por qué una variedad June-bearing frustraría a alguien que quiere frutillas de interior todo el año?"
+    },
+    {
+      "id": "b8",
+      "number": 8,
+      "title": "Cultivar frutillas en maceta, paso a paso",
+      "hours": 2,
+      "goal": "Plantar, mantener y polinizar manualmente una frutilla de interior hasta la fruta madura.",
+      "visual": "strawberryFlower",
+      "learn": [
+        {
+          "term": "Plantar sin enterrar la corona",
+          "body": "La **corona** —el punto donde las hojas se unen con la raíz— debe quedar exactamente a nivel del sustrato: enterrada, se pudre; muy expuesta, se seca. Aflojá suavemente las raíces al plantar para que se extiendan hacia afuera en vez de quedar enroscadas."
+        },
+        {
+          "term": "Luz y temperatura",
+          "body": "Las frutillas de interior necesitan un mínimo de **6 a 8 horas de sol directo, o unas 12 horas bajo luz LED de cultivo**. Tolera un rango de temperatura amplio (entre 4°C y 32°C) mientras siga fructificando, aunque el rango cómodo para buena producción es más templado."
+        },
+        {
+          "term": "Riego y fertilización",
+          "body": "Sustrato siempre húmedo pero nunca encharcado — dejar que se seque completamente estresa a la planta justo cuando está formando fruta. Una vez que empieza la floración, conviene **fertilizar cada 2 a 3 semanas** con un fertilizante líquido diluido o uno formulado específicamente para frutillas."
+        },
+        {
+          "term": "Polinización manual: el paso que nadie puede saltear adentro",
+          "body": "Sin abejas circulando por la casa, la polinización de las flores de frutilla queda **incompleta o directamente ausente** si no se hace a mano. Con un pincel pequeño y suave (o un cotonete), pasá el polen del centro de la flor —tocando el anillo externo de anteras y llevándolo hacia el centro (los pistilos)— en cada flor abierta, o simplemente rozá dos flores abiertas entre sí para transferir polen de una a otra. Un ventilador suave circulando aire cerca de las plantas durante la floración ayuda a dispersar polen adicional, aunque no reemplaza del todo la polinización manual directa."
+        },
+        {
+          "term": "Cosecha",
+          "body": "Cosechá cuando la fruta esté completamente roja, tomando el tallito por encima de la fruta y girando suavemente — nunca tirando directo de la fruta, que se daña con facilidad. Cosechar seguido (cada 2–3 días) estimula a la planta a seguir produciendo, especialmente en variedades día-neutral."
+        }
+      ],
+      "videos": [],
+      "project": "Polinizá manualmente todas las flores de tu frutilla durante una semana entera y llevá registro de cuántas cuajan fruto.",
+      "check": "¿Qué pasaría con tu frutilla de interior si nunca polinizaras las flores a mano?"
+    },
+    {
+      "id": "b9",
+      "number": 9,
+      "title": "Plagas y problemas comunes en el interior",
+      "hours": 2,
+      "goal": "Reconocer los problemas típicos del cultivo en interior antes de que se descontrolen, y tratarlos sin comprometer la cosecha comestible.",
+      "visual": "pestGuide",
+      "learn": [
+        {
+          "term": "Ácaros araña (arañuela)",
+          "body": "Son la plaga más asociada al cultivo de interior: prosperan específicamente en **ambientes cálidos y con humedad relativa por debajo del 40%**, exactamente la condición típica de una casa con calefacción o aire acondicionado. Se ven como puntitos diminutos moviéndose en el envés de las hojas, a veces con telarañas finas visibles en infestaciones avanzadas. Subir la humedad ambiental (Bloque 3) es tanto prevención como parte del tratamiento."
+        },
+        {
+          "term": "Pulgones (áfidos)",
+          "body": "Insectos pequeños, de cuerpo blando, que se agrupan en brotes tiernos y en el envés de las hojas, succionando savia y secretando una sustancia pegajosa (melaza) que puede favorecer moho. Un chorro de agua o una solución de jabón potásico diluido los controla bien en etapas tempranas."
+        },
+        {
+          "term": "Mosquitas del sustrato (fungus gnats)",
+          "body": "Pequeñas moscas oscuras que revolotean cerca de la superficie del sustrato, atraídas por **sustrato constantemente húmedo** — son sobre todo una molestia para las personas, pero sus larvas pueden dañar raíces jóvenes en infestaciones fuertes. Dejar secar la superficie del sustrato entre riegos suele resolver el problema sin necesidad de ningún tratamiento adicional."
+        },
+        {
+          "term": "Tratamientos seguros para plantas comestibles",
+          "body": "Como vas a comer estas hierbas y frutillas, conviene empezar siempre por las opciones menos agresivas: **aceite de neem diluido** o **jabón potásico (insecticidal soap)** en spray controlan la mayoría de estos problemas sin dejar residuos preocupantes, aplicados preferentemente hacia el final del día."
+        },
+        {
+          "term": "Cuarentena para plantas nuevas",
+          "body": "Antes de sumar una hierba o frutilla nueva (comprada o regalada) al resto de tu colección, conviene **mantenerla separada una a dos semanas**, revisándola de cerca — la mayoría de las infestaciones que terminan afectando a todo un grupo de plantas de interior empiezan con una sola planta nueva que entró sin revisión."
+        }
+      ],
+      "videos": [
+        {
+          "title": "How To Control Houseplant Pests (Spider Mites, Thrips, Mealybug, Fungus Gnats...)",
+          "youtubeId": "nwd-MK6_k4A"
+        }
+      ],
+      "project": "Revisá cada una de tus plantas buscando señales tempranas de ácaros, pulgones o mosquitas del sustrato.",
+      "check": "¿Por qué la misma casa con calefacción que resulta cómoda para las personas en invierno es ideal para los ácaros araña?"
+    },
+    {
+      "id": "b10",
+      "number": 10,
+      "title": "Mantener el sistema todo el año",
+      "hours": 2,
+      "goal": "Sostener tu huerta de interior a través de los cambios de estación, sin perder plantas en el proceso.",
+      "visual": null,
+      "learn": [
+        {
+          "term": "Rotá las macetas",
+          "body": "Todas las plantas se inclinan hacia la fuente de luz con el tiempo. Girar cada maceta un cuarto de vuelta cada pocos días mantiene el crecimiento parejo en vez de una planta ladeada y desequilibrada."
+        },
+        {
+          "term": "Ajustá la luz según la estación",
+          "body": "En los meses de menos luz natural, aumentar el horario de la luz de cultivo de 12 a 16 horas compensa la caída estacional — es normal (y esperable) subir esas horas en invierno y volver a bajarlas cuando la luz natural mejora."
+        },
+        {
+          "term": "Usá un temporizador, siempre",
+          "body": "Mantener un horario de luz constante y predecible, controlado por un temporizador en vez de encender y apagar manualmente, es la forma más simple de sostener el ciclo de luz/oscuridad que cada planta necesita sin depender de acordarte todos los días."
+        },
+        {
+          "term": "Planificá el reemplazo de las frutillas",
+          "body": "Como viste en el Bloque 7, una planta de frutilla pierde vigor después de 2 a 3 años. Sumar una planta nueva (comprada o propagada) cada año, en vez de esperar a que las viejas dejen de producir del todo, mantiene la producción constante sin interrupciones."
+        },
+        {
+          "term": "De la maceta a la mesa",
+          "body": "El objetivo final de todo este sistema es simple: hojas frescas y frutilla madura al alcance de la mano en la cocina, todo el año, sin depender de la estación ni del clima de afuera — algo particularmente valioso en un clima con veranos tan extremos como el del Chaco, donde una huerta exterior de hierbas delicadas puede sufrir mucho más que una bien protegida adentro."
+        }
+      ],
+      "videos": [],
+      "project": "Armá un calendario simple de rotación, ajuste de luz estacional, y reemplazo de plantas para tu sistema de interior.",
+      "check": "¿Por qué depender solo de la memoria para prender y apagar la luz de cultivo termina fallando tarde o temprano?"
+    }
+  ]
+}

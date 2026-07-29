@@ -1,0 +1,571 @@
+{
+  "schemaVersion": 1,
+  "id": "autosuficiencia-chaco-101",
+  "title": "Vida Autosuficiente en el Chaco 101",
+  "subtitle": "Agua, electricidad, alimentos, construcción y economía en un terreno de 2500 m² — 32 horas",
+  "category": "Autosuficiencia",
+  "description": "Un curso integral para vivir de forma autosuficiente en el Chaco paraguayo, en un terreno de unos 2500 m² con vivienda: planificación del terreno, agua (el desafío central de la región), electricidad fuera de la red, cocina y energía, preservación de alimentos, gestión de residuos, construcción básica, salud y primeros auxilios, conectividad, y la economía real de la autosuficiencia. Este curso se apoya en, y hace referencia a, los cursos de Huerta, Vermicompostaje, Meliponicultura, Carpintería y Compostaje ya existentes en la app — este es el curso que integra todo eso en un solo sistema de finca.",
+  "totalHours": 32,
+  "resources": {
+    "books": [
+      {
+        "title": "The Self-Sufficient Life and How to Live It",
+        "author": "John Seymour",
+        "note": "Referencia clásica e ilustrada de la vida autosuficiente en un terreno pequeño a mediano."
+      },
+      {
+        "title": "Rainwater Harvesting for Drylands and Beyond",
+        "author": "Brad Lancaster",
+        "note": "La referencia más citada sobre captación de agua de lluvia en climas áridos, directamente aplicable al Chaco."
+      }
+    ],
+    "channels": [
+      {
+        "name": "Fundación Avina — Agua en el Chaco",
+        "url": "https://www.avina.net"
+      },
+      {
+        "name": "OAS — Rainwater Harvesting in the Paraguayan Chaco",
+        "url": "http://www.oas.org/dsd/publications/Unit/oea59e/ch11.htm"
+      }
+    ]
+  },
+  "finalChallenge": [
+    "Armá el plano de zonificación completo de tu terreno de 2500 m², con cada sistema (agua, huerta, animales, energía, construcción) ubicado con intención.",
+    "Calculá la capacidad de captación y almacenamiento de agua de lluvia de tu techo, y compará contra tu consumo real.",
+    "Dimensioná (aunque sea en el papel) un sistema solar básico para las cargas esenciales de tu casa.",
+    "Preservá tu primera cosecha de la huerta usando un método de conservación de alimentos.",
+    "Armá un botiquín y un plan de primeros auxilios pensado específicamente para la distancia a atención médica de tu zona.",
+    "Documentá tu sistema completo (agua, energía, alimentos, residuos) en un solo lugar, como si tuvieras que explicárselo a alguien que va a cuidar la finca en tu ausencia."
+  ],
+  "blocks": [
+    {
+      "id": "b1",
+      "number": 1,
+      "title": "Planificación del terreno: zonificación de 2500 m²",
+      "hours": 2,
+      "goal": "Pensar el terreno completo como un solo sistema antes de ubicar nada.",
+      "visual": "landZoning",
+      "learn": [
+        {
+          "term": "Por qué planificar antes de construir o plantar",
+          "body": "Un error de ubicación —una huerta demasiado lejos de la fuente de agua, un gallinero en la peor zona de sombra, un taller sin espacio para crecer— es mucho más caro de corregir después de construido que de evitar en el papel. Un terreno de **2500 m² (unos 50 x 50 metros, aunque la forma real varía)** es lo suficientemente grande para separar bien las funciones, pero lo suficientemente chico como para que cada decisión de ubicación importe."
+        },
+        {
+          "term": "Zonificación por frecuencia de uso",
+          "body": "Un principio simple y muy usado en diseño de fincas pequeñas: ubicar lo que visitás **todos los días** (huerta de hierbas, gallinero, compostera) cerca de la casa, y lo que visitás con **menos frecuencia** (depósito de leña, zona de compostaje grande, meliponario) más alejado — ahorra una cantidad enorme de caminata acumulada a lo largo de los años."
+        },
+        {
+          "term": "Ubicar según el sol y el viento, no solo según el espacio disponible",
+          "body": "La huerta (Bloque 8) necesita el mejor sol disponible; el meliponario, en cambio, quiere sombra parcial protegida del viento fuerte (ya cubierto en el curso de Meliponicultura 101); los paneles solares (Bloque 5) necesitan el punto más despejado de sombra de todo el terreno durante todo el año, no solo en una estación."
+        },
+        {
+          "term": "Dejar espacio para crecer",
+          "body": "Es común subestimar cuánto espacio va a ocupar un sistema exitoso un año después de empezarlo — una compostera que funciona bien tiende a crecer, una huerta productiva invita a ampliarse, un taller de carpintería acumula material. Dejar margen de expansión alrededor de cada zona desde el diseño inicial evita tener que reubicar todo más adelante."
+        },
+        {
+          "term": "Un mapa, no solo una idea en la cabeza",
+          "body": "Dibujar el terreno a escala (aunque sea a mano) con cada zona marcada —captación de agua, huerta, animales, energía, construcción, taller— ayuda a detectar conflictos de ubicación antes de invertir tiempo y materiales en el lugar equivocado."
+        }
+      ],
+      "videos": [],
+      "project": "Dibujá el plano completo de tu terreno de 2500 m², ubicando cada sistema que vas a cubrir en los bloques siguientes.",
+      "check": "¿Por qué conviene ubicar la huerta de hierbas de uso diario mucho más cerca de la casa que el depósito de leña?"
+    },
+    {
+      "id": "b2",
+      "number": 2,
+      "title": "Agua: el desafío central del Chaco",
+      "hours": 2,
+      "goal": "Entender por qué el agua de lluvia, y no el agua subterránea, es la base de la vida autosuficiente en esta región.",
+      "visual": "waterSystemDiagram",
+      "learn": [
+        {
+          "term": "Por qué el agua subterránea del Chaco no sirve para tomar",
+          "body": "A diferencia de gran parte del mundo, en el Chaco paraguayo el agua subterránea suele estar **muy salada, a profundidades considerables, y no apta para consumo humano** — un rasgo geológico de la región, no un problema de contaminación puntual. Esto hace que la captación de agua de lluvia sea, para la inmensa mayoría de las familias rurales del Chaco, **la única fuente real de agua dulce** para consumo propio y del ganado."
+        },
+        {
+          "term": "El sistema tradicional de tres partes: tajamar, aljibe y tanque",
+          "body": "La región desarrolló un sistema propio, todavía en uso extendido, especialmente en las colonias menonitas de la zona: el **tajamar** (una represa o excavación de tierra que capta y almacena agua de lluvia superficial, usada sobre todo para el ganado y, con tratamiento, para consumo), el **aljibe** (una cisterna, generalmente enterrada o semienterrada, que almacena agua de lluvia captada del techo para consumo doméstico), y el **tanque** (almacenamiento elevado para distribución por gravedad o presión dentro de la vivienda)."
+        },
+        {
+          "term": "Por qué el aljibe es la pieza más crítica para tu casa",
+          "body": "El techo de tu vivienda es, en la práctica, tu principal superficie de captación de agua potable. Un techo de **10 m²** puede captar entre **19 y 23 litros de agua por cada milímetro de lluvia útil**, según estimaciones de proyectos de captación en la región del Chaco — lo que convierte el tamaño y estado de tu techo, y la capacidad de tu aljibe, en la decisión de infraestructura más importante de toda la finca."
+        },
+        {
+          "term": "La lluvia no es constante: hay que diseñar para la sequía, no para el promedio",
+          "body": "La región recibe la lluvia en **ráfagas cortas e intensas**, con largos períodos secos entre ellas — diseñar la capacidad de almacenamiento pensando en el promedio anual de lluvia es un error común; hay que dimensionar pensando en **cuántos meses de sequía tenés que poder cubrir** con lo ya almacenado, no en cuánto llueve en un año típico."
+        },
+        {
+          "term": "Este bloque es la base de todo lo demás",
+          "body": "Casi cualquier otro sistema de este curso —huerta, animales, construcción, incluso higiene diaria— depende, directa o indirectamente, de que la solución de agua esté bien dimensionada. Vale la pena dedicarle más tiempo de planificación que a cualquier otro sistema de la finca."
+        }
+      ],
+      "videos": [],
+      "project": "Investigá si tu terreno ya tiene tajamar, aljibe, o tanque, y evaluá su estado y capacidad actual.",
+      "check": "¿Por qué el agua subterránea del Chaco no resuelve el problema de agua potable de la misma forma que en otras regiones del país?"
+    },
+    {
+      "id": "b3",
+      "number": 3,
+      "title": "Almacenamiento y tratamiento del agua",
+      "hours": 2,
+      "goal": "Dimensionar y mantener un sistema de captación y tratamiento de agua de lluvia seguro para consumo.",
+      "visual": "cisternCrossSection",
+      "learn": [
+        {
+          "term": "Calculando tu capacidad de captación",
+          "body": "Una fórmula de referencia práctica: **superficie del techo (m²) × lluvia (mm) × un factor de eficiencia de captación (generalmente 0,8 a 0,9, considerando pérdidas por salpicadura y primera limpieza)** da el volumen aproximado de agua captable por evento de lluvia. Sumado a lo largo del año, esto te da una estimación de cuánta agua *podrías* capturar — el siguiente paso es asegurarte de tener dónde guardarla."
+        },
+        {
+          "term": "Dimensionar el aljibe para la sequía, no para la lluvia",
+          "body": "Como se vio en el Bloque 2, el diseño correcto parte de preguntarte: **¿cuántos meses sin lluvia significativa necesito poder cubrir?** Multiplicar tu consumo diario estimado por esa cantidad de días de sequía te da la capacidad mínima de almacenamiento que necesitás, independientemente de cuánto capture tu techo en un buen año."
+        },
+        {
+          "term": "Desviador de primera lluvia (first-flush)",
+          "body": "Los primeros minutos de cada lluvia arrastran el polvo, hojas, y excrementos de aves acumulados en el techo — un simple sistema desviador (un tramo de caño que se llena y descarta esa primera agua sucia antes de que el flujo pase al aljibe) mejora enormemente la calidad del agua almacenada con una inversión mínima."
+        },
+        {
+          "term": "Filtración y tratamiento antes de consumir",
+          "body": "Aunque la captación esté bien hecha, el agua de aljibe generalmente necesita un paso adicional antes de beberse con confianza: **filtración** (para sedimentos y partículas) y **desinfección** (cloración en dosis apropiadas, o hervido en caso de necesidad) — las fuentes de la región confirman que el agua de tajamar, en particular, se recomienda usar recién después de filtración y/o cloración, nunca directo."
+        },
+        {
+          "term": "Mantenimiento del aljibe",
+          "body": "Revisar periódicamente que no haya fisuras (una pérdida lenta pero constante es fácil de no notar hasta que ya perdiste una cantidad significativa), mantener la tapa bien sellada contra el ingreso de insectos y polvo, y limpiar el sistema de captación (canaletas del techo) regularmente, especialmente antes de la temporada de lluvias."
+        }
+      ],
+      "videos": [],
+      "project": "Calculá cuántos litros podría captar tu techo actual en un evento de lluvia típico de tu zona, y compará contra la capacidad real de tu aljibe.",
+      "check": "¿Por qué diseñar la capacidad de tu aljibe pensando en la sequía es más seguro que diseñarla pensando en el promedio anual de lluvia?"
+    },
+    {
+      "id": "b4",
+      "number": 4,
+      "title": "Uso eficiente y respaldo de agua",
+      "hours": 2,
+      "goal": "Estirar cada litro almacenado y tener un plan si el sistema principal falla.",
+      "visual": null,
+      "learn": [
+        {
+          "term": "Reutilización de aguas grises",
+          "body": "El agua ya usada en la ducha, el lavado de ropa, o el lavado de platos (sin residuos de comida grasosos o químicos fuertes) puede redirigirse para **riego de plantas no comestibles o de árboles frutales establecidos** (no directamente sobre hojas comestibles de la huerta), reduciendo la demanda sobre tu agua potable almacenada para lo que realmente la necesita."
+        },
+        {
+          "term": "Riego eficiente conecta directamente con tu curso de huerta",
+          "body": "El riego por goteo cubierto en Cultivo de Hortalizas 101 no es solo una técnica de mejor producción — en un sistema donde cada litro de agua almacenada cuenta, es una decisión de **eficiencia de todo el sistema de finca**, no solo de la huerta en sí."
+        },
+        {
+          "term": "Priorizar el consumo cuando el agua escasea",
+          "body": "Tener claro de antemano un orden de prioridad —consumo humano y de animales primero, huerta después, usos no esenciales al final— evita decisiones apuradas y mal pensadas en medio de una sequía prolongada, cuando el estrés de la situación dificulta pensar con claridad."
+        },
+        {
+          "term": "Un segundo punto de almacenamiento como respaldo",
+          "body": "Depender de un único aljibe es un riesgo — una fisura, una contaminación puntual, o simplemente agotarlo antes de la próxima lluvia te deja sin margen. Un segundo tanque o recipiente de reserva, aunque sea más chico, da un margen de seguridad real para una emergencia."
+        },
+        {
+          "term": "Purificación de emergencia",
+          "body": "Si el agua almacenada se contamina o se agota, hervir el agua durante al menos un minuto es el método de emergencia más confiable y accesible para hacerla segura para consumo — vale la pena tener siempre a mano una forma de calentar agua (cocina, fuego) independiente de la electricidad para este propósito, tema que se retoma en el Bloque 7."
+        }
+      ],
+      "videos": [],
+      "project": "Armá un plan por escrito de prioridad de uso de agua para un escenario de sequía prolongada.",
+      "check": "¿Por qué depender de un único punto de almacenamiento de agua es un riesgo, aunque esté bien dimensionado?"
+    },
+    {
+      "id": "b5",
+      "number": 5,
+      "title": "Electricidad: sistemas solares fuera de la red",
+      "hours": 2,
+      "goal": "Entender la lógica de dimensionamiento de un sistema solar autónomo, desde la carga hasta la batería.",
+      "visual": "solarSizing",
+      "learn": [
+        {
+          "term": "Empezá por el consumo, no por los paneles",
+          "body": "El error más común al armar un sistema solar es empezar preguntando \"¿cuántos paneles necesito?\" — la pregunta correcta es **\"¿cuánta energía consumo realmente en un día?\"**. Para cada aparato: potencia (watts) × horas de uso diario = watt-hora (Wh) consumidos por ese aparato. Sumando todos los aparatos que planeás usar, obtenés tu consumo diario total en Wh."
+        },
+        {
+          "term": "De consumo diario a tamaño de paneles",
+          "body": "Una fórmula de referencia: **watts de panel necesarios = consumo diario (Wh) ÷ horas de sol pico de tu zona ÷ eficiencia del sistema (aproximadamente 0,7 a 0,8, considerando pérdidas de inversor, cableado, y suciedad de los paneles)**. El Chaco, por su latitud y clima generalmente despejado, tiene buena cantidad de horas de sol pico comparado con muchas otras regiones — una ventaja real para el dimensionamiento."
+        },
+        {
+          "term": "Baterías: autonomía y profundidad de descarga",
+          "body": "La mayoría de los sistemas apuntan a entre **2 y 3 días de autonomía** (energía almacenada suficiente para cubrir el consumo sin sol, por ejemplo en días muy nublados). El cálculo debe ajustarse según el tipo de batería: una batería de plomo-ácido no debería descargarse más allá de aproximadamente el 50% de su capacidad para no acortar su vida útil, mientras que las baterías de litio (LiFePO4) toleran una descarga más profunda de forma segura."
+        },
+        {
+          "term": "Inversor: watts continuos y de arranque",
+          "body": "El inversor convierte la corriente continua de las baterías en corriente alterna para los electrodomésticos, y debe dimensionarse tanto para la **carga continua total** (la suma de todo lo que podés tener encendido a la vez) como para la **carga de arranque** (algunos motores, como el de una heladera o una bomba de agua, consumen 2 a 3 veces su potencia nominal solo al arrancar)."
+        },
+        {
+          "term": "Controlador de carga: PWM vs. MPPT",
+          "body": "El controlador regula cómo la energía de los paneles carga las baterías. Los controladores **PWM** son más económicos pero pueden perder hasta un 60% de la energía disponible por no optimizar el voltaje; los controladores **MPPT** son más eficientes y son la opción recomendada para cualquier sistema más allá del más básico."
+        }
+      ],
+      "videos": [],
+      "project": "Hacé la lista completa de tus cargas eléctricas esenciales (aparato, watts, horas de uso diario) y calculá tu consumo diario total en Wh.",
+      "check": "¿Por qué el punto de partida para dimensionar un sistema solar es el consumo diario, y no la cantidad de paneles que \"parece\" razonable?"
+    },
+    {
+      "id": "b6",
+      "number": 6,
+      "title": "Electricidad: respaldo y mantenimiento",
+      "hours": 2,
+      "goal": "Sostener el sistema eléctrico a lo largo del tiempo y tener un plan cuando el sol no alcanza.",
+      "visual": null,
+      "learn": [
+        {
+          "term": "Generador de respaldo",
+          "body": "Para tramos de varios días nublados seguidos, o mientras el sistema solar todavía no cubre toda tu demanda, un generador a combustible (nafta, gasoil, o gas) da un respaldo confiable — pensado como **complemento ocasional**, no como fuente principal, para no depender de tener combustible siempre disponible en un lugar remoto."
+        },
+        {
+          "term": "Cargas esenciales vs. cargas de comodidad",
+          "body": "Tener claro, de antemano, qué cargas son **esenciales** (heladera, iluminación básica, bomba de agua, comunicación) frente a cuáles son de **comodidad** (aire acondicionado, entretenimiento) te permite reducir el consumo rápidamente en un día de poco sol, sin tener que pensarlo bajo presión."
+        },
+        {
+          "term": "Mantenimiento de paneles",
+          "body": "El polvo del Chaco se acumula sobre los paneles y reduce su rendimiento de forma gradual y fácil de no notar — una limpieza periódica con agua (idealmente reutilizando agua gris, Bloque 4) y un paño suave mantiene la eficiencia esperada."
+        },
+        {
+          "term": "Mantenimiento de baterías",
+          "body": "Las baterías de plomo-ácido tradicionales necesitan revisión periódica de nivel de electrolito (si no son selladas) y mantenerse cargadas dentro de su rango recomendado — descargarlas por debajo de su límite seguro de forma repetida acorta notablemente su vida útil, un costo real a largo plazo que vale la pena evitar con buen manejo diario."
+        },
+        {
+          "term": "Documentar el sistema",
+          "body": "Anotar la configuración exacta de tu sistema (cantidad y tipo de paneles, capacidad de batería, inversor, controlador) en un lugar accesible facilita tanto el mantenimiento futuro como cualquier ampliación — y es indispensable si alguna vez alguien más (familia, un técnico) necesita entender el sistema sin vos presente."
+        }
+      ],
+      "videos": [],
+      "project": "Armá una lista de tus cargas esenciales vs. de comodidad, y definí un plan de reducción de consumo para días de poco sol.",
+      "check": "¿Por qué descargar repetidamente una batería de plomo-ácido más allá de su límite recomendado tiene un costo a largo plazo, aunque funcione bien en el momento?"
+    },
+    {
+      "id": "b7",
+      "number": 7,
+      "title": "Cocinar y calentar: energía para el hogar",
+      "hours": 2,
+      "goal": "Elegir fuentes de energía para cocinar y calentar agua que no dependan por completo de tu sistema eléctrico.",
+      "visual": null,
+      "learn": [
+        {
+          "term": "Por qué conviene diversificar, no solo electrificar todo",
+          "body": "Cocinar exclusivamente con electricidad pone una carga pesada y repetitiva sobre tu sistema solar (Bloque 5), justo en las horas del día donde también compite con otros usos. Diversificar entre gas envasado (garrafa), leña, y electricidad da **redundancia real**: si un sistema falla o se agota, los otros dos siguen funcionando."
+        },
+        {
+          "term": "Gas envasado (garrafa)",
+          "body": "Eficiente, rápido, y no depende del sol ni de la disponibilidad de leña — la limitación principal es la logística de recambio en una zona rural, por lo que conviene tener siempre una garrafa de respaldo además de la que está en uso."
+        },
+        {
+          "term": "Leña",
+          "body": "Un recurso local y renovable si se gestiona con cuidado (no recurrir a madera de monte nativo sin criterio de manejo). Un fogón o cocina a leña bien diseñada también sirve como fuente de calor para hervir agua de emergencia (Bloque 4) de forma completamente independiente de cualquier otro sistema de energía de la finca."
+        },
+        {
+          "term": "Cocina solar",
+          "body": "Una opción de bajo costo y cero consumo de combustible para días de sol fuerte (abundantes en el Chaco): concentra la radiación solar directa para cocinar lentamente — no reemplaza una cocina convencional para todo, pero reduce notablemente la demanda de gas o leña en los días que se puede aprovechar."
+        },
+        {
+          "term": "Calentamiento de agua",
+          "body": "Un termotanque solar simple (un tanque oscuro expuesto al sol, con buena circulación) puede cubrir gran parte de la necesidad de agua caliente sin gastar electricidad ni gas — especialmente eficiente en un clima con tantas horas de sol directo como el Chaco."
+        }
+      ],
+      "videos": [],
+      "project": "Definí al menos dos fuentes de energía distintas para cocinar en tu finca, de forma que ninguna dependa completamente de la otra.",
+      "check": "¿Por qué cocinar exclusivamente con electricidad generada por tu propio sistema solar es una elección de mayor riesgo que diversificar?"
+    },
+    {
+      "id": "b8",
+      "number": 8,
+      "title": "Cultivar tu propia comida: integrando huerta, gallinas y abejas",
+      "hours": 2,
+      "goal": "Integrar los sistemas de producción de alimentos ya cubiertos en otros cursos dentro de la planificación general del terreno.",
+      "visual": null,
+      "learn": [
+        {
+          "term": "Este bloque conecta, no repite",
+          "body": "La huerta, las gallinas, el vermicompostaje y las abejas nativas ya tienen sus propios cursos completos en esta app (Cultivo de Hortalizas 101, Vermicompostaje 101, Meliponicultura 101) — acá el foco es **cómo se ubican y se relacionan entre sí dentro del plano general del terreno** (Bloque 1), no repetir el contenido técnico de cada uno."
+        },
+        {
+          "term": "El ciclo cerrado de nutrientes",
+          "body": "Los restos de cosecha no aptos para consumo humano alimentan a las gallinas o a la compostera; el estiércol de gallina (bien curado) y el humus de lombriz alimentan la huerta; las abejas nativas polinizan tanto la huerta como los frutales cercanos — un sistema bien ubicado reduce el trabajo de traslado de materiales entre una zona y otra, comparado con tener cada sistema disperso por el terreno sin conexión física."
+        },
+        {
+          "term": "Dimensionar según tu consumo real, no según el espacio disponible",
+          "body": "En un terreno de 2500 m², la tentación es usar todo el espacio disponible para producción — pero una huerta o un gallinero más grande de lo que tu familia realmente consume genera más trabajo de mantenimiento sin beneficio proporcional. Vale la pena calcular tu consumo real (de verduras, huevos, miel) antes de decidir cuánto espacio dedicarle a cada sistema."
+        },
+        {
+          "term": "Excedente como parte del plan, no como accidente",
+          "body": "Si de todos modos vas a producir más de lo que consumís (algo común una vez que un sistema madura), planificar desde el principio qué hacer con el excedente —venta, trueque, conservación (Bloque 9)— evita el desperdicio y conecta con la economía de la autosuficiencia cubierta en el Bloque 15."
+        },
+        {
+          "term": "Un terreno de 2500 m² alcanza para bastante más de lo que parece",
+          "body": "Con una zonificación cuidadosa (Bloque 1), un terreno de este tamaño típicamente tiene espacio de sobra para una huerta significativa, un gallinero, varias colmenas de meliponicultura, una zona de compostaje, y la vivienda con su espacio de captación de agua — el límite real suele ser el tiempo de manejo disponible, no el espacio físico."
+        }
+      ],
+      "videos": [],
+      "project": "Marcá en tu plano de zonificación (Bloque 1) exactamente dónde va cada sistema de producción de alimentos y cómo se conectan entre sí.",
+      "check": "¿Por qué un sistema de producción de alimentos más grande de lo que tu familia consume no es automáticamente una ventaja?"
+    },
+    {
+      "id": "b9",
+      "number": 9,
+      "title": "Preservación y almacenamiento de alimentos",
+      "hours": 2,
+      "goal": "Conservar el excedente de la huerta y la finca de forma segura, sin depender de refrigeración constante.",
+      "visual": "canningMethods",
+      "learn": [
+        {
+          "term": "Por qué la preservación importa más en un sistema autosuficiente",
+          "body": "Sin acceso constante y barato a un supermercado, y con un sistema eléctrico limitado (Bloques 5–6), conservar el excedente de una buena cosecha para los meses de menor producción deja de ser un extra y se vuelve **parte central de la seguridad alimentaria de la finca**."
+        },
+        {
+          "term": "Conservas en frascos: la distinción que salva vidas",
+          "body": "Los alimentos **ácidos** (la mayoría de las frutas, encurtidos con suficiente vinagre) se pueden conservar de forma segura con el método de **baño de agua hirviendo (water bath)**. Los alimentos de **baja acidez** (la mayoría de las verduras, carnes, y muchos guisos) **requieren una olla a presión para conservas (pressure canner)** que alcance temperaturas más altas que el agua hirviendo — es la única forma de eliminar de forma confiable las esporas de *Clostridium botulinum*, la bacteria responsable del botulismo, que puede desarrollarse en un frasco mal procesado sin cambiar el sabor, el olor, ni el aspecto del contenido. Esta distinción **no es opcional ni es una preferencia de método** — es la diferencia entre una conserva segura y una potencialmente mortal."
+        },
+        {
+          "term": "Secado y deshidratado",
+          "body": "El clima cálido y seco del Chaco es, en muchos sentidos, ideal para el secado de frutas, verduras, hierbas y carne (charqui) — ya sea al sol con la protección adecuada contra insectos, o con un deshidratador simple. Es uno de los métodos de conservación de **menor costo energético** de todos, especialmente relevante en un sistema con electricidad limitada."
+        },
+        {
+          "term": "Fermentación",
+          "body": "Encurtidos fermentados, y otros alimentos fermentados tradicionales, conservan mediante la actividad de bacterias beneficiosas que generan un ambiente ácido hostil para los organismos que causan descomposición — un método de bajo costo y bajo consumo energético, aunque requiere atención a la técnica para hacerse de forma segura."
+        },
+        {
+          "term": "Almacenamiento en fresco sin heladera",
+          "body": "No todo necesita conservarse por procesamiento: papas, cebollas, zapallos y otros cultivos de guarda se mantienen bien por semanas o meses en un espacio **fresco, oscuro, y con buena ventilación** — un rincón bien elegido de la casa o un pequeño depósito semienterrado puede cumplir una función similar a la de una bodega o sótano en climas más fríos, adaptada a las temperaturas del Chaco."
+        }
+      ],
+      "videos": [],
+      "project": "Preservá tu próxima cosecha excedente usando el método correcto según su nivel de acidez.",
+      "check": "¿Por qué un guiso de verduras de baja acidez no se puede conservar de forma segura solo con el método de baño de agua hirviendo?"
+    },
+    {
+      "id": "b10",
+      "number": 10,
+      "title": "Gestión de residuos: aguas negras y aguas grises",
+      "hours": 2,
+      "goal": "Manejar los residuos de la vivienda de forma segura para la salud y el agua subterránea, incluso con agua limitada.",
+      "visual": null,
+      "learn": [
+        {
+          "term": "Pozo ciego o cámara séptica",
+          "body": "El sistema estándar para el manejo de aguas negras (inodoro) en una vivienda rural sin conexión a red cloacal — una cámara que retiene los sólidos para su descomposición parcial, dejando que el líquido se infiltre gradualmente al subsuelo. Requiere una distancia mínima segura de cualquier fuente de agua (aljibe, tajamar) para evitar contaminación, y mantenimiento periódico de vaciado según su tamaño y uso."
+        },
+        {
+          "term": "Baño seco como alternativa de bajo consumo de agua",
+          "body": "En un sistema donde el agua es el recurso más limitado (Bloque 2), un baño seco (que separa o composta los residuos sin necesidad de agua para el arrastre) puede reducir significativamente el consumo total de agua de la vivienda — a cambio de un manejo más activo y consciente que un inodoro convencional."
+        },
+        {
+          "term": "Aguas grises: ya cubierto, pero vale repetir el límite",
+          "body": "Como se vio en el Bloque 4, el agua de ducha y lavado (sin químicos fuertes) puede reutilizarse para riego de plantas no comestibles — pero el agua de inodoro (aguas negras) nunca se mezcla ni se reutiliza de la misma forma, por el riesgo sanitario que representa."
+        },
+        {
+          "term": "Residuos sólidos: separar antes de decidir qué hacer con cada cosa",
+          "body": "Los restos orgánicos van a la compostera (Compostaje 101) o a las gallinas; el resto conviene separar en lo que se puede reutilizar o reciclar, y lo que realmente necesita disposición final — en una zona rural alejada, minimizar la generación de residuos que no tienen un destino local razonable es más práctico que depender de un sistema de recolección que puede no llegar con la frecuencia de una zona urbana."
+        },
+        {
+          "term": "Distancias de seguridad, siempre respetadas",
+          "body": "La ubicación de cualquier sistema de aguas negras debe mantener una distancia segura de tu aljibe y de cualquier otra fuente de agua para consumo — un error de ubicación en este punto pone en riesgo la salud de toda la familia, no solo una cuestión de olor o estética."
+        }
+      ],
+      "videos": [],
+      "project": "Marcá en tu plano de zonificación las distancias de seguridad entre tu sistema de aguas negras y tus fuentes de agua.",
+      "check": "¿Por qué un baño seco puede ser una elección razonable específicamente en un sistema con agua limitada, más allá de la preferencia personal?"
+    },
+    {
+      "id": "b11",
+      "number": 11,
+      "title": "Construcción y mantenimiento básico de la vivienda",
+      "hours": 2,
+      "goal": "Entender qué hace que una construcción funcione bien específicamente en el clima del Chaco.",
+      "visual": null,
+      "learn": [
+        {
+          "term": "Aislación térmica: la decisión más importante",
+          "body": "Con veranos de calor extremo (ya cubierto en el bloque de calor de Cultivo de Hortalizas 101 y de Meliponicultura 101), una vivienda mal aislada se convierte en un horno independientemente de cuánta energía se gaste en enfriarla. Muros gruesos, techos con buena aislación, y aleros generosos que den sombra a las paredes reducen la carga de enfriamiento mucho más de lo que cualquier aire acondicionado puede compensar después."
+        },
+        {
+          "term": "Orientación de la vivienda",
+          "body": "Orientar las aberturas principales para aprovechar la ventilación cruzada predominante, y minimizar las superficies de pared expuestas directamente al sol de la tarde, reduce la necesidad de enfriamiento activo — una decisión que, tomada en el diseño inicial, no cuesta nada extra pero ahorra mucho después."
+        },
+        {
+          "term": "El techo, otra vez: estructura y captación a la vez",
+          "body": "Como se vio en el Bloque 3, el techo no es solo protección — es tu principal superficie de captación de agua. Elegir un material de techo y una pendiente que faciliten tanto la resistencia al calor como la captación eficiente de agua de lluvia cumple dos funciones críticas con una sola decisión de diseño."
+        },
+        {
+          "term": "Mantenimiento preventivo",
+          "body": "En un clima con cambios fuertes de humedad y temperatura estacional, revisar periódicamente techos (filtraciones), canaletas (obstrucciones que reducen la captación de agua), y estructuras de madera (el mismo riesgo de humedad y termitas cubierto en Carpintería 101) antes de que un problema menor se vuelva una reparación mayor."
+        },
+        {
+          "term": "Herramientas y habilidades básicas de mantenimiento",
+          "body": "Si ya hiciste el curso de Carpintería 101, buena parte de las reparaciones menores de una vivienda rural (arreglar una puerta, reforzar una estructura, construir un anexo simple) ya están a tu alcance sin depender de contratar a alguien para cada tarea pequeña — una ventaja real de la autosuficiencia práctica en una zona alejada de servicios."
+        }
+      ],
+      "videos": [],
+      "project": "Revisá tu vivienda actual (o tu plano si todavía no está construida) evaluando aislación, orientación, y aprovechamiento del techo para captación de agua.",
+      "check": "¿Por qué el techo de una vivienda en el Chaco cumple dos funciones críticas al mismo tiempo, y no solo una?"
+    },
+    {
+      "id": "b12",
+      "number": 12,
+      "title": "Herramientas y el taller",
+      "hours": 2,
+      "goal": "Organizar un taller funcional que sostenga el mantenimiento de toda la finca.",
+      "visual": null,
+      "learn": [
+        {
+          "term": "Este bloque se apoya en Carpintería 101",
+          "body": "Las herramientas manuales y eléctricas, la seguridad de taller, y el mantenimiento de herramientas frente a la humedad del Chaco ya están cubiertos en detalle en ese curso — acá el foco es **cómo ubicar y equipar el taller como parte del sistema general de la finca**, no repetir esa base técnica."
+        },
+        {
+          "term": "Ubicación del taller en tu plano de zonificación",
+          "body": "Un taller necesita buena luz natural, ventilación, protección de la lluvia directa para las herramientas eléctricas, y idealmente cercanía razonable a la vivienda y a las zonas de producción que más va a mantener (huerta, gallinero, sistema de agua) — ni tan lejos que cada reparación menor sea una excursión, ni tan cerca que el ruido y el polvo molesten la vida diaria de la casa."
+        },
+        {
+          "term": "Herramientas mínimas para el mantenimiento de una finca autosuficiente",
+          "body": "Más allá del juego básico de carpintería, una finca autosuficiente se beneficia de herramientas para trabajo en metal simple (para reparar estructuras de alambrado, por ejemplo), herramientas de plomería básica (para el sistema de agua, Bloques 2–4), y un multímetro básico para diagnosticar problemas simples del sistema eléctrico solar (Bloques 5–6)."
+        },
+        {
+          "term": "Repuestos y stock de mantenimiento",
+          "body": "En una zona alejada de ferreterías con stock amplio, tener a mano repuestos comunes (tornillos, fusibles del sistema solar, sellador para el aljibe, alambre) evita que una reparación simple se convierta en un viaje largo por una pieza que podría haberse anticipado."
+        },
+        {
+          "term": "Un taller organizado ahorra tiempo real",
+          "body": "Como se vio en Carpintería 101, un taller desordenado no es solo un riesgo de seguridad — en el contexto de una finca completa, también significa perder tiempo real buscando la herramienta correcta mientras un sistema de agua, energía, o producción de alimentos espera una reparación."
+        }
+      ],
+      "videos": [],
+      "project": "Armá o reorganizá tu taller pensando en el mantenimiento de los sistemas de agua, energía y producción de tu finca completa.",
+      "check": "¿Por qué vale la pena tener a mano repuestos comunes del sistema de agua y del sistema solar, más allá del costo de comprarlos con anticipación?"
+    },
+    {
+      "id": "b13",
+      "number": 13,
+      "title": "Salud y primeros auxilios en un lugar remoto",
+      "hours": 2,
+      "goal": "Prepararte para atender emergencias de salud comunes cuando la atención médica está a una distancia considerable.",
+      "visual": null,
+      "learn": [
+        {
+          "term": "El factor distancia cambia la preparación necesaria",
+          "body": "En una zona urbana, una emergencia menor espera unos minutos hasta llegar a atención médica; en una finca rural del Chaco, esos minutos pueden ser horas. Esto no significa reemplazar la atención médica profesional —nunca lo hace un botiquín casero—, sino **estar mejor preparado para estabilizar una situación mientras se organiza el traslado o se contacta ayuda**."
+        },
+        {
+          "term": "Un botiquín pensado para tu distancia real",
+          "body": "Más allá del botiquín básico estándar (curitas, gasas, antiséptico, analgésicos comunes), vale la pena sumar elementos para **estabilizar** situaciones más serias mientras se organiza el traslado: elementos para inmovilizar una fractura, para controlar un sangrado significativo, y suero de rehidratación oral para golpes de calor o deshidratación severa, particularmente relevantes en el clima del Chaco."
+        },
+        {
+          "term": "Golpe de calor: una emergencia real del clima local",
+          "body": "Con el calor extremo ya cubierto en otros cursos de esta app, vale la pena que toda la familia reconozca las señales de un golpe de calor (confusión, piel caliente y seca o profusamente sudorosa, temperatura corporal muy elevada) como una **emergencia médica real que requiere enfriamiento inmediato y traslado**, no solo \"mucho calor\"."
+        },
+        {
+          "term": "Capacitación, no solo equipamiento",
+          "body": "Un botiquín completo sin que nadie en la familia sepa usarlo correctamente tiene un valor limitado. Un curso básico de primeros auxilios (RCP, manejo de sangrados, inmovilización) es una inversión de tiempo que vale mucho más, en una zona remota, que en una ciudad con ambulancias cercanas."
+        },
+        {
+          "term": "Plan de traslado, decidido de antemano",
+          "body": "Saber de antemano cuál es el centro de salud más cercano, cuánto tiempo real toma llegar, y quién puede trasladar a alguien en una emergencia si el vehículo principal no está disponible, evita perder tiempo crítico decidiendo esto recién en el momento de la emergencia."
+        }
+      ],
+      "videos": [],
+      "project": "Armá un botiquín ampliado pensado para tu distancia real a atención médica, y anotá el plan de traslado de tu familia para una emergencia.",
+      "check": "¿Por qué la distancia a atención médica cambia qué deberías tener en tu botiquín, más allá de lo que tendrías en una ciudad?"
+    },
+    {
+      "id": "b14",
+      "number": 14,
+      "title": "Conectividad y comunicación",
+      "hours": 2,
+      "goal": "Mantener acceso confiable a comunicación e información, incluso en una zona con infraestructura limitada.",
+      "visual": null,
+      "learn": [
+        {
+          "term": "Internet en zonas rurales",
+          "body": "Las opciones típicas incluyen conexión móvil (dependiente de la cobertura de la zona específica de tu terreno, que vale la pena verificar antes de asumir que va a ser buena) e internet satelital, que en los últimos años se volvió considerablemente más accesible para zonas rurales alejadas de infraestructura de cable o fibra."
+        },
+        {
+          "term": "La comunicación como parte de tu sistema eléctrico",
+          "body": "Cualquier sistema de comunicación (router, antena, celular) depende de tu sistema eléctrico (Bloques 5–6) — vale la pena incluir estas cargas explícitamente en tu cálculo de consumo esencial, especialmente si la comunicación es también tu forma de pedir ayuda en una emergencia (Bloque 13)."
+        },
+        {
+          "term": "Redundancia de comunicación para emergencias",
+          "body": "Depender de un único método de comunicación (por ejemplo, solo un celular con cobertura de una sola compañía) es un riesgo — tener un plan alternativo (una radio, un vecino con otro proveedor, un punto conocido con mejor señal) da un respaldo real si el método principal falla justo cuando más se necesita."
+        },
+        {
+          "term": "Información meteorológica",
+          "body": "El acceso a pronósticos confiables ayuda directamente a varias decisiones de este curso: cuándo esperar lluvia para planificar la captación de agua (Bloque 3), y cuándo se acerca una ola de calor para proteger la huerta y las abejas, ya cubierto en los cursos correspondientes."
+        },
+        {
+          "term": "Mantener contacto con la comunidad local",
+          "body": "Más allá de la tecnología, el conocimiento compartido con vecinos y otras familias de la zona sobre condiciones locales de agua, clima, y disponibilidad de recursos sigue siendo, en la práctica, una de las formas de información más confiables y rápidas en una zona rural del Chaco."
+        }
+      ],
+      "videos": [],
+      "project": "Verificá qué opciones de conectividad están realmente disponibles en tu terreno específico y armá un plan de respaldo para emergencias.",
+      "check": "¿Por qué depender de un único método de comunicación es un riesgo particular en el contexto de una emergencia?"
+    },
+    {
+      "id": "b15",
+      "number": 15,
+      "title": "Economía del autosuficiente: ingresos y presupuesto",
+      "hours": 2,
+      "goal": "Pensar la autosuficiencia como un sistema económico real, no solo como un conjunto de técnicas de producción.",
+      "visual": null,
+      "learn": [
+        {
+          "term": "Autosuficiente no significa sin economía",
+          "body": "Muy pocas fincas logran una autosuficiencia total del 100%: la mayoría reduce fuertemente su dependencia de gastos externos (alimentos, energía) mientras mantiene algún ingreso monetario para lo que el terreno no puede cubrir (impuestos, salud, herramientas, combustible). Pensar la autosuficiencia como una **reducción de gastos y riesgos**, más que como una eliminación total del dinero, es un marco más realista y sostenible."
+        },
+        {
+          "term": "El excedente como ingreso, no solo como sobra",
+          "body": "Como se mencionó en el Bloque 8, el excedente de huevos, miel, verduras o castings de lombriz que tu familia no consume tiene valor de venta o trueque en la comunidad local — planificarlo desde el principio (Bloque 8) en vez de descubrirlo por accidente cuando ya hay excedente, ayuda a decidir cuánto espacio y esfuerzo dedicarle a cada sistema de producción."
+        },
+        {
+          "term": "El costo real de la inversión inicial",
+          "body": "Sistemas como el solar (Bloque 5) o un aljibe bien dimensionado (Bloque 3) tienen un costo inicial considerable, compensado con el tiempo por el ahorro en gastos recurrentes (electricidad de red, agua comprada o transportada). Calcular ese punto de equilibrio con números reales, en vez de asumir que \"vale la pena\" sin cifras, ayuda a priorizar qué sistema construir primero según tu presupuesto disponible."
+        },
+        {
+          "term": "Diversificación como estrategia económica, no solo técnica",
+          "body": "La misma lógica de redundancia que aplica a la energía (Bloque 6) y al agua (Bloque 4) aplica a los ingresos: depender de un solo producto o un solo comprador para vender tu excedente es tan riesgoso como depender de una sola fuente de agua o energía."
+        },
+        {
+          "term": "Presupuesto y reserva de emergencia",
+          "body": "Incluso en una finca muy autosuficiente, mantener una reserva de dinero para imprevistos (una reparación grande, un problema de salud, un año de sequía peor de lo planificado) sigue siendo una parte central de la resiliencia real del sistema — la autosuficiencia productiva no reemplaza la necesidad de este tipo de margen financiero."
+        }
+      ],
+      "videos": [],
+      "project": "Armá un presupuesto simple que compare tus gastos actuales en agua, energía y alimentos contra el costo de los sistemas que planeás construir.",
+      "check": "¿Por qué pensar la autosuficiencia como \"reducir gastos y riesgos\" es un marco más realista que pensarla como \"eliminar el dinero por completo\"?"
+    },
+    {
+      "id": "b16",
+      "number": 16,
+      "title": "Resiliencia y redundancia: el plan completo",
+      "hours": 2,
+      "goal": "Integrar todos los sistemas del curso en un solo plan documentado, con sus respaldos claros.",
+      "visual": "resilienceMap",
+      "learn": [
+        {
+          "term": "Redundancia: el hilo conductor de todo el curso",
+          "body": "Agua (aljibe + tajamar + reserva secundaria), energía (solar + generador + diversificación de cocina), comunicación (más de un método), e ingresos (más de una fuente) — el mismo principio se repitió en cada bloque: **ningún sistema crítico debería depender de un único punto de falla**."
+        },
+        {
+          "term": "Un documento, no solo conocimiento disperso en tu cabeza",
+          "body": "Reunir en un solo lugar accesible (físico o digital) el mapa de zonificación (Bloque 1), la capacidad y ubicación de tus sistemas de agua (Bloques 2–4), la configuración de tu sistema eléctrico (Bloques 5–6), tu plan de emergencia de salud (Bloque 13), y tus contactos de respaldo (Bloque 14) — de forma que otra persona de tu familia, o alguien que te ayude en tu ausencia, pueda entender y operar el sistema completo sin depender de que se lo expliques en persona."
+        },
+        {
+          "term": "Revisar el plan estacionalmente",
+          "body": "Un sistema de finca no es estático — revisar el plan completo al menos una vez al año, idealmente antes del pico de la temporada de calor y antes de la temporada de lluvias, permite ajustar reservas de agua, mantenimiento de paneles, y stock de repuestos antes de que la temporada exigente ya esté encima."
+        },
+        {
+          "term": "Simulacros simples",
+          "body": "Probar, aunque sea una vez, qué pasaría si el sistema eléctrico principal fallara por un día, o si tuvieras que usar exclusivamente el agua de reserva secundaria, revela huecos en el plan que son mucho más fáciles de corregir en un ensayo tranquilo que durante una emergencia real."
+        },
+        {
+          "term": "La autosuficiencia es un sistema, no una lista de tareas sueltas",
+          "body": "Cada bloque de este curso cubrió una pieza — pero el verdadero valor de la autosuficiencia en el Chaco está en **cómo esas piezas se sostienen unas a otras**: el agua que permite la huerta, la huerta que alimenta a las gallinas y a vos, el sol que da energía y también estresa a las plantas, la economía que decide qué construir primero. Pensar el terreno completo como un solo sistema interconectado, en vez de una colección de proyectos separados, es la diferencia entre una finca que sobrevive un mal año y una que realmente prospera con el tiempo."
+        }
+      ],
+      "videos": [],
+      "project": "Armá el documento único de tu finca, integrando el plano de zonificación, los sistemas de agua y energía, el plan de salud, y el plan económico de los bloques anteriores.",
+      "check": "¿Por qué la resiliencia de una finca autosuficiente depende más de cómo se conectan los sistemas entre sí que de qué tan bueno es cada sistema por separado?"
+    }
+  ]
+}

@@ -3,17 +3,35 @@
   "id": "veggie-growing-101",
   "title": "Cultivo de Hortalizas 101",
   "subtitle": "De la semilla al plato — un curso de 20 horas para huertas productivas",
+  "category": "Huerta y Animales",
   "description": "Un curso práctico de horticultura: suelo, siembra, riego, nutrición, plagas, y una huerta que produce todo el año — incluyendo un bloque dedicado a cultivar con calor extremo tipo Chaco.",
   "totalHours": 20,
   "resources": {
     "books": [
-      { "title": "How to Grow More Vegetables", "author": "John Jeavons", "note": "El clásico sobre horticultura biointensiva y cómo maximizar la producción por metro cuadrado." },
-      { "title": "The Vegetable Gardener's Bible", "author": "Edward C. Smith", "note": "Guía completa de suelo, camas elevadas, y cultivo de casi cualquier hortaliza común." }
+      {
+        "title": "How to Grow More Vegetables",
+        "author": "John Jeavons",
+        "note": "El clásico sobre horticultura biointensiva y cómo maximizar la producción por metro cuadrado."
+      },
+      {
+        "title": "The Vegetable Gardener's Bible",
+        "author": "Edward C. Smith",
+        "note": "Guía completa de suelo, camas elevadas, y cultivo de casi cualquier hortaliza común."
+      }
     ],
     "channels": [
-      { "name": "Epic Gardening", "url": "https://www.youtube.com/@epicgardening" },
-      { "name": "GrowVeg", "url": "https://www.growveg.com" },
-      { "name": "MIgardener", "url": "https://www.youtube.com/@MIgardener" }
+      {
+        "name": "Epic Gardening",
+        "url": "https://www.youtube.com/@epicgardening"
+      },
+      {
+        "name": "GrowVeg",
+        "url": "https://www.growveg.com"
+      },
+      {
+        "name": "MIgardener",
+        "url": "https://www.youtube.com/@MIgardener"
+      }
     ]
   },
   "finalChallenge": [
@@ -116,8 +134,14 @@
         }
       ],
       "videos": [
-        { "title": "How I Start Seeds Indoors: From Sowing To Planting!", "youtubeId": "bnW7Bq04n08" },
-        { "title": "Hardening Off Young Plants and Seedlings — A Complete Guide", "youtubeId": "CkGiGf9dF7k" }
+        {
+          "title": "How I Start Seeds Indoors: From Sowing To Planting!",
+          "youtubeId": "bnW7Bq04n08"
+        },
+        {
+          "title": "Hardening Off Young Plants and Seedlings — A Complete Guide",
+          "youtubeId": "CkGiGf9dF7k"
+        }
       ],
       "project": "Empezá un almácigo de al menos dos cultivos de ciclo largo.",
       "check": "¿Qué le pasa a un plantín que se trasplanta afuera sin endurecerlo primero?"
@@ -214,9 +238,18 @@
         }
       ],
       "videos": [
-        { "title": "Why Companion Planting Works (The Science Behind The Magic)", "youtubeId": "r5sNQe6dEt4" },
-        { "title": "Science-Based Companion Planting Combinations That Work", "youtubeId": "mhr3REshTss" },
-        { "title": "Crop Rotation Made Simple", "youtubeId": "XeNA6XdMoF8" }
+        {
+          "title": "Why Companion Planting Works (The Science Behind The Magic)",
+          "youtubeId": "r5sNQe6dEt4"
+        },
+        {
+          "title": "Science-Based Companion Planting Combinations That Work",
+          "youtubeId": "mhr3REshTss"
+        },
+        {
+          "title": "Crop Rotation Made Simple",
+          "youtubeId": "XeNA6XdMoF8"
+        }
       ],
       "project": "Diseñá un plan de rotación de 4 años para tus camas de cultivo.",
       "check": "¿Por qué nunca hay que sembrar tomate en el mismo lugar donde creció papa el año anterior?"

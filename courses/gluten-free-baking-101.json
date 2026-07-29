@@ -1,0 +1,369 @@
+{
+  "schemaVersion": 1,
+  "id": "gluten-free-baking-101",
+  "title": "Repostería sin Gluten 101",
+  "subtitle": "Tortas, galletas, tartas, panificados rápidos y chipa — 20 horas más allá del pan",
+  "category": "Cocina",
+  "description": "Un curso completo de repostería sin gluten, complementario a Panadería sin Gluten 101: tortas, galletas, masa quebrada para tartas, panificados rápidos, glaseados y rellenos, conversión de recetas, y un bloque dedicado a los panificados paraguayos que ya son naturalmente sin gluten, como el chipa.",
+  "totalHours": 20,
+  "resources": {
+    "books": [
+      {
+        "title": "Gluten-Free Baking at Home",
+        "author": "America's Test Kitchen",
+        "note": "Enfoque metódico y probado en laboratorio para tortas, galletas y masas — mismo enfoque que en Panadería sin Gluten 101."
+      },
+      {
+        "title": "The Elements of Baking",
+        "author": "The Loopy Whisk (Kinga Epstein)",
+        "note": "Referencia detallada sobre xantana, psyllium, y por qué cada tipo de horneado necesita un aglutinante distinto."
+      }
+    ],
+    "channels": [
+      {
+        "name": "The Loopy Whisk",
+        "url": "https://theloopywhisk.com"
+      },
+      {
+        "name": "gfJules",
+        "url": "https://gfjules.com"
+      }
+    ]
+  },
+  "finalChallenge": [
+    "Horneá una torta sin gluten con miga tierna y pareja, sin hundimiento en el centro.",
+    "Lográ una tanda de galletas con el grosor y la extensión que buscabas, sin que se desparramen de más.",
+    "Horneá una tarta con masa quebrada crocante y sin fondo húmedo.",
+    "Convertí una receta con gluten de tu propia familia a una versión sin gluten funcional.",
+    "Horneá una tanda de chipa u otro panificado paraguayo naturalmente sin gluten.",
+    "Armá un protocolo de cocina que evite la contaminación cruzada por polvo de harina en el aire."
+  ],
+  "blocks": [
+    {
+      "id": "b1",
+      "number": 1,
+      "title": "Fundamentos: el gluten que hay que reemplazar, según lo que estés horneando",
+      "hours": 2,
+      "goal": "Entender por qué el aglutinante correcto cambia según el tipo de horneado, antes de entrar en recetas específicas.",
+      "visual": "binderByBake",
+      "learn": [
+        {
+          "term": "Este curso complementa a Panadería sin Gluten 101",
+          "body": "Si ya hiciste ese curso, la ciencia base de las harinas y los aglutinantes no cambia — lo que cambia acá es **qué tipo de estructura busca cada horneado**. El pan necesita elasticidad y una miga masticable que retenga gas de fermentación; una torta necesita ternura; una galleta necesita controlar cuánto se desparrama; una masa de tarta necesita ser quebradiza, no elástica. Un mismo aglutinante no sirve igual para las cuatro cosas."
+        },
+        {
+          "term": "Goma xantana: la elección por defecto fuera del pan",
+          "body": "Para tortas, galletas, muffins y masas de tarta, la **goma xantana es la opción preferida** frente al psyllium: da una miga tierna y pareja sin la elasticidad \"masticable\" que el psyllium le da al pan, que en una torta resultaría en una textura gomosa y no deseada."
+        },
+        {
+          "term": "Psyllium en repostería: solo en casos puntuales",
+          "body": "El psyllium no está prohibido fuera del pan, pero se usa distinto: en **polvo (no cáscara entera)**, en cantidades bastante menores, y principalmente quiere para mejorar la retención de humedad y facilitar el corte de una torta ya de por sí bien estructurada — no como aglutinante principal. Como referencia general, para tortas se suele usar **el doble de psyllium en polvo que la cantidad de goma xantana equivalente** que pediría la receta, si se opta por esa sustitución."
+        },
+        {
+          "term": "Por qué la báscula sigue siendo la herramienta más importante",
+          "body": "Igual que en la panificación, medir por peso (gramos) en vez de por volumen (tazas) sigue siendo la forma más confiable de repetir un resultado — la variabilidad entre harinas sin gluten es demasiado grande para confiar en medidas de volumen, especialmente en recetas de repostería donde pequeños desbalances de humedad se notan mucho más que en una hogaza de pan."
+        }
+      ],
+      "videos": [],
+      "project": null,
+      "check": "¿Por qué usar psyllium en cáscara entera, al estilo del pan, en una receta de torta daría un resultado gomoso?"
+    },
+    {
+      "id": "b2",
+      "number": 2,
+      "title": "Tortas y bizcochuelos",
+      "hours": 2,
+      "goal": "Entender qué sostiene la estructura de una torta sin gluten, y por qué se hunde cuando algo sale mal.",
+      "visual": "cakeStructure",
+      "learn": [
+        {
+          "term": "Qué reemplaza al gluten en una torta",
+          "body": "En un bizcochuelo, la estructura depende mucho menos del gluten que en el pan, incluso en una receta con trigo: gran parte del trabajo lo hacen las **proteínas del huevo, que se desnaturalizan con el calor y fijan la estructura de la miga**, junto con el almidón de la harina que gelatiniza durante el horneado. Esto explica por qué las tortas sin gluten, bien formuladas, suelen acercarse más al resultado de una torta con trigo que lo que logra el pan sin gluten frente al pan con trigo."
+        },
+        {
+          "term": "El método de \"crema\" (creaming) sigue aplicando",
+          "body": "Batir manteca y azúcar hasta que la mezcla quede pálida y esponjosa **incorpora aire mecánicamente** — ese aire es una de las formas de leudado (junto con el químico, ver Bloque 5, y el biológico de la levadura). Este paso no cambia por ser sin gluten, y saltarlo o apurarlo da tortas más densas de lo esperado."
+        },
+        {
+          "term": "Por qué una torta se hunde en el centro",
+          "body": "Las causas más comunes son: **exceso de polvo de hornear** (demasiado leudante hace que la torta suba muy rápido y colapse antes de que la estructura del huevo termine de fijarse), **abrir el horno antes de tiempo** (el cambio brusco de temperatura puede desinflar una torta que todavía no fijó su estructura), o **retirarla del horno antes de que esté cocida en el centro**. Ajustar el polvo de hornear hacia abajo (reducir entre 1/8 y 1/4 de cucharadita por cada cucharadita de la receta) suele corregir un hundimiento persistente."
+        },
+        {
+          "term": "Goma xantana: cuánta y quién la necesita",
+          "body": "La mayoría de las mezclas de harina sin gluten comerciales ya incluyen goma xantana — agregar más de la que indica la receta sin saber si la mezcla ya la trae es una causa común de una miga demasiado gomosa. Si armás tu propia mezcla desde cero (sin goma incluida), una cantidad de referencia habitual para tortas es **aproximadamente 1 cucharadita de goma xantana por cada 2 tazas (unos 250–300 g) de mezcla de harina**."
+        },
+        {
+          "term": "Enfriar antes de desmoldar",
+          "body": "Igual que con el pan, una torta sin gluten sigue fijando su estructura interna mientras se enfría. Desmoldarla en caliente, cuando la miga todavía está terminando de asentarse, es una causa frecuente de que se rompa o se hunda al manipularla."
+        }
+      ],
+      "videos": [],
+      "project": "Horneá la misma receta de torta dos veces, ajustando solo la cantidad de polvo de hornear entre un intento y otro, y compará el resultado.",
+      "check": "¿Por qué abrir el horno a mitad de cocción es más riesgoso para una torta sin gluten que para una con trigo?"
+    },
+    {
+      "id": "b3",
+      "number": 3,
+      "title": "Galletas y cookies",
+      "hours": 2,
+      "goal": "Controlar la extensión (spread) y la textura de una galleta sin gluten.",
+      "visual": "cookieSpread",
+      "learn": [
+        {
+          "term": "La masa sin gluten arranca más pegajosa de lo esperado",
+          "body": "Las harinas sin gluten absorben líquido de forma distinta entre sí, y más lentamente, que la harina de trigo — es normal que una masa de galletas sin gluten se sienta **más húmeda y pegajosa recién mezclada** de lo que uno esperaría. Dejarla reposar entre 15 y 30 minutos antes de juzgar la consistencia, en vez de agregar harina extra de inmediato, suele resolver esa sensación inicial."
+        },
+        {
+          "term": "Enfriar la masa: el paso que más controla la extensión",
+          "body": "Enfriar la masa (al menos 30 minutos, o más para mejores resultados) **solidifica la grasa antes de hornear**, lo que retrasa cuánto se derrite la manteca en el horno y por lo tanto cuánto se desparrama la galleta. Una masa que se hornea todavía tibia o a temperatura ambiente casi siempre se extiende más de lo planeado."
+        },
+        {
+          "term": "Harinas especiales: no son intercambiables 1:1",
+          "body": "La **harina de almendras** aporta humedad, sabor y una textura más tierna, pero es más densa. La **harina de coco es extremadamente absorbente — llega a absorber entre 4 y 6 veces más líquido que otras harinas** — y jamás se sustituye en proporción 1:1 por una mezcla de harina sin gluten estándar sin ajustar también la cantidad de líquido de la receta."
+        },
+        {
+          "term": "Más grasa y huevo, no menos",
+          "body": "Contrario a lo que muchos asumen, una receta sin gluten bien lograda generalmente necesita **igual o más grasa y huevo** que su equivalente con trigo, no menos — son estos ingredientes, junto con el aglutinante elegido, los que le dan a la galleta la estructura que el gluten le daría de otro modo."
+        },
+        {
+          "term": "Cuando las galletas se desparraman demasiado",
+          "body": "Revisá en este orden: ¿la masa estaba fría al entrar al horno? ¿la mezcla de harina usada tiene mucho almidón y poca harina de grano entero o proteica? ¿hay demasiada manteca en proporción a la harina? Cualquiera de estos tres factores, por separado, puede explicar un desparrame excesivo."
+        }
+      ],
+      "videos": [],
+      "project": "Horneá la misma masa de galletas con y sin tiempo de enfriado previo, y compará cuánto se desparraman.",
+      "check": "¿Por qué la harina de coco no se puede sustituir en la misma cantidad que una mezcla de harina sin gluten estándar?"
+    },
+    {
+      "id": "b4",
+      "number": 4,
+      "title": "Masa quebrada y tartas",
+      "hours": 2,
+      "goal": "Lograr una masa de tarta crocante y prolija, con horneado a ciegas cuando haga falta.",
+      "visual": "pieCrust",
+      "learn": [
+        {
+          "term": "Grasa fría, siempre",
+          "body": "Igual que con una masa de trigo, la técnica clave para una masa quebrada crocante es mantener la **manteca (y, si se usa, la grasa vegetal) helada durante todo el proceso** — al hornearse, esos trocitos fríos de grasa se derriten y generan vapor, creando las capas que dan la textura hojaldrada. Sin una red de gluten que dé estructura alternativa, este principio es **todavía más importante** en una masa sin gluten que en una con trigo."
+        },
+        {
+          "term": "La masa se maneja distinto: pensá en plastilina, no en elástico",
+          "body": "Una masa de trigo se puede estirar y tironear con cierta libertad gracias al gluten. Una masa de tarta sin gluten se comporta más como **plastilina que hay que guiar y presionar con cuidado en su lugar**, en vez de estirar con fuerza — forzarla de la misma manera que una masa con trigo suele romperla."
+        },
+        {
+          "term": "Estirar entre papel manteca",
+          "body": "Estirar la masa entre dos hojas de papel manteca (en vez de sobre la mesada con harina extra) evita que se pegue y facilita transferirla al molde sin que se rompa — un problema mucho más frecuente en masa sin gluten que en masa con trigo."
+        },
+        {
+          "term": "Horneado a ciegas (blind baking)",
+          "body": "Para tartas con rellenos que no necesitan cocción larga (cremas, rellenos ya cocidos), la base se hornea sola primero: se pincha la base con un tenedor, se cubre con papel manteca y se llena con **peso para horneado a ciegas (legumbres secas o pesas específicas)** para evitar que se infle o se encoja, y se hornea hasta que los bordes doren antes de retirar el peso y terminar de dorar la base sin cubrir. Este paso es **casi obligatorio en masa sin gluten**, incluso en tartas donde una receta con trigo podría saltearlo, porque las mezclas de harina sin gluten no siempre se comportan igual que la harina de trigo al hornearse solas."
+        },
+        {
+          "term": "Enfriar antes de rellenar",
+          "body": "Dejar enfriar completamente la base horneada a ciegas antes de agregar cualquier relleno evita que la humedad del relleno reblandezca una base que todavía no terminó de fijar su textura crocante."
+        }
+      ],
+      "videos": [],
+      "project": "Horneá una base de tarta a ciegas, siguiendo el proceso completo de pesas y enfriado antes de rellenar.",
+      "check": "¿Por qué el horneado a ciegas es más importante en una masa de tarta sin gluten que en una con trigo?"
+    },
+    {
+      "id": "b5",
+      "number": 5,
+      "title": "Panificados rápidos: muffins, panqueques y bizcochos",
+      "hours": 2,
+      "goal": "Entender la química del leudado rápido y aplicarla a muffins, panqueques y bizcochos.",
+      "visual": "leaveningChem",
+      "learn": [
+        {
+          "term": "Bicarbonato de sodio vs. polvo de hornear",
+          "body": "El **bicarbonato de sodio** es un solo ingrediente (un álcali) que reacciona de inmediato al entrar en contacto con un ingrediente ácido de la receta (yogur, buttermilk, miel, cacao natural, jugo de limón) liberando CO2 — por eso las recetas que lo usan hay que hornearlas rápido, antes de que el gas se escape. El **polvo de hornear** ya trae su propio ácido incorporado (junto con un almidón), y muchas versiones son de \"doble acción\": liberan algo de gas al mezclarse con líquido, y más al entrar en contacto con el calor del horno — dando algo más de margen de tiempo entre mezclar y hornear."
+        },
+        {
+          "term": "No son intercambiables uno por uno",
+          "body": "Como referencia aproximada, el bicarbonato de sodio es unas **cuatro veces más potente** que el polvo de hornear — reemplazar uno por otro sin ajustar la cantidad (y sin considerar si la receta tiene suficiente ingrediente ácido para activar el bicarbonato) casi siempre da un resultado plano o con sabor metálico/amargo por leudante sin reaccionar del todo."
+        },
+        {
+          "term": "El método muffin: mezclar lo mínimo posible",
+          "body": "El método clásico de muffin —mezclar los secos por un lado, los húmedos por otro, y combinarlos con **apenas unas pocas vueltas de cuchara, dejando grumos**— sigue aplicando en versión sin gluten. Sin gluten que sobre-desarrollar por el mezclado excesivo, el riesgo real de mezclar de más en una receta sin gluten es distinto (no se pone \"dura\" como con el trigo), pero igual conviene no mezclar de más para no perder aire incorporado y terminar con una miga más densa de lo necesario."
+        },
+        {
+          "term": "Panqueques y crepes: la receta más permisiva",
+          "body": "Al no necesitar levantar demasiado ni sostener una estructura alta, los panqueques y crepes son de los horneados sin gluten **más fáciles de acertar** — un batido relativamente líquido con una mezcla de harina bien balanceada y un huevo de más para dar algo de estructura suele funcionar sin necesitar demasiado aglutinante adicional."
+        },
+        {
+          "term": "Bizcochos tipo scone",
+          "body": "Igual que la masa de tarta (Bloque 4), los bizcochos se benefician de **grasa fría cortada en trocitos** dentro de la masa en vez de completamente integrada, para lograr esas capas y esa miga desmenuzable característica — la misma lógica de \"grasa fría = vapor = capas\" aplica acá."
+        }
+      ],
+      "videos": [],
+      "project": "Horneá una tanda de muffins usando el método muffin (mezclado mínimo) y compará la miga con una tanda mezclada de más a propósito.",
+      "check": "¿Por qué no podés reemplazar el bicarbonato de sodio de una receta por la misma cantidad de polvo de hornear sin ajustar nada más?"
+    },
+    {
+      "id": "b6",
+      "number": 6,
+      "title": "Chipa y panificados paraguayos naturalmente sin gluten",
+      "hours": 2,
+      "goal": "Aprovechar los panificados tradicionales paraguayos que ya son sin gluten por diseño, no por adaptación.",
+      "visual": "chipaCross",
+      "learn": [
+        {
+          "term": "Una ventaja local que vale la pena aprovechar",
+          "body": "A diferencia de casi todo lo cubierto en los bloques anteriores, el **chipa paraguayo tradicional ya es naturalmente sin gluten** — está hecho a base de almidón de mandioca (fécula de mandioca/tapioca), no de harina de trigo. Esto lo convierte en uno de los panificados más simples de preparar de forma segura para alguien celíaco, sin necesidad de armar una mezcla de harinas ni agregar ningún aglutinante extra."
+        },
+        {
+          "term": "Por qué el almidón de mandioca se comporta distinto",
+          "body": "El almidón de mandioca (el mismo almidón cubierto como \"fécula de tapioca\" en el curso de pan) tiene una capacidad de gelificación y una elasticidad natural al hidratarse con líquido caliente que **no depende de ningún aglutinante adicional** para dar la textura característica, elástica y algo gomosa del chipa recién horneado — una propiedad muy distinta a la harina de arroz o de maíz, que sí necesitan un aglutinante para no quedar quebradizas."
+        },
+        {
+          "term": "El riesgo real: la contaminación cruzada, no la receta",
+          "body": "El chipa en sí es seguro por receta, pero conviene la misma precaución que con cualquier alimento sin gluten preparado en una cocina compartida (Bloque 10): verificar que los ingredientes acompañantes (queso, ingredientes comprados) no vengan de un ambiente con contaminación cruzada, y usar utensilios y superficies limpias si la misma cocina se usa también para hornear con harina de trigo."
+        },
+        {
+          "term": "Otras variantes locales para explorar",
+          "body": "El **chipa guasu** (una especie de budín de choclo y queso) y otras variantes regionales basadas en almidón de mandioca o harina de maíz ofrecen más variedad dentro de la misma familia de panificados naturalmente sin gluten — vale la pena explorar variantes familiares o regionales antes de recurrir siempre a adaptaciones de recetas extranjeras con gluten."
+        },
+        {
+          "term": "Por qué vale la pena empezar por acá si sos principiante",
+          "body": "Para alguien que recién empieza en la repostería sin gluten, dominar un chipa bien logrado da una victoria rápida y sabrosa **sin lidiar con ninguna de las complicaciones de aglutinantes, mezclas de harina, o control de extensión** que sí exigen los bloques anteriores — una buena forma de generar confianza antes de encarar una torta o una masa de tarta más exigente."
+        }
+      ],
+      "videos": [],
+      "project": "Horneá una tanda de chipa tradicional, prestando atención a la textura elástica característica del almidón de mandioca.",
+      "check": "¿Por qué el chipa no necesita goma xantana ni psyllium para tener buena estructura, a diferencia de una torta o un pan?"
+    },
+    {
+      "id": "b7",
+      "number": 7,
+      "title": "Glaseados, rellenos y decoración",
+      "hours": 2,
+      "goal": "Terminar tortas y galletas con glaseados y rellenos seguros y bien logrados.",
+      "visual": "frostingLayers",
+      "learn": [
+        {
+          "term": "Cuidado con el azúcar impalpable",
+          "body": "Mucha azúcar impalpable comercial usa **almidón de trigo como antiaglomerante** para evitar que se apelmace — un detalle fácil de pasar por alto si asumís que \"azúcar\" es automáticamente sin gluten. Revisar la etiqueta de cada marca específica, o buscar una etiquetada explícitamente sin gluten, es un hábito que vale la pena mantener siempre en este ingrediente en particular."
+        },
+        {
+          "term": "Ganache: una de las coberturas más simples y seguras",
+          "body": "Chocolate y crema caliente, sin ningún ingrediente que dependa de gluten en su formulación estándar, hacen del ganache una de las coberturas más simples de preparar sin gluten con total confianza, siempre que el chocolate elegido esté etiquetado como apto."
+        },
+        {
+          "term": "Glaseados con almidón de maíz para espesar",
+          "body": "Rellenos y glaseados que necesitan espesarse (cremas pasteleras, rellenos de fruta) suelen usar **almidón de maíz o fécula de mandioca** como espesante, ambos naturalmente sin gluten y sin necesidad de ningún ajuste especial frente a una receta con trigo — a diferencia de la harina de trigo, que sí se usa tradicionalmente como espesante en muchas recetas convencionales y necesita sustitución."
+        },
+        {
+          "term": "Cuidado con los decorados comprados",
+          "body": "Perlas de azúcar, fideos de chocolate, y otros decorados comprados a veces contienen trazas de gluten por ingredientes o procesos compartidos con productos que sí lo tienen — revisar la etiqueta de cada decorado específico antes de asumir que es seguro solo por su apariencia."
+        },
+        {
+          "term": "Utensilios de decoración también importan",
+          "body": "Mangas pasteleras, boquillas, y espátulas usadas antes con un glaseado o relleno que contenía gluten deben lavarse a fondo antes de reutilizarse en un proyecto sin gluten — el mismo principio de contaminación cruzada por contacto que se aplica a cualquier otro utensilio de cocina."
+        }
+      ],
+      "videos": [],
+      "project": "Prepará un ganache o una crema pastelera desde cero, verificando la etiqueta de cada ingrediente usado.",
+      "check": "¿Por qué no podés asumir automáticamente que el azúcar impalpable es sin gluten solo porque el azúcar en sí no lo tiene?"
+    },
+    {
+      "id": "b8",
+      "number": 8,
+      "title": "Convertir cualquier receta a sin gluten",
+      "hours": 2,
+      "goal": "Adaptar una receta familiar con trigo a una versión sin gluten funcional, en vez de depender solo de recetas ya adaptadas.",
+      "visual": null,
+      "learn": [
+        {
+          "term": "Primero identificá qué tipo de horneado es",
+          "body": "Antes de tocar la receta, ubicala en una de las categorías ya vistas (torta, galleta, masa quebrada, panificado rápido) — eso determina de entrada qué aglutinante conviene usar (Bloque 1) y qué ajustes de técnica aplicar."
+        },
+        {
+          "term": "Sustituí por peso, no por volumen",
+          "body": "Reemplazá la harina de trigo de la receta original por el mismo peso (no el mismo volumen) de tu mezcla de harina sin gluten — dado que las densidades son distintas, una sustitución por tazas casi siempre desbalancea la receta."
+        },
+        {
+          "term": "Agregá aglutinante si tu mezcla no lo trae",
+          "body": "Si tu mezcla de harina no incluye ya goma xantana u otro aglutinante, agregalo según el tipo de horneado (Bloque 1): aproximadamente 1 cucharadita de goma xantana por cada 2 tazas de mezcla para tortas y galletas, ajustando según cómo responda la masa."
+        },
+        {
+          "term": "Esperá una masa o batido distinto, y ajustá el líquido",
+          "body": "Es normal que la masa o el batido se sienta distinto (más húmedo, más pegajoso) que con la receta original — dejalo reposar unos minutos antes de juzgar la consistencia (Bloque 3), y ajustá el líquido de a poco en vez de todo de una vez."
+        },
+        {
+          "term": "Documentá cada ajuste que hagas",
+          "body": "La primera conversión de una receta rara vez sale perfecta al primer intento. Anotar exactamente qué mezcla de harina, qué cantidad de aglutinante, y qué ajustes de líquido y tiempo de horneado usaste convierte cada intento en información útil para el siguiente, en vez de tener que adivinar de nuevo cada vez."
+        }
+      ],
+      "videos": [],
+      "project": "Elegí una receta familiar con trigo y convertila a una versión sin gluten, documentando cada ajuste.",
+      "check": "¿Por qué sustituir la harina de trigo por el mismo volumen (en tazas) de mezcla sin gluten es un error común al convertir una receta?"
+    },
+    {
+      "id": "b9",
+      "number": 9,
+      "title": "Almacenamiento y frescura",
+      "hours": 2,
+      "goal": "Conservar cada tipo de horneado sin gluten de la forma que mejor le sienta a su textura.",
+      "visual": null,
+      "learn": [
+        {
+          "term": "La repostería sin gluten se seca más rápido, en general",
+          "body": "Igual que el pan sin gluten, la mayoría de los horneados sin gluten pierden humedad y frescura **más rápido que sus equivalentes con trigo**, por la forma distinta en que los almidones sin gluten retienen agua con el tiempo."
+        },
+        {
+          "term": "Tortas y muffins: bien tapados, y considerar congelar",
+          "body": "Guardados en un recipiente bien cerrado a temperatura ambiente se mantienen frescos un par de días; para más tiempo, **envolver porciones individuales y congelar** conserva mucho mejor la humedad que refrigerar, que de hecho acelera el resecado en la mayoría de los horneados con almidón."
+        },
+        {
+          "term": "Galletas: recipiente hermético, separadas por tipo",
+          "body": "Guardar galletas crocantes junto con galletas blandas en el mismo recipiente hace que la humedad migre de una a otra, ablandando las crocantes y endureciendo las blandas — conviene guardarlas por separado."
+        },
+        {
+          "term": "Masa de tarta: congelar antes de hornear, no después",
+          "body": "La masa de tarta cruda (formada en el molde, sin hornear) se congela y se conserva mucho mejor que una tarta ya horneada — conviene armar y congelar la base sin hornear, y hornearla directamente desde el freezer cuando haga falta."
+        },
+        {
+          "term": "Chipa: el que mejor tolera el paso del tiempo, con matices",
+          "body": "Gracias a su base de almidón de mandioca, el chipa recién horneado tiene una textura característicamente elástica que cambia notablemente al enfriarse — se endurece más que otros panificados. Recalentarlo brevemente antes de servir devuelve gran parte de esa textura original."
+        }
+      ],
+      "videos": [],
+      "project": "Guardá porciones de al menos dos horneados distintos con el método recomendado, y compará su estado después de tres días.",
+      "check": "¿Por qué conviene congelar una masa de tarta cruda en vez de esperar a que esté horneada?"
+    },
+    {
+      "id": "b10",
+      "number": 10,
+      "title": "Contaminación cruzada en la repostería",
+      "hours": 2,
+      "goal": "Aplicar seguridad real para celíacos específicamente al contexto de hornear, más allá de lo ya visto para el pan.",
+      "visual": "flourDustSafety",
+      "learn": [
+        {
+          "term": "El polvo de harina en el aire: un riesgo específico de hornear",
+          "body": "Tamizar o mezclar harina de trigo genera una **nube fina de partículas que se asienta sobre superficies cercanas** durante un buen rato — mucho más que, por ejemplo, cortar pan ya hecho. En una cocina compartida, hornear con harina de trigo y luego, poco después, preparar algo sin gluten en la misma zona sin limpiar a fondo es un riesgo de contaminación cruzada real y fácil de subestimar."
+        },
+        {
+          "term": "Utensilios de repostería que retienen residuos",
+          "body": "Coladores y tamices de harina, batidores con muchas ranuras, y moldes con superficies porosas o dañadas **retienen restos de harina con gluten más fácilmente** que una superficie lisa — conviene tener un set dedicado exclusivamente a repostería sin gluten si se comparte cocina con alguien que hornea con trigo regularmente."
+        },
+        {
+          "term": "El estándar de 20 ppm sigue aplicando",
+          "body": "El mismo umbral cubierto en Panadería sin Gluten 101 (menos de 20 partes por millón de gluten) aplica igual a toda la repostería — la fuente de riesgo cambia (polvo en el aire, utensilios porosos, ingredientes como el azúcar impalpable) pero el estándar de seguridad es el mismo."
+        },
+        {
+          "term": "Ingredientes secundarios que sorprenden",
+          "body": "Más allá de la harina, revisá siempre: azúcar impalpable (Bloque 7), esencias y extractos (algunos usan alcohol de grano derivado de trigo, aunque el proceso de destilación suele eliminar la proteína de gluten), y mezclas de especias o rellenos comprados que puedan usar harina como espesante oculto."
+        },
+        {
+          "term": "Rutina simple para una sesión de horneado segura",
+          "body": "Limpiar bien la superficie de trabajo antes de empezar, usar utensilios dedicados o bien lavados, revisar la etiqueta de cada ingrediente nuevo (no solo la harina), y hornear primero lo sin gluten si compartís horno con productos con trigo en la misma sesión, reduce la mayoría de los riesgos de contaminación cruzada específicos de la repostería."
+        }
+      ],
+      "videos": [],
+      "project": "Armá tu propia rutina de limpieza y organización de utensilios para hornear sin gluten en una cocina compartida.",
+      "check": "¿Por qué tamizar harina de trigo es un riesgo de contaminación cruzada distinto al de simplemente tener pan de trigo en la cocina?"
+    }
+  ]
+}

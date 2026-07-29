@@ -3,17 +3,35 @@
   "id": "vermicompost-101",
   "title": "Vermicomposting 101",
   "subtitle": "From worm bin to garden gold — a 20-hour self-paced course",
+  "category": "Huerta y Animales",
   "description": "A hands-on course in raising composting worms and turning kitchen scraps into some of the richest fertilizer you can make at home. Ten blocks take you from worm biology to a working, harvestable bin — including a full block on keeping worms alive through Chaco-level heat.",
   "totalHours": 20,
   "resources": {
     "books": [
-      { "title": "Worms Eat My Garbage", "author": "Mary Appelhof", "note": "The classic beginner-to-intermediate guide; still the best single reference for home-scale bins." },
-      { "title": "Teaming with Microbes", "author": "Jeff Lowenfels & Wayne Lewis", "note": "Not worm-specific, but essential for understanding the soil food web that castings feed into." }
+      {
+        "title": "Worms Eat My Garbage",
+        "author": "Mary Appelhof",
+        "note": "The classic beginner-to-intermediate guide; still the best single reference for home-scale bins."
+      },
+      {
+        "title": "Teaming with Microbes",
+        "author": "Jeff Lowenfels & Wayne Lewis",
+        "note": "Not worm-specific, but essential for understanding the soil food web that castings feed into."
+      }
     ],
     "channels": [
-      { "name": "Red Worm Composting (Bentley Christie)", "url": "https://www.youtube.com/@redwormcomposting" },
-      { "name": "Edible Acres", "url": "https://www.youtube.com/@edibleacres" },
-      { "name": "Garden Fundamentals", "url": "https://www.youtube.com/c/Gardenfundamentals1" }
+      {
+        "name": "Red Worm Composting (Bentley Christie)",
+        "url": "https://www.youtube.com/@redwormcomposting"
+      },
+      {
+        "name": "Edible Acres",
+        "url": "https://www.youtube.com/@edibleacres"
+      },
+      {
+        "name": "Garden Fundamentals",
+        "url": "https://www.youtube.com/c/Gardenfundamentals1"
+      }
     ]
   },
   "finalChallenge": [
@@ -55,8 +73,14 @@
       ],
       "resourceNote": "Bentley Christie's Red Worm Composting channel is the single best long-running video resource for everything in this block — species identification, anatomy, and behavior.",
       "videos": [
-        { "title": "Comparison of 4 Composting Worms", "youtubeId": "joL5wQzsi3o" },
-        { "title": "European Nightcrawlers vs. Red Wigglers Breakdown", "youtubeId": "mkQMOJC7ZV0" }
+        {
+          "title": "Comparison of 4 Composting Worms",
+          "youtubeId": "joL5wQzsi3o"
+        },
+        {
+          "title": "European Nightcrawlers vs. Red Wigglers Breakdown",
+          "youtubeId": "mkQMOJC7ZV0"
+        }
       ],
       "project": null,
       "check": "Explain why a nightcrawler isn't suitable for a worm bin."
@@ -91,8 +115,14 @@
         }
       ],
       "videos": [
-        { "title": "3-Chamber Carbon-Only Worm Bin — 100-Day Time-Lapse (Edible Acres)", "youtubeId": "McQYDcqc0Nk" },
-        { "title": "Vermicompost 101: How to Start a Worm Farm", "youtubeId": "SQ9xBVXiTl0" }
+        {
+          "title": "3-Chamber Carbon-Only Worm Bin — 100-Day Time-Lapse (Edible Acres)",
+          "youtubeId": "McQYDcqc0Nk"
+        },
+        {
+          "title": "Vermicompost 101: How to Start a Worm Farm",
+          "youtubeId": "SQ9xBVXiTl0"
+        }
       ],
       "project": "Build your first worm bin.",
       "check": "Can you explain why bedding is more important than food on day one?"
@@ -297,7 +327,12 @@
           "body": "Size your system to your **actual daily scrap volume**, not the other way around — a single small bin will bottleneck a household that generates more scraps than it can process. Add bins or surface area as volume grows, and route garden trimmings unsuitable for worms (woody material, diseased plants) to a separate hot compost pile instead."
         }
       ],
-      "videos": [ { "title": "DIY Worm Bin Tutorials: 3 Easy Builds", "youtubeId": "BvHcOC9G-iM" } ],
+      "videos": [
+        {
+          "title": "DIY Worm Bin Tutorials: 3 Easy Builds",
+          "youtubeId": "BvHcOC9G-iM"
+        }
+      ],
       "project": "Design a system for your home.",
       "check": "How many bins would your household need?"
     },
@@ -331,8 +366,14 @@
         }
       ],
       "videos": [
-        { "title": "How to Cool Down a Worm Bin in Summer Heat", "youtubeId": "PHYQpEmKjnU" },
-        { "title": "6 Ways to Keep Your Worms Cool During Summer Heat", "youtubeId": "CtGlK8BvM9E" }
+        {
+          "title": "How to Cool Down a Worm Bin in Summer Heat",
+          "youtubeId": "PHYQpEmKjnU"
+        },
+        {
+          "title": "6 Ways to Keep Your Worms Cool During Summer Heat",
+          "youtubeId": "CtGlK8BvM9E"
+        }
       ],
       "project": "Choose the best location on your property.",
       "check": "What would you do if the bin reached 35 °C?"
