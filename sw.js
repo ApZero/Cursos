@@ -1,4 +1,4 @@
-const CACHE_NAME = 'terreno-v2';
+const CACHE_NAME = 'terreno-v7';
 const APP_SHELL = [
   './',
   './index.html',
@@ -10,6 +10,11 @@ const APP_SHELL = [
   './icons/icon-512-maskable.png',
   './courses/vermicompost-101.json',
   './courses/veggie-growing-101.json',
+  './courses/meliponicultura-101.json',
+  './courses/indoor-plants-101.json',
+  './courses/gluten-free-bread-101.json',
+  './courses/embarazo-101.json',
+  './courses/autosuficiencia-chaco-101.json',
 ];
 
 self.addEventListener('install', (event) => {

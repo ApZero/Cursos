@@ -21,7 +21,7 @@
 
 <div id="app">
 
-  <!-- ===== LIBRARY VIEW ===== -->
+  <!-- ===== LIBRARY / HOME VIEW ===== -->
   <section id="view-library" class="view">
     <header class="topbar">
       <div class="topbar-mark">
@@ -32,6 +32,7 @@
         </div>
       </div>
       <div class="topbar-actions">
+        <button id="btn-theme-toggle" class="btn-icon" type="button" aria-label="Cambiar tema claro/oscuro">🌙</button>
         <button id="btn-search-open" class="btn-icon" type="button" aria-label="Buscar en todos los cursos">⌕</button>
         <button id="btn-import" class="btn btn-accent" type="button">Importar curso</button>
       </div>
@@ -45,11 +46,21 @@
         </svg>
       </div>
       <h2>Todavía no hay cursos</h2>
-      <p>Importá un archivo de curso (.json) para empezar. El de Vermicompostaje 101 está incluido — buscalo en la carpeta <code>courses/</code> del repositorio.</p>
+      <p>Importá un archivo de curso (.json) para empezar.</p>
       <button class="btn btn-outline" id="btn-import-empty" type="button">Importar curso</button>
     </div>
 
-    <div id="course-grid" class="course-grid"></div>
+    <div id="home-content" class="hidden">
+      <section id="recent-section" class="home-section hidden">
+        <h2 class="home-section-title">Recientes</h2>
+        <div id="recent-grid" class="course-grid recent-grid"></div>
+      </section>
+
+      <section id="category-section" class="home-section hidden">
+        <h2 class="home-section-title">Categorías</h2>
+        <div id="category-tiles" class="category-tiles"></div>
+      </section>
+    </div>
 
     <footer class="library-footer">
       <button id="btn-backup" class="btn-link" type="button">Exportar copia de seguridad completa</button>
@@ -57,10 +68,23 @@
     </footer>
   </section>
 
+  <!-- ===== CATEGORY VIEW ===== -->
+  <section id="view-category" class="view hidden">
+    <header class="course-header">
+      <button id="btn-category-back" class="btn-icon" type="button" aria-label="Volver al inicio">←</button>
+      <div class="course-header-text">
+        <h1 id="category-title"></h1>
+        <p id="category-count"></p>
+      </div>
+      <button id="btn-category-search-open" class="btn-icon" type="button" aria-label="Buscar en todos los cursos">⌕</button>
+    </header>
+    <div id="category-course-grid" class="course-grid"></div>
+  </section>
+
   <!-- ===== COURSE VIEW ===== -->
   <section id="view-course" class="view hidden">
     <header class="course-header">
-      <button id="btn-back" class="btn-icon" type="button" aria-label="Volver a la biblioteca">←</button>
+      <button id="btn-back" class="btn-icon" type="button" aria-label="Volver al inicio">←</button>
       <div class="course-header-text">
         <h1 id="course-title"></h1>
         <p id="course-subtitle"></p>
@@ -69,7 +93,7 @@
       <button id="btn-course-menu" class="btn-icon" type="button" aria-label="Opciones del curso">⋮</button>
     </header>
 
-    <div class="course-progress-panel">
+    <div class="course-progress-panel" id="course-progress-panel">
       <div class="layer-progress" id="layer-progress" aria-hidden="true">
         <div class="layer-progress-fill" id="layer-progress-fill"></div>
       </div>
@@ -80,6 +104,7 @@
     </div>
 
     <div id="course-menu" class="course-menu hidden">
+      <button data-action="edit-course" type="button">Editar curso</button>
       <button data-action="export-progress" type="button">Exportar progreso</button>
       <button data-action="export-bundle" type="button">Exportar curso + progreso</button>
       <button data-action="reimport-content" type="button">Reemplazar contenido del curso</button>
@@ -98,6 +123,9 @@
       <div id="resources-books"></div>
       <div id="resources-channels"></div>
     </section>
+
+    <!-- Editor (shown instead of the blocks above when editing) -->
+    <div id="course-editor" class="course-editor hidden"></div>
   </section>
 
 </div>
@@ -119,3 +147,4 @@
 <script src="app.js"></script>
 </body>
 </html>
+
